@@ -1,0 +1,143 @@
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.deps.json
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\obj\Debug\net8.0\Pasteler.ED2867CA.Up2Date
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\obj\Debug\net8.0\refint\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\source\repos\PasteleriaSoto.BLL\obj\Debug\net8.0\ref\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.deps.json
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\Pasteler.ED2867CA.Up2Date
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\refint\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\source\repos\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\ref\PasteleriaSoto.BLL.dll
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.deps.json
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.dll
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.pdb
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\Pasteler.ED2867CA.Up2Date
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.dll
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\refint\PasteleriaSoto.BLL.dll
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.pdb
+D:\Proyecto Pasteleria Soto\PasteleriaSoto.BLL\obj\Debug\net8.0\ref\PasteleriaSoto.BLL.dll
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.deps.json
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\Pasteler.ED2867CA.Up2Date
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\refint\PasteleriaSoto.BLL.dll
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\PC WORLD\Documents\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\ref\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.deps.json
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\Pasteler.ED2867CA.Up2Date
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\refint\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\source\repos\PASTELERIASOTO 2\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\ref\PasteleriaSoto.BLL.dll
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.deps.json
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.sourcelink.json
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\Pasteler.ED2867CA.Up2Date
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\refint\PasteleriaSoto.BLL.dll
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\PC WORLD\Documents\GIT\IMPULSOPASTELERO\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\ref\PasteleriaSoto.BLL.dll
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.deps.json
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.sourcelink.json
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\Pasteler.ED2867CA.Up2Date
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\refint\PasteleriaSoto.BLL.dll
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\UNI\GIT\Proyecto rama Categoria\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\ref\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\source\repos\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+C:\Users\Yahir\source\repos\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahir\source\repos\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+C:\Users\Yahir\source\repos\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+C:\Users\Yahir\source\repos\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Yahir\source\repos\VSPasteleriaSoto\PASTELERIASOTO\Proyecto Pasteleria Soto - copia\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.sourcelink.json
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.deps.json
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\Pasteler.ED2867CA.Up2Date
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\refint\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\Videos\PastelerioSOTO\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\ref\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.deps.json
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\Pasteler.ED2867CA.Up2Date
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\refint\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\ref\PasteleriaSoto.BLL.dll

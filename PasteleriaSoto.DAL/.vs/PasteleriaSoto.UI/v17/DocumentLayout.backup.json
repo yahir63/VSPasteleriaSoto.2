@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.DAL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1846D36-341A-8804-D4E5-32AD34D292E6}|..\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleriasoto.bll\\registrorepositorycliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\eleccionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\eleccionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\pantallarelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\pantallarelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C70633-6F17-832D-907B-762539139AA3}|PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleriasoto.dal\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C70633-6F17-832D-907B-762539139AA3}|PasteleriaSoto.DAL.csproj|solutionrelative:entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1846D36-341A-8804-D4E5-32AD34D292E6}|..\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleriasoto.bll\\registrorepositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\pantallausuarionuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1846D36-341A-8804-D4E5-32AD34D292E6}|..\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleriasoto.bll\\repositoriosabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\pantallausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1846D36-341A-8804-D4E5-32AD34D292E6}|..\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleriasoto.bll\\registrorepositorynuevousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\pantallausuarionuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C70633-6F17-832D-907B-762539139AA3}|PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleriasoto.dal\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C70633-6F17-832D-907B-762539139AA3}|PasteleriaSoto.DAL.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\pantallaregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB2116B-7D60-1699-B883-1C1762434ECC}|..\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C70633-6F17-832D-907B-762539139AA3}|PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleriasoto.dal\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C70633-6F17-832D-907B-762539139AA3}|PasteleriaSoto.DAL.csproj|solutionrelative:entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C70633-6F17-832D-907B-762539139AA3}|PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleriasoto.dal\\entities\\sabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C70633-6F17-832D-907B-762539139AA3}|PasteleriaSoto.DAL.csproj|solutionrelative:entities\\sabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1846D36-341A-8804-D4E5-32AD34D292E6}|..\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleriasoto.bll\\registrorepositoryrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C70633-6F17-832D-907B-762539139AA3}|PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleriasoto.dal\\bdconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C70633-6F17-832D-907B-762539139AA3}|PasteleriaSoto.DAL.csproj|solutionrelative:bdconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1846D36-341A-8804-D4E5-32AD34D292E6}|..\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\source\\repos\\vspasteleriasoto\\pasteleriasoto\\proyecto pasteleria soto - copia\\pasteleriasoto.bll\\registrorepositorycat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PantallaRelleno.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T19:52:32.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EleccionProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\EleccionProducto.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\EleccionProducto.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\EleccionProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\EleccionProducto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:21:15.509Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistroRepositoryProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
+              "RelativeDocumentMoniker": "..\\PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
+              "RelativeToolTip": "..\\PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBcAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:27:41.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EleccionProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\EleccionProducto.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\EleccionProducto.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\EleccionProducto.cs",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\EleccionProducto.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAiwHQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:21:25.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistroRepositoryCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RegistroRepositoryCliente.cs",
+              "RelativeDocumentMoniker": "..\\PasteleriaSoto.BLL\\RegistroRepositoryCliente.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RegistroRepositoryCliente.cs",
+              "RelativeToolTip": "..\\PasteleriaSoto.BLL\\RegistroRepositoryCliente.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAIA/wK4AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T19:48:24.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PantallaRelleno.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaRelleno.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\PantallaRelleno.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T19:51:41.326Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PantallaUsuarioNuevo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:03:23.543Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PantallaCategoria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaCategoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\PantallaCategoria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:00:46.379Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.DAL\\Entities\\Categoria.cs",
+              "RelativeDocumentMoniker": "Entities\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.DAL\\Entities\\Categoria.cs",
+              "RelativeToolTip": "Entities\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T00:39:48.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\frmInicio.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\frmInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\frmInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:14:45.07Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RepositorioSabor.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RepositorioSabor.cs",
+              "RelativeDocumentMoniker": "..\\PasteleriaSoto.BLL\\RepositorioSabor.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RepositorioSabor.cs",
+              "RelativeToolTip": "..\\PasteleriaSoto.BLL\\RepositorioSabor.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAawF8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T23:42:57.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmInicio.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\frmInicio.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\frmInicio.cs",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\frmInicio.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAEwGgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:03:48.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PantallaUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaUsuario.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\PantallaUsuario.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaUsuario.cs",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\PantallaUsuario.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAawCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T00:06:05.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistroRepositoryNuevoUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RegistroRepositoryNuevoUsuario.cs",
+              "RelativeDocumentMoniker": "..\\PasteleriaSoto.BLL\\RegistroRepositoryNuevoUsuario.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RegistroRepositoryNuevoUsuario.cs",
+              "RelativeToolTip": "..\\PasteleriaSoto.BLL\\RegistroRepositoryNuevoUsuario.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T00:01:30.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.DAL\\Usuario.cs",
+              "RelativeDocumentMoniker": "Usuario.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.DAL\\Usuario.cs",
+              "RelativeToolTip": "Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T00:05:19.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PantallaUsuarioNuevo.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAEwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T00:06:15.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PantallaRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAawHUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T23:53:29.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PantallaCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "RelativeDocumentMoniker": "..\\Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "RelativeToolTip": "..\\Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAawN4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:00:50.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.DAL\\Entities\\Producto.cs",
+              "RelativeDocumentMoniker": "Entities\\Producto.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.DAL\\Entities\\Producto.cs",
+              "RelativeToolTip": "Entities\\Producto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA2wBEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:56:26.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Sabor.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.DAL\\Entities\\Sabor.cs",
+              "RelativeDocumentMoniker": "Entities\\Sabor.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.DAL\\Entities\\Sabor.cs",
+              "RelativeToolTip": "Entities\\Sabor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T22:36:14.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegistroRepositoryCAT.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
+              "RelativeDocumentMoniker": "..\\PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
+              "RelativeToolTip": "..\\PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:01:48.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegistroRepositoryRelleno.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
+              "RelativeDocumentMoniker": "..\\PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
+              "RelativeToolTip": "..\\PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAwDcAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T19:48:41.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BDConection.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.DAL\\BDConection.cs",
+              "RelativeDocumentMoniker": "BDConection.cs",
+              "ToolTip": "C:\\Users\\Yahir\\source\\repos\\VSPasteleriaSoto\\PASTELERIASOTO\\Proyecto Pasteleria Soto - copia\\PasteleriaSoto.DAL\\BDConection.cs",
+              "RelativeToolTip": "BDConection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T22:05:38.694Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

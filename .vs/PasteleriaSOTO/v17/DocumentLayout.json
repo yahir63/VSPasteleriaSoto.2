@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\videos\\pasteleriasoto\\pasteleriasoto.bll\\registrorepositoryrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|solutionrelative:pasteleriasoto.bll\\registrorepositoryrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\pasteleriasoto\\pasteleria soto.ui\\pantallarelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallarelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\pasteleriasoto\\pasteleria soto.ui\\pantallasabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallasabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\pasteleriasoto\\pasteleria soto.ui\\pantallarelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallarelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\pasteleriasoto\\pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\pasteleriasoto\\pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\videos\\pasteleriasoto\\pasteleriasoto.bll\\registrorepositorycat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|solutionrelative:pasteleriasoto.bll\\registrorepositorycat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\pasteleriasoto\\pasteleria soto.ui\\pantallaregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallaregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\videos\\pasteleriasoto\\pasteleriasoto.bll\\registrorepositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|solutionrelative:pasteleriasoto.bll\\registrorepositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\pasteleriasoto\\pasteleriasoto.dal\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\pasteleriasoto\\pasteleria soto.ui\\eleccionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\eleccionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistroRepositoryRelleno.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
+              "RelativeToolTip": "PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAuwGUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:36:09.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PantallaCategoria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaCategoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaCategoria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:32:19.488Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PantallaRelleno.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRelleno.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaRelleno.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:30:08.54Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PantallaSabor.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaSabor.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaSabor.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaSabor.cs",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaSabor.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:24:09.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PantallaRelleno.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaRelleno.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAqwG4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:16:24.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PantallaCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:14:34.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistroRepositoryCAT.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
+              "RelativeToolTip": "PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwFEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:14:23.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PantallaRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwHkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:10:43.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Producto.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Producto.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Producto.cs",
+              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Producto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:05:49.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EleccionProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\EleccionProducto.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\EleccionProducto.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\EleccionProducto.cs",
+              "RelativeToolTip": "Pasteleria Soto.UI\\EleccionProducto.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:01:21.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistroRepositoryProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
+              "RelativeToolTip": "PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwEkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:59:15.03Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
