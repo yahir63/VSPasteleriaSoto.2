@@ -1672,11 +1672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj",
       "projectName": "PasteleriaSoto.DAL",
-      "projectPath": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj",
+      "projectPath": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj",
       "packagesPath": "C:\\Users\\Yahir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.DAL\\obj\\",
+      "outputPath": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

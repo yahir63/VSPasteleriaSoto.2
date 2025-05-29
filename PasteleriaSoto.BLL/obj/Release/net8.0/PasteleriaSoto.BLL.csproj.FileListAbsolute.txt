@@ -1,0 +1,16 @@
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Release\net8.0\PasteleriaSoto.BLL.deps.json
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Release\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Release\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Release\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\bin\Release\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Release\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Release\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Release\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Release\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Release\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Release\net8.0\PasteleriaSoto.BLL.sourcelink.json
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Release\net8.0\Pasteler.ED2867CA.Up2Date
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Release\net8.0\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Release\net8.0\refint\PasteleriaSoto.BLL.dll
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Release\net8.0\PasteleriaSoto.BLL.pdb
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Release\net8.0\ref\PasteleriaSoto.BLL.dll

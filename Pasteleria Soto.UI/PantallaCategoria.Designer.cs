@@ -208,7 +208,7 @@
             // btnCerrarCliente
             // 
             btnCerrarCliente.Image = (Image)resources.GetObject("btnCerrarCliente.Image");
-            btnCerrarCliente.Location = new Point(987, 16);
+            btnCerrarCliente.Location = new Point(1220, 16);
             btnCerrarCliente.Margin = new Padding(3, 4, 3, 4);
             btnCerrarCliente.Name = "btnCerrarCliente";
             btnCerrarCliente.Size = new Size(25, 29);
@@ -220,7 +220,7 @@
             // btnMnzcliente
             // 
             btnMnzcliente.Image = (Image)resources.GetObject("btnMnzcliente.Image");
-            btnMnzcliente.Location = new Point(934, 16);
+            btnMnzcliente.Location = new Point(1165, 13);
             btnMnzcliente.Margin = new Padding(3, 4, 3, 4);
             btnMnzcliente.Name = "btnMnzcliente";
             btnMnzcliente.Size = new Size(32, 29);
@@ -258,7 +258,7 @@
             btnVerPedido.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnVerPedido.Location = new Point(559, 527);
             btnVerPedido.Name = "btnVerPedido";
-            btnVerPedido.Size = new Size(112, 29);
+            btnVerPedido.Size = new Size(129, 29);
             btnVerPedido.TabIndex = 34;
             btnVerPedido.Text = "Ver Categoria";
             btnVerPedido.UseVisualStyleBackColor = false;
@@ -294,7 +294,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(1270, 729);
             Controls.Add(btnRegresarCategoria);
             Controls.Add(btnRegistrar);
@@ -310,6 +310,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "PantallaCategoria";
             Opacity = 0.88D;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "PantallaCategoria";
             Load += PantallaCategoria_Load;
             grpCategoria.ResumeLayout(false);

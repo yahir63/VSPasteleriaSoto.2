@@ -48,6 +48,8 @@
             btnRegistrarSabor = new Button();
             btnVerSabor = new Button();
             btnRegresarSabor = new Button();
+            txtPrecioSabor = new TextBox();
+            label3 = new Label();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvSabor).BeginInit();
             panel1.SuspendLayout();
@@ -58,6 +60,8 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(txtPrecioSabor);
             groupBox1.Controls.Add(txtSabor);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
@@ -267,11 +271,27 @@
             btnRegresarSabor.UseVisualStyleBackColor = false;
             btnRegresarSabor.Click += btnRegresarSabor_Click;
             // 
+            // txtPrecioSabor
+            // 
+            txtPrecioSabor.Location = new Point(21, 321);
+            txtPrecioSabor.Name = "txtPrecioSabor";
+            txtPrecioSabor.Size = new Size(391, 27);
+            txtPrecioSabor.TabIndex = 7;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(21, 289);
+            label3.Name = "label3";
+            label3.Size = new Size(50, 20);
+            label3.TabIndex = 8;
+            label3.Text = "Precio";
+            // 
             // PantallaSabor
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(1270, 729);
             Controls.Add(btnRegresarSabor);
             Controls.Add(btnVerSabor);
@@ -287,6 +307,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "PantallaSabor";
             Opacity = 0.88D;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = " ";
             Load += PantallaSabor_Load;
             groupBox1.ResumeLayout(false);
@@ -321,5 +342,7 @@
         private Button btnRegistrarSabor;
         private Button btnVerSabor;
         private Button btnRegresarSabor;
+        private Label label3;
+        private TextBox txtPrecioSabor;
     }
 }

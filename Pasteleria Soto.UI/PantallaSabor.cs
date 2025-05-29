@@ -11,13 +11,14 @@ using Clientes.DAL;
 using Microsoft.Identity.Client;
 using PantallasProyecto.DAL;
 using PasteleriaSoto.BLL;
+using PasteleriaSoto.DAL;
 
 namespace Pasteleria_Soto.UI
 {
     public partial class PantallaSabor : Form
     {
         private List<Sabor> ListaTemporalSabores = new List<Sabor>();
-        private RepositorioSabor _saborRepo = new RepositorioSabor();
+        private RepositorioSabor metodoSabor = new RepositorioSabor();
         private int indice;
         int IdSaborSeleccionado = -1;
 
@@ -55,8 +56,8 @@ namespace Pasteleria_Soto.UI
                     return;
                 }
 
-                // Verificar que hay un ID seleccionado
-                if (IdSaborSeleccionado == 0) // Asegúrate de que el tipo de dato coincida
+                // va a Verificar que haya un ID seleccionado
+                if (IdSaborSeleccionado == 0) 
                 {
                     MessageBox.Show("Debes seleccionar un sabor antes de actualizar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
@@ -65,18 +66,20 @@ namespace Pasteleria_Soto.UI
                 // Crear instancia de Sabor con el ID seleccionado
                 Sabor sabor = new Sabor
                 {
-                    ID_SABOR = IdSaborSeleccionado,  // Aquí pasamos el ID capturado
+                    ID_SABOR = IdSaborSeleccionado,  
                     NOMBRESABOR = txtSabor.Text.Trim(),
-                    DESCRIPCION = txtDescripcion.Text.Trim()
+                    DESCRIPCION = txtDescripcion.Text.Trim(),
+                    PRECIOSABOR = txtPrecioSabor.Text.Trim()
+
                 };
 
                 // Actualizar sabor en la base de datos
-                _saborRepo.ActualizarSabor(sabor);
+                metodoSabor.ActualizarSabor(sabor);
 
                 // Refrescar la lista en la tabla
                 dgvSabor.DataSource = null;
                 ListaTemporalSabores.Clear();
-                ListaTemporalSabores.AddRange(_saborRepo.ObtenerSabores());
+                ListaTemporalSabores.AddRange(metodoSabor.ObtenerSabores());
                 dgvSabor.DataSource = ListaTemporalSabores;
 
                 MessageBox.Show("¡Sabor actualizado correctamente!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -114,7 +117,7 @@ namespace Pasteleria_Soto.UI
         {
             dgvSabor.DataSource = null;
             ListaTemporalSabores.Clear();
-            ListaTemporalSabores.AddRange(_saborRepo.ObtenerSabores());
+            ListaTemporalSabores.AddRange(metodoSabor.ObtenerSabores());
             dgvSabor.DataSource = ListaTemporalSabores;
             btnEditarSabor.Visible = true;
             btnEliminarSabor.Visible = true;
@@ -129,6 +132,7 @@ namespace Pasteleria_Soto.UI
 
             sabor.NOMBRESABOR = txtSabor.Text;
             sabor.DESCRIPCION = txtDescripcion.Text;
+            sabor.PRECIOSABOR = txtPrecioSabor.Text;
 
 
             ListaTemporalSabores.Add(sabor);
@@ -141,7 +145,7 @@ namespace Pasteleria_Soto.UI
 
         private void btnRegistrarSabor_Click(object sender, EventArgs e)
         {
-            _saborRepo.RegistrarSabor(ListaTemporalSabores);
+            metodoSabor.RegistrarSabor(ListaTemporalSabores);
             ListaTemporalSabores.Clear();
             dgvSabor.DataSource = null;
 
@@ -153,16 +157,17 @@ namespace Pasteleria_Soto.UI
         {
             if (IdSaborSeleccionado != -1)
             {
-                _saborRepo.EliminarSabor(IdSaborSeleccionado);
+                metodoSabor.EliminarSabor(IdSaborSeleccionado);
 
                 dgvSabor.DataSource = null;
                 ListaTemporalSabores.Clear();
-                ListaTemporalSabores.AddRange(_saborRepo.ObtenerSabores());
+                ListaTemporalSabores.AddRange(metodoSabor.ObtenerSabores());
                 dgvSabor.DataSource = ListaTemporalSabores;
 
                 // Limpiar después de eliminar
                 txtSabor.Clear();
                 txtDescripcion.Clear();
+                txtPrecioSabor.Clear();
                 IdSaborSeleccionado = -1;
             }
             else
@@ -190,14 +195,15 @@ namespace Pasteleria_Soto.UI
 
             if (indice >= 0 && indice < ListaTemporalSabores.Count)
             {
-                IdSaborSeleccionado = ListaTemporalSabores[indice].ID_SABOR; // Aquí tomas el ID real
+                IdSaborSeleccionado = ListaTemporalSabores[indice].ID_SABOR; 
                 txtSabor.Text = ListaTemporalSabores[indice].NOMBRESABOR.ToString();
                 txtDescripcion.Text = ListaTemporalSabores[indice].DESCRIPCION.ToString();
+                txtPrecioSabor.Text = ListaTemporalSabores[indice].PRECIOSABOR.ToString();
             }
             
 
         }
 
-        public event EventHandler SaborAgregado;
+       
     }
 }

@@ -48,6 +48,8 @@
             btnEliminarRelleno = new Button();
             btnCancelarRelleno = new Button();
             btnRegresarRelleno = new Button();
+            txtPrecioRelleno = new TextBox();
+            label3 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)btnCerrarCliente).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnMnzcliente).BeginInit();
@@ -118,13 +120,15 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(txtPrecioRelleno);
             groupBox1.Controls.Add(txtRelleno);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(txtDescripRelleno);
             groupBox1.Location = new Point(71, 120);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(441, 357);
+            groupBox1.Size = new Size(441, 393);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Selección de Relleno";
@@ -176,7 +180,7 @@
             // 
             btnAgregarRelleno.FlatStyle = FlatStyle.System;
             btnAgregarRelleno.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAgregarRelleno.Location = new Point(231, 505);
+            btnAgregarRelleno.Location = new Point(223, 529);
             btnAgregarRelleno.Name = "btnAgregarRelleno";
             btnAgregarRelleno.Size = new Size(94, 29);
             btnAgregarRelleno.TabIndex = 4;
@@ -267,11 +271,27 @@
             btnRegresarRelleno.UseVisualStyleBackColor = false;
             btnRegresarRelleno.Click += btnRegresarRelleno_Click;
             // 
+            // txtPrecioRelleno
+            // 
+            txtPrecioRelleno.Location = new Point(21, 344);
+            txtPrecioRelleno.Name = "txtPrecioRelleno";
+            txtPrecioRelleno.Size = new Size(391, 27);
+            txtPrecioRelleno.TabIndex = 7;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(27, 311);
+            label3.Name = "label3";
+            label3.Size = new Size(50, 20);
+            label3.TabIndex = 8;
+            label3.Text = "Precio";
+            // 
             // PantallaRelleno
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(1270, 729);
             Controls.Add(btnRegresarRelleno);
             Controls.Add(btnCancelarRelleno);
@@ -287,6 +307,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "PantallaRelleno";
             Opacity = 0.88D;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "PantallaRelleno";
             Load += PantallaRelleno_Load;
             panel1.ResumeLayout(false);
@@ -321,5 +342,7 @@
         private Button btnRegresarRelleno;
         private PictureBox btnMnzcliente;
         private PictureBox btnCerrarCliente;
+        private Label label3;
+        private TextBox txtPrecioRelleno;
     }
 }

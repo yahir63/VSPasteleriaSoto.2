@@ -151,7 +151,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(1270, 729);
             Controls.Add(progressBar1);
             Controls.Add(label3);

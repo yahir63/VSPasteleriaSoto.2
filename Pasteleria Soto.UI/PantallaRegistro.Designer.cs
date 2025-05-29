@@ -210,7 +210,7 @@
             btnAgregar.BackColor = Color.PowderBlue;
             btnAgregar.FlatStyle = FlatStyle.System;
             btnAgregar.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAgregar.Location = new Point(130, 556);
+            btnAgregar.Location = new Point(130, 562);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(94, 29);
             btnAgregar.TabIndex = 22;
@@ -339,7 +339,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(1270, 729);
             Controls.Add(panel1);
             Controls.Add(btnCancelar);

@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EleccionProducto));
             grbDatosProducto = new GroupBox();
+            label6 = new Label();
+            cbBanoProducto = new ComboBox();
             txtNombreProducto = new TextBox();
             label5 = new Label();
             label4 = new Label();
@@ -66,7 +68,9 @@
             // 
             // grbDatosProducto
             // 
-            grbDatosProducto.BackColor = Color.AliceBlue;
+            grbDatosProducto.BackColor = Color.LightCyan;
+            grbDatosProducto.Controls.Add(label6);
+            grbDatosProducto.Controls.Add(cbBanoProducto);
             grbDatosProducto.Controls.Add(txtNombreProducto);
             grbDatosProducto.Controls.Add(label5);
             grbDatosProducto.Controls.Add(label4);
@@ -82,15 +86,33 @@
             grbDatosProducto.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             grbDatosProducto.Location = new Point(96, 137);
             grbDatosProducto.Name = "grbDatosProducto";
-            grbDatosProducto.Size = new Size(448, 409);
+            grbDatosProducto.Size = new Size(448, 446);
             grbDatosProducto.TabIndex = 2;
             grbDatosProducto.TabStop = false;
             grbDatosProducto.Text = "Datos del producto";
             grbDatosProducto.Enter += grbDatosProducto_Enter;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(26, 278);
+            label6.Name = "label6";
+            label6.Size = new Size(138, 20);
+            label6.TabIndex = 28;
+            label6.Text = "Elección de Baño";
+            // 
+            // cbBanoProducto
+            // 
+            cbBanoProducto.FormattingEnabled = true;
+            cbBanoProducto.Items.AddRange(new object[] { "Pastel", "Gallleta", "Cupcake", "Bocadillo" });
+            cbBanoProducto.Location = new Point(204, 275);
+            cbBanoProducto.Name = "cbBanoProducto";
+            cbBanoProducto.Size = new Size(212, 28);
+            cbBanoProducto.TabIndex = 27;
+            // 
             // txtNombreProducto
             // 
-            txtNombreProducto.Location = new Point(204, 109);
+            txtNombreProducto.Location = new Point(204, 47);
             txtNombreProducto.Name = "txtNombreProducto";
             txtNombreProducto.Size = new Size(212, 26);
             txtNombreProducto.TabIndex = 26;
@@ -98,7 +120,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(26, 112);
+            label5.Location = new Point(26, 53);
             label5.Name = "label5";
             label5.Size = new Size(140, 20);
             label5.TabIndex = 25;
@@ -107,7 +129,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(53, 343);
+            label4.Location = new Point(55, 387);
             label4.Name = "label4";
             label4.Size = new Size(50, 20);
             label4.TabIndex = 24;
@@ -115,7 +137,7 @@
             // 
             // txtLibra
             // 
-            txtLibra.Location = new Point(204, 343);
+            txtLibra.Location = new Point(204, 384);
             txtLibra.Name = "txtLibra";
             txtLibra.Size = new Size(212, 26);
             txtLibra.TabIndex = 23;
@@ -155,10 +177,11 @@
             cbRellenoProducto.Name = "cbRellenoProducto";
             cbRellenoProducto.Size = new Size(212, 28);
             cbRellenoProducto.TabIndex = 19;
+            cbRellenoProducto.SelectedIndexChanged += cbRellenoProducto_SelectedIndexChanged;
             // 
             // txtCantidad
             // 
-            txtCantidad.Location = new Point(204, 277);
+            txtCantidad.Location = new Point(204, 327);
             txtCantidad.Name = "txtCantidad";
             txtCantidad.Size = new Size(212, 26);
             txtCantidad.TabIndex = 18;
@@ -166,7 +189,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(7, 283);
+            label11.Location = new Point(7, 333);
             label11.Name = "label11";
             label11.Size = new Size(181, 20);
             label11.TabIndex = 16;
@@ -175,7 +198,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(7, 53);
+            label10.Location = new Point(13, 109);
             label10.Name = "label10";
             label10.Size = new Size(175, 20);
             label10.TabIndex = 14;
@@ -185,7 +208,7 @@
             // 
             cbCategoriaProducto.FormattingEnabled = true;
             cbCategoriaProducto.Items.AddRange(new object[] { "Pastel", "Gallleta", "Cupcake", "Bocadillo" });
-            cbCategoriaProducto.Location = new Point(204, 53);
+            cbCategoriaProducto.Location = new Point(204, 101);
             cbCategoriaProducto.Name = "cbCategoriaProducto";
             cbCategoriaProducto.Size = new Size(212, 28);
             cbCategoriaProducto.TabIndex = 13;
@@ -195,7 +218,7 @@
             btnAgregarProducto.BackColor = Color.DarkCyan;
             btnAgregarProducto.FlatStyle = FlatStyle.System;
             btnAgregarProducto.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAgregarProducto.Location = new Point(122, 581);
+            btnAgregarProducto.Location = new Point(122, 616);
             btnAgregarProducto.Name = "btnAgregarProducto";
             btnAgregarProducto.Size = new Size(119, 29);
             btnAgregarProducto.TabIndex = 23;
@@ -365,7 +388,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(1270, 729);
             Controls.Add(btnRegresarProducto);
             Controls.Add(btnVerProducto);
@@ -424,5 +447,7 @@
         private ComboBox cbRellenoProducto;
         private Label label5;
         private TextBox txtNombreProducto;
+        private Label label6;
+        private ComboBox cbBanoProducto;
     }
 }

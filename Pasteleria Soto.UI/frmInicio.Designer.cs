@@ -30,7 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInicio));
             panel1 = new Panel();
-            btnDetalle = new Button();
+            btnBaño = new Button();
+            btnPedido = new Button();
             btnRelleno = new Button();
             btnSabor = new Button();
             btnProducto = new Button();
@@ -49,7 +50,8 @@
             // panel1
             // 
             panel1.BackColor = Color.Turquoise;
-            panel1.Controls.Add(btnDetalle);
+            panel1.Controls.Add(btnBaño);
+            panel1.Controls.Add(btnPedido);
             panel1.Controls.Add(btnRelleno);
             panel1.Controls.Add(btnSabor);
             panel1.Controls.Add(btnProducto);
@@ -60,27 +62,40 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(280, 729);
+            panel1.Size = new Size(280, 643);
             panel1.TabIndex = 0;
             // 
-            // btnDetalle
+            // btnBaño
             // 
-            btnDetalle.FlatStyle = FlatStyle.Popup;
-            btnDetalle.Location = new Point(0, 626);
-            btnDetalle.Margin = new Padding(3, 4, 3, 4);
-            btnDetalle.Name = "btnDetalle";
-            btnDetalle.Size = new Size(280, 97);
-            btnDetalle.TabIndex = 6;
-            btnDetalle.Text = "Factura";
-            btnDetalle.UseVisualStyleBackColor = true;
+            btnBaño.FlatStyle = FlatStyle.Popup;
+            btnBaño.Location = new Point(0, 164);
+            btnBaño.Margin = new Padding(3, 4, 3, 4);
+            btnBaño.Name = "btnBaño";
+            btnBaño.Size = new Size(280, 75);
+            btnBaño.TabIndex = 5;
+            btnBaño.Text = "Baño";
+            btnBaño.UseVisualStyleBackColor = true;
+            btnBaño.Click += btnBaño_Click;
+            // 
+            // btnPedido
+            // 
+            btnPedido.FlatStyle = FlatStyle.Popup;
+            btnPedido.Location = new Point(0, 562);
+            btnPedido.Margin = new Padding(3, 4, 3, 4);
+            btnPedido.Name = "btnPedido";
+            btnPedido.Size = new Size(280, 75);
+            btnPedido.TabIndex = 6;
+            btnPedido.Text = "Pedido";
+            btnPedido.UseVisualStyleBackColor = true;
+            btnPedido.Click += btnPedido_Click;
             // 
             // btnRelleno
             // 
             btnRelleno.FlatStyle = FlatStyle.Popup;
-            btnRelleno.Location = new Point(0, 415);
+            btnRelleno.Location = new Point(0, 402);
             btnRelleno.Margin = new Padding(3, 4, 3, 4);
             btnRelleno.Name = "btnRelleno";
-            btnRelleno.Size = new Size(280, 97);
+            btnRelleno.Size = new Size(280, 75);
             btnRelleno.TabIndex = 2;
             btnRelleno.Text = "Relleno";
             btnRelleno.UseVisualStyleBackColor = true;
@@ -89,10 +104,10 @@
             // btnSabor
             // 
             btnSabor.FlatStyle = FlatStyle.Popup;
-            btnSabor.Location = new Point(0, 311);
+            btnSabor.Location = new Point(0, 323);
             btnSabor.Margin = new Padding(3, 4, 3, 4);
             btnSabor.Name = "btnSabor";
-            btnSabor.Size = new Size(280, 97);
+            btnSabor.Size = new Size(280, 75);
             btnSabor.TabIndex = 5;
             btnSabor.Text = "Sabor";
             btnSabor.UseVisualStyleBackColor = true;
@@ -101,10 +116,10 @@
             // btnProducto
             // 
             btnProducto.FlatStyle = FlatStyle.Popup;
-            btnProducto.Location = new Point(0, 105);
+            btnProducto.Location = new Point(0, 84);
             btnProducto.Margin = new Padding(3, 4, 3, 4);
             btnProducto.Name = "btnProducto";
-            btnProducto.Size = new Size(280, 97);
+            btnProducto.Size = new Size(280, 75);
             btnProducto.TabIndex = 4;
             btnProducto.Text = "Producto";
             btnProducto.UseVisualStyleBackColor = true;
@@ -113,10 +128,10 @@
             // btnCategoria
             // 
             btnCategoria.FlatStyle = FlatStyle.Popup;
-            btnCategoria.Location = new Point(0, 208);
+            btnCategoria.Location = new Point(0, 243);
             btnCategoria.Margin = new Padding(3, 4, 3, 4);
             btnCategoria.Name = "btnCategoria";
-            btnCategoria.Size = new Size(280, 97);
+            btnCategoria.Size = new Size(280, 75);
             btnCategoria.TabIndex = 3;
             btnCategoria.Text = "Categoria";
             btnCategoria.UseVisualStyleBackColor = true;
@@ -125,10 +140,10 @@
             // btnAgregarUsuario
             // 
             btnAgregarUsuario.FlatStyle = FlatStyle.Popup;
-            btnAgregarUsuario.Location = new Point(0, 519);
+            btnAgregarUsuario.Location = new Point(0, 482);
             btnAgregarUsuario.Margin = new Padding(3, 4, 3, 4);
             btnAgregarUsuario.Name = "btnAgregarUsuario";
-            btnAgregarUsuario.Size = new Size(280, 97);
+            btnAgregarUsuario.Size = new Size(280, 75);
             btnAgregarUsuario.TabIndex = 2;
             btnAgregarUsuario.Text = "Nuevo Usuario";
             btnAgregarUsuario.UseVisualStyleBackColor = true;
@@ -140,7 +155,7 @@
             btnNuevoPedido.Location = new Point(0, 4);
             btnNuevoPedido.Margin = new Padding(3, 4, 3, 4);
             btnNuevoPedido.Name = "btnNuevoPedido";
-            btnNuevoPedido.Size = new Size(280, 97);
+            btnNuevoPedido.Size = new Size(280, 75);
             btnNuevoPedido.TabIndex = 1;
             btnNuevoPedido.Text = "Nuevo Cliente";
             btnNuevoPedido.UseVisualStyleBackColor = true;
@@ -149,7 +164,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(621, 128);
+            pictureBox1.Location = new Point(610, 124);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(374, 433);
@@ -186,7 +201,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AliceBlue;
-            ClientSize = new Size(1270, 729);
+            ClientSize = new Size(1270, 643);
             Controls.Add(btnMinimizar);
             Controls.Add(btnCerrar);
             Controls.Add(pictureBox1);
@@ -214,8 +229,9 @@
         private Button btnCategoria;
         private Button btnRelleno;
         private Button btnSabor;
-        private Button btnDetalle;
+        private Button btnPedido;
         private PictureBox btnCerrar;
         private PictureBox btnMinimizar;
+        private Button btnBaño;
     }
 }
