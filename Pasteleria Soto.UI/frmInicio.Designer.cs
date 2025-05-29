@@ -30,9 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInicio));
             panel1 = new Panel();
-            btnDetalle = new Button();
-            btnRelleno = new Button();
-            btnSabor = new Button();
+            btnPedido = new Button();
             btnProducto = new Button();
             btnCategoria = new Button();
             btnAgregarUsuario = new Button();
@@ -49,86 +47,56 @@
             // panel1
             // 
             panel1.BackColor = Color.Turquoise;
-            panel1.Controls.Add(btnDetalle);
-            panel1.Controls.Add(btnRelleno);
-            panel1.Controls.Add(btnSabor);
+            panel1.Controls.Add(btnPedido);
             panel1.Controls.Add(btnProducto);
             panel1.Controls.Add(btnCategoria);
             panel1.Controls.Add(btnAgregarUsuario);
             panel1.Controls.Add(btnNuevoPedido);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
-            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(280, 729);
+            panel1.Size = new Size(245, 482);
             panel1.TabIndex = 0;
             // 
-            // btnDetalle
+            // btnPedido
             // 
-            btnDetalle.FlatStyle = FlatStyle.Popup;
-            btnDetalle.Location = new Point(0, 626);
-            btnDetalle.Margin = new Padding(3, 4, 3, 4);
-            btnDetalle.Name = "btnDetalle";
-            btnDetalle.Size = new Size(280, 97);
-            btnDetalle.TabIndex = 6;
-            btnDetalle.Text = "Factura";
-            btnDetalle.UseVisualStyleBackColor = true;
-            // 
-            // btnRelleno
-            // 
-            btnRelleno.FlatStyle = FlatStyle.Popup;
-            btnRelleno.Location = new Point(0, 415);
-            btnRelleno.Margin = new Padding(3, 4, 3, 4);
-            btnRelleno.Name = "btnRelleno";
-            btnRelleno.Size = new Size(280, 97);
-            btnRelleno.TabIndex = 2;
-            btnRelleno.Text = "Relleno";
-            btnRelleno.UseVisualStyleBackColor = true;
-            btnRelleno.Click += btnRelleno_Click;
-            // 
-            // btnSabor
-            // 
-            btnSabor.FlatStyle = FlatStyle.Popup;
-            btnSabor.Location = new Point(0, 311);
-            btnSabor.Margin = new Padding(3, 4, 3, 4);
-            btnSabor.Name = "btnSabor";
-            btnSabor.Size = new Size(280, 97);
-            btnSabor.TabIndex = 5;
-            btnSabor.Text = "Sabor";
-            btnSabor.UseVisualStyleBackColor = true;
-            btnSabor.Click += btnSabor_Click;
+            btnPedido.FlatStyle = FlatStyle.Popup;
+            btnPedido.Location = new Point(0, 312);
+            btnPedido.Name = "btnPedido";
+            btnPedido.Size = new Size(245, 56);
+            btnPedido.TabIndex = 6;
+            btnPedido.Text = "Pedido";
+            btnPedido.UseVisualStyleBackColor = true;
+            btnPedido.Click += btnPedido_Click;
             // 
             // btnProducto
             // 
             btnProducto.FlatStyle = FlatStyle.Popup;
-            btnProducto.Location = new Point(0, 105);
-            btnProducto.Margin = new Padding(3, 4, 3, 4);
+            btnProducto.Location = new Point(0, 75);
             btnProducto.Name = "btnProducto";
-            btnProducto.Size = new Size(280, 97);
+            btnProducto.Size = new Size(245, 56);
             btnProducto.TabIndex = 4;
-            btnProducto.Text = "Producto";
+            btnProducto.Text = "Nuevo Producto";
             btnProducto.UseVisualStyleBackColor = true;
             btnProducto.Click += btnProducto_Click;
             // 
             // btnCategoria
             // 
             btnCategoria.FlatStyle = FlatStyle.Popup;
-            btnCategoria.Location = new Point(0, 208);
-            btnCategoria.Margin = new Padding(3, 4, 3, 4);
+            btnCategoria.Location = new Point(0, 151);
             btnCategoria.Name = "btnCategoria";
-            btnCategoria.Size = new Size(280, 97);
+            btnCategoria.Size = new Size(245, 56);
             btnCategoria.TabIndex = 3;
-            btnCategoria.Text = "Categoria";
+            btnCategoria.Text = "Nueva Opcion";
             btnCategoria.UseVisualStyleBackColor = true;
             btnCategoria.Click += btnCategoria_Click;
             // 
             // btnAgregarUsuario
             // 
             btnAgregarUsuario.FlatStyle = FlatStyle.Popup;
-            btnAgregarUsuario.Location = new Point(0, 519);
-            btnAgregarUsuario.Margin = new Padding(3, 4, 3, 4);
+            btnAgregarUsuario.Location = new Point(0, 232);
             btnAgregarUsuario.Name = "btnAgregarUsuario";
-            btnAgregarUsuario.Size = new Size(280, 97);
+            btnAgregarUsuario.Size = new Size(245, 56);
             btnAgregarUsuario.TabIndex = 2;
             btnAgregarUsuario.Text = "Nuevo Usuario";
             btnAgregarUsuario.UseVisualStyleBackColor = true;
@@ -137,10 +105,9 @@
             // btnNuevoPedido
             // 
             btnNuevoPedido.FlatStyle = FlatStyle.Popup;
-            btnNuevoPedido.Location = new Point(0, 4);
-            btnNuevoPedido.Margin = new Padding(3, 4, 3, 4);
+            btnNuevoPedido.Location = new Point(0, 3);
             btnNuevoPedido.Name = "btnNuevoPedido";
-            btnNuevoPedido.Size = new Size(280, 97);
+            btnNuevoPedido.Size = new Size(245, 56);
             btnNuevoPedido.TabIndex = 1;
             btnNuevoPedido.Text = "Nuevo Cliente";
             btnNuevoPedido.UseVisualStyleBackColor = true;
@@ -149,10 +116,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(621, 128);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Location = new Point(534, 93);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(374, 433);
+            pictureBox1.Size = new Size(327, 325);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -160,10 +126,9 @@
             // btnCerrar
             // 
             btnCerrar.Image = (Image)resources.GetObject("btnCerrar.Image");
-            btnCerrar.Location = new Point(1218, 13);
-            btnCerrar.Margin = new Padding(3, 4, 3, 4);
+            btnCerrar.Location = new Point(1066, 10);
             btnCerrar.Name = "btnCerrar";
-            btnCerrar.Size = new Size(25, 29);
+            btnCerrar.Size = new Size(22, 22);
             btnCerrar.SizeMode = PictureBoxSizeMode.Zoom;
             btnCerrar.TabIndex = 2;
             btnCerrar.TabStop = false;
@@ -172,10 +137,9 @@
             // btnMinimizar
             // 
             btnMinimizar.Image = (Image)resources.GetObject("btnMinimizar.Image");
-            btnMinimizar.Location = new Point(1166, 13);
-            btnMinimizar.Margin = new Padding(3, 4, 3, 4);
+            btnMinimizar.Location = new Point(1020, 10);
             btnMinimizar.Name = "btnMinimizar";
-            btnMinimizar.Size = new Size(32, 29);
+            btnMinimizar.Size = new Size(28, 22);
             btnMinimizar.SizeMode = PictureBoxSizeMode.StretchImage;
             btnMinimizar.TabIndex = 3;
             btnMinimizar.TabStop = false;
@@ -183,15 +147,16 @@
             // 
             // frmInicio
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AliceBlue;
-            ClientSize = new Size(1270, 729);
+            ClientSize = new Size(1111, 482);
             Controls.Add(btnMinimizar);
             Controls.Add(btnCerrar);
             Controls.Add(pictureBox1);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "frmInicio";
             Opacity = 0.88D;
             StartPosition = FormStartPosition.CenterScreen;
@@ -212,9 +177,7 @@
         private PictureBox pictureBox1;
         private Button btnProducto;
         private Button btnCategoria;
-        private Button btnRelleno;
-        private Button btnSabor;
-        private Button btnDetalle;
+        private Button btnPedido;
         private PictureBox btnCerrar;
         private PictureBox btnMinimizar;
     }

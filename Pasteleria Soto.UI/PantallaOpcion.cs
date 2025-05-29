@@ -17,6 +17,7 @@ namespace Pasteleria_Soto.UI
         private RegistroRepositoryCAT _registroRepositorioCAT;
         List<Categoria> ListaCategoriasTemp = new List<Categoria>();
         private int indice;
+        int idCategoriaSeleccionada;
         public PantallaCategoria()
         {
             InitializeComponent();
@@ -63,7 +64,7 @@ namespace Pasteleria_Soto.UI
             Categoria categoria = new Categoria();
 
             categoria.NOMBRECATEGORIA = txtNombreCat.Text;
-            categoria.DESCRIPCION = txtDescripcion.Text;
+            categoria.DESCRIPCION = txtUnidadDeMedida.Text;
 
             ListaCategoriasTemp.Add(categoria);
 
@@ -71,7 +72,7 @@ namespace Pasteleria_Soto.UI
             dgvCategoria.DataSource = ListaCategoriasTemp;
 
             txtNombreCat.Clear();
-            txtDescripcion.Clear();
+            txtUnidadDeMedida.Clear();
 
             btnRegistrar.Visible = true;
             btnCancelarCategoria.Visible = true;
@@ -113,20 +114,27 @@ namespace Pasteleria_Soto.UI
             btnEliminarCategoria.Visible = false;
             btnRegistrar.Visible = false;
 
-            Categoria categoria = new Categoria();
+            if (idCategoriaSeleccionada > 0)
+            {
+                Categoria categoria = new Categoria();
+                categoria.ID_CATEGORIA = idCategoriaSeleccionada; 
+                categoria.NOMBRECATEGORIA = txtNombreCat.Text;
+                categoria.DESCRIPCION = txtUnidadDeMedida.Text;
 
-            categoria.NOMBRECATEGORIA = txtNombreCat.Text;
-            categoria.DESCRIPCION = txtDescripcion.Text;
+                _registroRepositorioCAT.ActualizarCategoria(categoria);
 
+               
+                dgvCategoria.DataSource = null;
+                ListaCategoriasTemp.Clear();
+                ListaCategoriasTemp.AddRange(_registroRepositorioCAT.MostrarCategorias());
+                dgvCategoria.DataSource = ListaCategoriasTemp;
+                btnActualizarCategoria.Visible = false;
+            }
+            else
+            {
+                MessageBox.Show("Debes seleccionar una categoría antes de actualizar.");
+            }
 
-            _registroRepositorioCAT.ActualizarCategoria(categoria);
-
-
-            dgvCategoria.DataSource = null;
-            ListaCategoriasTemp.Clear();
-            ListaCategoriasTemp.AddRange(_registroRepositorioCAT.MostrarCategorias());
-            dgvCategoria.DataSource = ListaCategoriasTemp;
-            btnActualizarCategoria.Visible = false;
         }
 
         private void btnEliminarCategoria_Click(object sender, EventArgs e)
@@ -137,7 +145,7 @@ namespace Pasteleria_Soto.UI
             btnRegistrar.Visible = false;
             btnCancelarCategoria.Visible = false;
 
-            var ID_CATEGORIA = txtIdCat.Text;
+            var ID_CATEGORIA = ListaCategoriasTemp[indice].ID_CATEGORIA;
 
             _registroRepositorioCAT.EliminarCategoria(ID_CATEGORIA);
 
@@ -166,7 +174,7 @@ namespace Pasteleria_Soto.UI
         {
             txtIdCat.Enabled = false;
             txtNombreCat.Enabled = true;
-            txtDescripcion.Enabled = true;
+            txtUnidadDeMedida.Enabled = true;
             btnEliminarCategoria.Visible = false;
             btnActualizarCategoria.Visible = true;
             btnCancelarCategoria.Visible = true;
@@ -180,12 +188,12 @@ namespace Pasteleria_Soto.UI
         {
             txtIdCat.Clear();
             txtNombreCat.Clear();
-            txtDescripcion.Clear();
+            txtUnidadDeMedida.Clear();
 
 
             txtIdCat.Enabled = false;
             txtNombreCat.Enabled = true;
-            txtDescripcion.Enabled = true;
+            txtUnidadDeMedida.Enabled = true;
 
 
             btnEditarCategoria.Visible = false;
@@ -200,12 +208,11 @@ namespace Pasteleria_Soto.UI
             if (e.RowIndex >= 0)
             {
                 indice = e.RowIndex;
+                idCategoriaSeleccionada = ListaCategoriasTemp[indice].ID_CATEGORIA;
 
-                txtIdCat.Text = ListaCategoriasTemp[indice].ID_CATEGORIA.ToString();
                 txtNombreCat.Text = ListaCategoriasTemp[indice].NOMBRECATEGORIA.ToString();
-                txtDescripcion.Text = ListaCategoriasTemp[indice].DESCRIPCION.ToString();
+                txtUnidadDeMedida.Text = ListaCategoriasTemp[indice].DESCRIPCION.ToString();
 
-                // aqui habilito los botones
                 btnEditarCategoria.Visible = true;
                 btnEditarCategoria.Enabled = true;
                 btnEliminarCategoria.Visible = true;
@@ -214,8 +221,12 @@ namespace Pasteleria_Soto.UI
 
                 txtIdCat.Enabled = false;
                 txtNombreCat.Enabled = false;
-                txtDescripcion.Enabled = false;
+                txtUnidadDeMedida.Enabled = false;
+
+
+                MessageBox.Show("ID seleccionado: " + idCategoriaSeleccionada); 
             }
+
         }
 
         private void btnRegresarCategoria_Click(object sender, EventArgs e)

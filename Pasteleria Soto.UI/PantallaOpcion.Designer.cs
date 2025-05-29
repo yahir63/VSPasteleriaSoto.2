@@ -34,7 +34,7 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            txtDescripcion = new TextBox();
+            txtUnidadDeMedida = new TextBox();
             txtNombreCat = new TextBox();
             dgvCategoria = new DataGridView();
             btnAgregarCategoria = new Button();
@@ -50,6 +50,8 @@
             btnVerPedido = new Button();
             btnRegistrar = new Button();
             btnRegresarCategoria = new Button();
+            txtPrecioDeVenta = new TextBox();
+            label5 = new Label();
             grpCategoria.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvCategoria).BeginInit();
             panel1.SuspendLayout();
@@ -60,78 +62,86 @@
             // 
             // grpCategoria
             // 
+            grpCategoria.Controls.Add(label5);
+            grpCategoria.Controls.Add(txtPrecioDeVenta);
             grpCategoria.Controls.Add(txtIdCat);
             grpCategoria.Controls.Add(label3);
             grpCategoria.Controls.Add(label2);
             grpCategoria.Controls.Add(label1);
-            grpCategoria.Controls.Add(txtDescripcion);
+            grpCategoria.Controls.Add(txtUnidadDeMedida);
             grpCategoria.Controls.Add(txtNombreCat);
             grpCategoria.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            grpCategoria.Location = new Point(25, 108);
+            grpCategoria.Location = new Point(22, 81);
+            grpCategoria.Margin = new Padding(3, 2, 3, 2);
             grpCategoria.Name = "grpCategoria";
-            grpCategoria.Size = new Size(496, 392);
+            grpCategoria.Padding = new Padding(3, 2, 3, 2);
+            grpCategoria.Size = new Size(434, 294);
             grpCategoria.TabIndex = 0;
             grpCategoria.TabStop = false;
-            grpCategoria.Text = "Selección de Categoria";
+            grpCategoria.Text = "Opciones";
             grpCategoria.Enter += grpCategoria_Enter;
             // 
             // txtIdCat
             // 
-            txtIdCat.Location = new Point(32, 76);
+            txtIdCat.Location = new Point(28, 57);
+            txtIdCat.Margin = new Padding(3, 2, 3, 2);
             txtIdCat.Name = "txtIdCat";
-            txtIdCat.Size = new Size(110, 26);
+            txtIdCat.Size = new Size(97, 22);
             txtIdCat.TabIndex = 6;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(32, 157);
+            label3.Location = new Point(28, 92);
             label3.Name = "label3";
-            label3.Size = new Size(147, 20);
+            label3.Size = new Size(103, 17);
             label3.TabIndex = 5;
-            label3.Text = "Nombre Categoria";
+            label3.Text = "Nombre Opcion";
             label3.Click += label3_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(32, 271);
+            label2.Location = new Point(28, 163);
             label2.Name = "label2";
-            label2.Size = new Size(96, 20);
+            label2.Size = new Size(118, 17);
             label2.TabIndex = 4;
-            label2.Text = "Descripcion";
+            label2.Text = "Unidad de Medida";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(32, 39);
+            label1.Location = new Point(28, 29);
             label1.Name = "label1";
-            label1.Size = new Size(104, 20);
+            label1.Size = new Size(85, 17);
             label1.TabIndex = 3;
             label1.Text = "Identificador";
             // 
-            // txtDescripcion
+            // txtUnidadDeMedida
             // 
-            txtDescripcion.Location = new Point(32, 319);
-            txtDescripcion.Name = "txtDescripcion";
-            txtDescripcion.Size = new Size(375, 26);
-            txtDescripcion.TabIndex = 2;
+            txtUnidadDeMedida.Location = new Point(28, 182);
+            txtUnidadDeMedida.Margin = new Padding(3, 2, 3, 2);
+            txtUnidadDeMedida.Name = "txtUnidadDeMedida";
+            txtUnidadDeMedida.Size = new Size(329, 22);
+            txtUnidadDeMedida.TabIndex = 2;
             // 
             // txtNombreCat
             // 
-            txtNombreCat.Location = new Point(32, 195);
+            txtNombreCat.Location = new Point(28, 111);
+            txtNombreCat.Margin = new Padding(3, 2, 3, 2);
             txtNombreCat.Name = "txtNombreCat";
-            txtNombreCat.Size = new Size(375, 26);
+            txtNombreCat.Size = new Size(329, 22);
             txtNombreCat.TabIndex = 1;
             // 
             // dgvCategoria
             // 
             dgvCategoria.BackgroundColor = SystemColors.ButtonHighlight;
             dgvCategoria.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvCategoria.Location = new Point(559, 119);
+            dgvCategoria.Location = new Point(489, 89);
+            dgvCategoria.Margin = new Padding(3, 2, 3, 2);
             dgvCategoria.Name = "dgvCategoria";
             dgvCategoria.RowHeadersWidth = 51;
-            dgvCategoria.Size = new Size(638, 381);
+            dgvCategoria.Size = new Size(558, 286);
             dgvCategoria.TabIndex = 1;
             dgvCategoria.CellContentClick += dataGridView1_CellContentClick;
             dgvCategoria.CellDoubleClick += dgvCategoria_CellDoubleClick;
@@ -139,9 +149,10 @@
             // btnAgregarCategoria
             // 
             btnAgregarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAgregarCategoria.Location = new Point(210, 527);
+            btnAgregarCategoria.Location = new Point(184, 395);
+            btnAgregarCategoria.Margin = new Padding(3, 2, 3, 2);
             btnAgregarCategoria.Name = "btnAgregarCategoria";
-            btnAgregarCategoria.Size = new Size(94, 29);
+            btnAgregarCategoria.Size = new Size(82, 22);
             btnAgregarCategoria.TabIndex = 2;
             btnAgregarCategoria.Text = "Agregar";
             btnAgregarCategoria.UseVisualStyleBackColor = true;
@@ -150,9 +161,10 @@
             // btnEditarCategoria
             // 
             btnEditarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEditarCategoria.Location = new Point(1103, 574);
+            btnEditarCategoria.Location = new Point(965, 430);
+            btnEditarCategoria.Margin = new Padding(3, 2, 3, 2);
             btnEditarCategoria.Name = "btnEditarCategoria";
-            btnEditarCategoria.Size = new Size(94, 29);
+            btnEditarCategoria.Size = new Size(82, 22);
             btnEditarCategoria.TabIndex = 29;
             btnEditarCategoria.Text = "Editar";
             btnEditarCategoria.UseVisualStyleBackColor = true;
@@ -161,9 +173,10 @@
             // btnActualizarCategoria
             // 
             btnActualizarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnActualizarCategoria.Location = new Point(1103, 609);
+            btnActualizarCategoria.Location = new Point(965, 457);
+            btnActualizarCategoria.Margin = new Padding(3, 2, 3, 2);
             btnActualizarCategoria.Name = "btnActualizarCategoria";
-            btnActualizarCategoria.Size = new Size(94, 29);
+            btnActualizarCategoria.Size = new Size(82, 22);
             btnActualizarCategoria.TabIndex = 30;
             btnActualizarCategoria.Text = "Actualizar";
             btnActualizarCategoria.UseVisualStyleBackColor = true;
@@ -172,9 +185,10 @@
             // btnEliminarCategoria
             // 
             btnEliminarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEliminarCategoria.Location = new Point(1103, 644);
+            btnEliminarCategoria.Location = new Point(965, 483);
+            btnEliminarCategoria.Margin = new Padding(3, 2, 3, 2);
             btnEliminarCategoria.Name = "btnEliminarCategoria";
-            btnEliminarCategoria.Size = new Size(94, 29);
+            btnEliminarCategoria.Size = new Size(82, 22);
             btnEliminarCategoria.TabIndex = 31;
             btnEliminarCategoria.Text = "Eliminar";
             btnEliminarCategoria.UseVisualStyleBackColor = true;
@@ -183,9 +197,10 @@
             // btnCancelarCategoria
             // 
             btnCancelarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCancelarCategoria.Location = new Point(1103, 679);
+            btnCancelarCategoria.Location = new Point(965, 509);
+            btnCancelarCategoria.Margin = new Padding(3, 2, 3, 2);
             btnCancelarCategoria.Name = "btnCancelarCategoria";
-            btnCancelarCategoria.Size = new Size(94, 29);
+            btnCancelarCategoria.Size = new Size(82, 22);
             btnCancelarCategoria.TabIndex = 32;
             btnCancelarCategoria.Text = "Cancelar";
             btnCancelarCategoria.UseVisualStyleBackColor = true;
@@ -200,18 +215,16 @@
             panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
-            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1270, 69);
+            panel1.Size = new Size(1111, 52);
             panel1.TabIndex = 33;
             // 
             // btnCerrarCliente
             // 
             btnCerrarCliente.Image = (Image)resources.GetObject("btnCerrarCliente.Image");
-            btnCerrarCliente.Location = new Point(987, 16);
-            btnCerrarCliente.Margin = new Padding(3, 4, 3, 4);
+            btnCerrarCliente.Location = new Point(1068, 12);
             btnCerrarCliente.Name = "btnCerrarCliente";
-            btnCerrarCliente.Size = new Size(25, 29);
+            btnCerrarCliente.Size = new Size(22, 22);
             btnCerrarCliente.SizeMode = PictureBoxSizeMode.Zoom;
             btnCerrarCliente.TabIndex = 38;
             btnCerrarCliente.TabStop = false;
@@ -220,10 +233,9 @@
             // btnMnzcliente
             // 
             btnMnzcliente.Image = (Image)resources.GetObject("btnMnzcliente.Image");
-            btnMnzcliente.Location = new Point(934, 16);
-            btnMnzcliente.Margin = new Padding(3, 4, 3, 4);
+            btnMnzcliente.Location = new Point(1019, 10);
             btnMnzcliente.Name = "btnMnzcliente";
-            btnMnzcliente.Size = new Size(32, 29);
+            btnMnzcliente.Size = new Size(28, 22);
             btnMnzcliente.SizeMode = PictureBoxSizeMode.StretchImage;
             btnMnzcliente.TabIndex = 37;
             btnMnzcliente.TabStop = false;
@@ -234,9 +246,9 @@
             label4.AutoSize = true;
             label4.Font = new Font("Century", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.LightSeaGreen;
-            label4.Location = new Point(136, 16);
+            label4.Location = new Point(119, 12);
             label4.Name = "label4";
-            label4.Size = new Size(240, 35);
+            label4.Size = new Size(195, 28);
             label4.TabIndex = 35;
             label4.Text = "Pastelería Soto";
             // 
@@ -244,9 +256,8 @@
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(114, 67);
+            pictureBox1.Size = new Size(100, 50);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 34;
             pictureBox1.TabStop = false;
@@ -256,9 +267,10 @@
             btnVerPedido.BackColor = Color.DarkTurquoise;
             btnVerPedido.FlatStyle = FlatStyle.System;
             btnVerPedido.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnVerPedido.Location = new Point(559, 527);
+            btnVerPedido.Location = new Point(489, 395);
+            btnVerPedido.Margin = new Padding(3, 2, 3, 2);
             btnVerPedido.Name = "btnVerPedido";
-            btnVerPedido.Size = new Size(112, 29);
+            btnVerPedido.Size = new Size(113, 22);
             btnVerPedido.TabIndex = 34;
             btnVerPedido.Text = "Ver Categoria";
             btnVerPedido.UseVisualStyleBackColor = false;
@@ -269,9 +281,10 @@
             btnRegistrar.BackColor = Color.PaleTurquoise;
             btnRegistrar.FlatStyle = FlatStyle.Popup;
             btnRegistrar.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegistrar.Location = new Point(1103, 525);
+            btnRegistrar.Location = new Point(965, 394);
+            btnRegistrar.Margin = new Padding(3, 2, 3, 2);
             btnRegistrar.Name = "btnRegistrar";
-            btnRegistrar.Size = new Size(94, 31);
+            btnRegistrar.Size = new Size(82, 23);
             btnRegistrar.TabIndex = 35;
             btnRegistrar.Text = "Registrar Categoria";
             btnRegistrar.UseVisualStyleBackColor = false;
@@ -282,20 +295,38 @@
             btnRegresarCategoria.BackColor = Color.PowderBlue;
             btnRegresarCategoria.FlatStyle = FlatStyle.System;
             btnRegresarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegresarCategoria.Location = new Point(20, 679);
+            btnRegresarCategoria.Location = new Point(18, 509);
+            btnRegresarCategoria.Margin = new Padding(3, 2, 3, 2);
             btnRegresarCategoria.Name = "btnRegresarCategoria";
-            btnRegresarCategoria.Size = new Size(94, 29);
+            btnRegresarCategoria.Size = new Size(82, 22);
             btnRegresarCategoria.TabIndex = 36;
             btnRegresarCategoria.Text = "Regresar";
             btnRegresarCategoria.UseVisualStyleBackColor = false;
             btnRegresarCategoria.Click += btnRegresarCategoria_Click;
             // 
+            // txtPrecioDeVenta
+            // 
+            txtPrecioDeVenta.Location = new Point(28, 241);
+            txtPrecioDeVenta.Margin = new Padding(3, 2, 3, 2);
+            txtPrecioDeVenta.Name = "txtPrecioDeVenta";
+            txtPrecioDeVenta.Size = new Size(181, 22);
+            txtPrecioDeVenta.TabIndex = 7;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(28, 222);
+            label5.Name = "label5";
+            label5.Size = new Size(105, 17);
+            label5.TabIndex = 8;
+            label5.Text = "Precio de Venta";
+            // 
             // PantallaCategoria
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
-            ClientSize = new Size(1270, 729);
+            BackColor = Color.LightCyan;
+            ClientSize = new Size(1111, 547);
             Controls.Add(btnRegresarCategoria);
             Controls.Add(btnRegistrar);
             Controls.Add(btnVerPedido);
@@ -308,8 +339,10 @@
             Controls.Add(dgvCategoria);
             Controls.Add(grpCategoria);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "PantallaCategoria";
             Opacity = 0.88D;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "PantallaCategoria";
             Load += PantallaCategoria_Load;
             grpCategoria.ResumeLayout(false);
@@ -326,7 +359,7 @@
         #endregion
 
         private GroupBox grpCategoria;
-        private TextBox txtDescripcion;
+        private TextBox txtUnidadDeMedida;
         private TextBox txtNombreCat;
         private Label label3;
         private Label label2;
@@ -346,5 +379,7 @@
         private PictureBox btnMnzcliente;
         private PictureBox btnCerrarCliente;
         private TextBox txtIdCat;
+        private Label label5;
+        private TextBox txtPrecioDeVenta;
     }
 }

@@ -11,181 +11,29 @@ namespace PasteleriaSoto.BLL
 {
     public class RegistroRepositoryPRODUCTO
     {
+        MetodosProductos RepositoryPRODUCTO = new MetodosProductos();
         public void RegistrarProductos(List<Producto> ListaNuevosProductos)
         {
-            foreach (var Producto in ListaNuevosProductos)
-            {
-                try
-                {
-                    //Vamos a usar la conexion a la BD para el registro de nuevos pedidos
-                    using (SqlConnection connection = BDConection.connect())
-                    {
-                        connection.Open();
-                        SqlCommand cmd = new SqlCommand("INSERT INTO PRODUCTO(NOMBREPRODUCTO,CANTIDAD,LIBRAS,ID_CATEGORIA,ID_SABOR,ID_RELLENO) VALUES(@NOMBREPRODUCTO,@CANTIDAD,@LIBRAS,@ID_CATEGORIA,@ID_SABOR,@ID_RELLENO)", connection);
-
-                        cmd.Parameters.AddWithValue("@NOMBREPRODUCTO", Producto.NOMBREPRODUCTO);
-                        cmd.Parameters.AddWithValue("@ID_CATEGORIA", Producto.ID_CATEGORIA);
-                        cmd.Parameters.AddWithValue("@CANTIDAD", Producto.CANTIDAD);
-                        cmd.Parameters.AddWithValue("@LIBRAS", Producto.LIBRAS);
-                        cmd.Parameters.AddWithValue("@ID_SABOR", Producto.ID_SABOR);
-                        cmd.Parameters.AddWithValue("@ID_RELLENO", Producto.ID_RELLENO);
-                       
-
-
-                        cmd.ExecuteNonQuery();
-
-                        connection.Close();
-                    }
-                }
-                catch (Exception)
-                {
-
-                    throw;
-                }
-            }
+            RepositoryPRODUCTO.RegistrarProductos(ListaNuevosProductos);
         }
 
         public List<Producto> ObtenerListProductosTemp()
         {
-            List<Producto> ListProductosTemp = new List<Producto>();
-
-            try
-            {
-                using (SqlConnection connection = BDConection.connect())
-                {
-                    connection.Open();
-
-                    // Consulta para obtener datos de PRODUCTO junto con la CANTIDAD de DETALLEPEDIDO
-                    SqlCommand cmd = new SqlCommand("SELECT producto.ID_PRODUCTO, producto.NOMBREPRODUCTO,producto.CANTIDAD, CATEGORIA.NOMBRECATEGORIA AS CATEGORIA, producto.LIBRAS, SABOR.NOMBRESABOR AS SABOR, RELLENO.NOMBRERELLENO AS RELLENO FROM PRODUCTO INNER JOIN CATEGORIA ON Producto.ID_CATEGORIA = CATEGORIA.ID_CATEGORIA INNER JOIN SABOR ON Producto.ID_SABOR = SABOR.ID_SABOR INNER JOIN RELLENO ON Producto.ID_RELLENO = RELLENO.ID_RELLENO", connection);
-         
-
-                    SqlDataReader reader = cmd.ExecuteReader();
-
-
-                    while (reader.Read())
-                    {
-                        var producto = new Producto()
-                        {
-                            ID_PRODUCTO = Convert.ToInt32(reader["ID_PRODUCTO"]),
-                            NOMBREPRODUCTO = reader["NOMBREPRODUCTO"].ToString(),
-                            NOMBRECATEGORIA = reader["CATEGORIA"].ToString(),
-                            NOMBRESABOR = reader["SABOR"].ToString(),
-                            NOMBRERELLENO = reader["RELLENO"].ToString(),
-                            LIBRAS = decimal.Parse(reader["LIBRAS"].ToString()),
-
-
-
-                            CANTIDAD = Convert.ToInt32(reader["CANTIDAD"])
-
-                        };
-
-                        ListProductosTemp.Add(producto);
-                    }
-
-                    connection.Close();
-
-                    return ListProductosTemp;
-                }
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            return RepositoryPRODUCTO.ObtenerListProductosTemp();
         }
+
         public void ActualizarProducto(Producto producto)
-
         {
-
-            try
-            {
-                //Vamos a usar la conexion a la BD para el registro de nuevos pedidos
-                using (SqlConnection connection = BDConection.connect())
-                {
-                    connection.Open();
-
-                    SqlCommand cmd = new SqlCommand(("UPDATE PRODUCTO SET NOMBREPRODUCTO=@NOMBREPRODUCTO,ID_CATEGORIA=@ID_CATEGORIA,ID_SABOR=@ID_SABOR,CANTIDAD=@CANTIDAD,ID_RELLENO=@ID_RELLENO,LIBRAS=@LIBRAS WHERE ID_PRODUCTO =@ID_PRODUCTO "), connection);
-
-                    cmd.Parameters.AddWithValue("@ID_PRODUCTO", producto.ID_PRODUCTO);
-                    cmd.Parameters.AddWithValue("@NOMBREPRODUCTO", producto.NOMBREPRODUCTO);
-                    cmd.Parameters.AddWithValue("@ID_CATEGORIA", producto.ID_CATEGORIA);
-                    cmd.Parameters.AddWithValue("@ID_SABOR", producto.ID_SABOR);
-                    cmd.Parameters.AddWithValue("@CANTIDAD", producto.CANTIDAD);
-                    cmd.Parameters.AddWithValue("@ID_RELLENO", producto.ID_RELLENO);
-                   
-                    cmd.Parameters.AddWithValue("@LIBRAS", producto.LIBRAS);
-
-
-                    cmd.ExecuteNonQuery();
-
-                    connection.Close();
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-
-
+            RepositoryPRODUCTO.ActualizarProducto(producto);
         }
 
         public void Eliminar(int ID_PRODUCTO)
         {
-
-            try
-            {
-
-                using (SqlConnection connection = BDConection.connect())
-                {
-                    connection.Open();
-                    //Aqui ejecutamos la consulta para eliminar el producto segun su id
-                    SqlCommand cmd = new SqlCommand("delete from PRODUCTO where ID_PRODUCTO = @ID_PRODUCTO", connection);
-
-
-                    cmd.Parameters.AddWithValue("@ID_PRODUCTO", ID_PRODUCTO);
-
-                    cmd.ExecuteNonQuery();
-
-                    connection.Close();
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-
-
-
+            RepositoryPRODUCTO.Eliminar(ID_PRODUCTO); 
         }
 
-
-        public void ActualizarSabor(Sabor sabor)
-        {
-            try
-            {
-                //Vamos a usar la conexion a la BD para el registro de nuevos pedidos
-                using (SqlConnection connection = BDConection.connect())
-                {
-                    connection.Open();
-
-                    SqlCommand cmd = new SqlCommand(("UPDATE SABOR SET NOMBRESABOR =@NOMBRESABOR, DESCRIPCION=@DESCRIPCION"), connection);
-
-                    cmd.Parameters.AddWithValue("@NOMBRESABOR", sabor.NOMBRESABOR);
-                    cmd.Parameters.AddWithValue("@DESCRIPCION", sabor.DESCRIPCION);
+        
 
 
-                    cmd.ExecuteNonQuery();
-
-                    connection.Close();
-                }
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-
-        }
     }
 }

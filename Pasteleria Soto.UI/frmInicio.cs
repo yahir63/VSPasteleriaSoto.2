@@ -104,5 +104,23 @@ namespace Pasteleria_Soto.UI
         {
             Application.Exit();
         }
+
+        private void btnBaño_Click(object sender, EventArgs e)
+        {
+            PantallaBaño pantallabaño = new PantallaBaño();
+            pantallabaño.Show();
+        }
+
+        private void btnDetallePedido_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnPedido_Click(object sender, EventArgs e)
+        {
+            PantallaDetallePedido pantallaDetallePedido = new PantallaDetallePedido();
+            pantallaDetallePedido.Show();
+
+        }
     }
 }

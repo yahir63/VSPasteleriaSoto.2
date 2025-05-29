@@ -1,0 +1,1 @@
+[27/5/2025 22:50:15] Procedure or function 'SpInsertarPedido' expects parameter '@IVA', which was not supplied.

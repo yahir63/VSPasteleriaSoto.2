@@ -4,7 +4,13 @@
     <Compile Update="EleccionProducto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PantallaCategoria.cs">
+    <Compile Update="frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PantallaBaño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PantallaOpcion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PantallaDetallePedido.cs">
@@ -20,9 +26,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PantalladeCarga.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PantallaRegistro.cs">

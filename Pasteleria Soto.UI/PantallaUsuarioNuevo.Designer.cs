@@ -83,7 +83,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(640, 169);
+            pictureBox1.Location = new Point(754, 129);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(298, 385);
@@ -154,7 +154,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(1270, 729);
             Controls.Add(btnAgregarUsuario);
             Controls.Add(grpNuevoUsuario);
@@ -164,6 +164,7 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "PantallaUsuarioNuevo";
             Opacity = 0.88D;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "PantallaUsuarioNuevo";
             Load += PantallaUsuarioNuevo_Load;
             panel1.ResumeLayout(false);

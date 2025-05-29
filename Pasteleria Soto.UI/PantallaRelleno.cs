@@ -16,8 +16,9 @@ namespace Pasteleria_Soto.UI
     {
         List<Relleno> ListaRellenosTemp = new List<Relleno>();
 
-        RegistroRepositoryRelleno _registroRepositorio = new RegistroRepositoryRelleno();
+        RegistroRepositoryRelleno _registroRepositorioRelleno = new RegistroRepositoryRelleno();
         private int indice;
+        int idRellenoSeleccionado;
         public PantallaRelleno()
         {
             InitializeComponent();
@@ -35,19 +36,27 @@ namespace Pasteleria_Soto.UI
 
         private void btnActualizarRelleno_Click(object sender, EventArgs e)
         {
-            Relleno relleno = new Relleno();
+            if (idRellenoSeleccionado > 0) // Verifica que el ID está guardado
+            {
+                Relleno relleno = new Relleno();
+                relleno.ID_RELLENO = idRellenoSeleccionado; // Usa el ID guardado
+                relleno.NOMBRERELLENO = txtRelleno.Text;
+                relleno.DESCRIPCION = txtDescripRelleno.Text;
+                relleno.PRECIORELLENO = txtPrecioRelleno.Text;
 
-            relleno.NOMBRERELLENO = txtRelleno.Text;
-            relleno.DESCRIPCION = txtDescripRelleno.Text;
+                _registroRepositorioRelleno.ActualizarRelleno(relleno);
 
+                // Refrescar DataGridView
+                dgvRelleno.DataSource = null;
+                ListaRellenosTemp.Clear();
+                ListaRellenosTemp.AddRange(_registroRepositorioRelleno.ObtenerListaRelleno());
+                dgvRelleno.DataSource = ListaRellenosTemp;
+            }
+            else
+            {
+                MessageBox.Show("Selecciona un relleno antes de actualizar.");
+            }
 
-            _registroRepositorio.ActualizarRelleno(relleno);
-
-
-            dgvRelleno.DataSource = null;
-            ListaRellenosTemp.Clear();
-            ListaRellenosTemp.AddRange(_registroRepositorio.ObtenerListaRelleno());
-            dgvRelleno.DataSource = ListaRellenosTemp;
         }
 
         private void btnAgregarRelleno_Click(object sender, EventArgs e)
@@ -56,6 +65,7 @@ namespace Pasteleria_Soto.UI
 
             relleno.NOMBRERELLENO = txtRelleno.Text;
             relleno.DESCRIPCION = txtDescripRelleno.Text;
+            relleno.PRECIORELLENO = txtPrecioRelleno.Text; 
 
 
             ListaRellenosTemp.Add(relleno);
@@ -68,7 +78,7 @@ namespace Pasteleria_Soto.UI
         {
             dgvRelleno.DataSource = null;
             ListaRellenosTemp.Clear();
-            ListaRellenosTemp.AddRange(_registroRepositorio.ObtenerListaRelleno());
+            ListaRellenosTemp.AddRange(_registroRepositorioRelleno.ObtenerListaRelleno());
             dgvRelleno.DataSource = ListaRellenosTemp;
         }
 
@@ -77,7 +87,7 @@ namespace Pasteleria_Soto.UI
             PantallaRelleno eleccion = new PantallaRelleno();
             eleccion.Show();
             this.Hide();
-            _registroRepositorio.RegistrarRelleno(ListaRellenosTemp);
+            _registroRepositorioRelleno.RegistrarRelleno(ListaRellenosTemp);
             ListaRellenosTemp.Clear();
             dgvRelleno.DataSource = null;
 
@@ -92,30 +102,33 @@ namespace Pasteleria_Soto.UI
 
             string nuevoNombre = txtRelleno.Text;
             string nuevaDescripcion = txtDescripRelleno.Text;
+            string precioRelleno = txtPrecioRelleno.Text;
+            
 
 
-            _registroRepositorio.EditarRelleno(ID_RELLENO, nuevoNombre, nuevaDescripcion);
+            _registroRepositorioRelleno.EditarRelleno(ID_RELLENO, nuevoNombre, nuevaDescripcion, precioRelleno);
             dgvRelleno.DataSource = null;
             ListaRellenosTemp.Clear();
-            ListaRellenosTemp.AddRange(_registroRepositorio.ObtenerListaRelleno());
+            ListaRellenosTemp.AddRange(_registroRepositorioRelleno.ObtenerListaRelleno());
             dgvRelleno.DataSource = ListaRellenosTemp;
 
             txtRelleno.Enabled = true;
             txtDescripRelleno.Enabled = true;
+            txtPrecioRelleno.Enabled = true;
 
 
         }
 
         private void btnEliminarRelleno_Click(object sender, EventArgs e)
         {
-            var ID_RELLENO = int.Parse(txtRelleno.Text);
+            var ID_RELLENO = ListaRellenosTemp[indice].ID_RELLENO;
 
-            _registroRepositorio.EliminarRelleno(ID_RELLENO);
+            _registroRepositorioRelleno.EliminarRelleno(ID_RELLENO);
 
 
             dgvRelleno.DataSource = null;
             ListaRellenosTemp.Clear();
-            ListaRellenosTemp.AddRange(_registroRepositorio.ObtenerListaRelleno());
+            ListaRellenosTemp.AddRange(_registroRepositorioRelleno.ObtenerListaRelleno());
             dgvRelleno.DataSource = ListaRellenosTemp;
         }
 
@@ -123,6 +136,7 @@ namespace Pasteleria_Soto.UI
         {
             txtRelleno.Text = "";
             txtDescripRelleno.Text = "";
+            txtPrecioRelleno.Text = "";
             dgvRelleno.ClearSelection();
         }
 
@@ -142,24 +156,28 @@ namespace Pasteleria_Soto.UI
             if (e.RowIndex >= 0)
             {
                 indice = e.RowIndex;
+                idRellenoSeleccionado = ListaRellenosTemp[indice].ID_RELLENO;
 
                 txtRelleno.Text = ListaRellenosTemp[indice].NOMBRERELLENO.ToString();
                 txtDescripRelleno.Text = ListaRellenosTemp[indice].DESCRIPCION.ToString();
+                txtPrecioRelleno.Text = ListaRellenosTemp[indice].PRECIORELLENO.ToString();
 
-                // aqui habilito los botones
+
                 btnEditarRelleno.Visible = true;
                 btnEditarRelleno.Enabled = true;
                 btnEliminarRelleno.Visible = true;
                 btnEliminarRelleno.Enabled = true;
-
-
-               
+                
                 txtRelleno.Enabled = false;
                 txtDescripRelleno.Enabled = false;
+                txtPrecioRelleno.Enabled = false;
+
+                MessageBox.Show("ID seleccionado: " + idRellenoSeleccionado); 
             }
+
         }
 
-        public event EventHandler RellenoAgregado;
+
     }
 
 }

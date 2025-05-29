@@ -12,21 +12,35 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM32 = Debug|ARM32
 		Release|Any CPU = Release|Any CPU
+		Release|ARM32 = Release|ARM32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}.Debug|ARM32.ActiveCfg = Debug|ARM32
+		{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}.Debug|ARM32.Build.0 = Debug|ARM32
 		{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}.Release|ARM32.ActiveCfg = Release|ARM32
+		{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}.Release|ARM32.Build.0 = Release|ARM32
 		{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}.Debug|ARM32.ActiveCfg = Debug|ARM32
+		{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}.Debug|ARM32.Build.0 = Debug|ARM32
 		{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}.Release|ARM32.ActiveCfg = Release|ARM32
+		{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}.Release|ARM32.Build.0 = Release|ARM32
 		{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}.Debug|ARM32.ActiveCfg = Debug|ARM32
+		{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}.Debug|ARM32.Build.0 = Debug|ARM32
 		{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}.Release|ARM32.ActiveCfg = Release|ARM32
+		{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}.Release|ARM32.Build.0 = Release|ARM32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

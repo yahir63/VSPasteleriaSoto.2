@@ -9,6 +9,7 @@ namespace PantallasProyecto.DAL
         public int ID_RELLENO { get; set; }
         public string? NOMBRERELLENO { get; set; }
         public string? DESCRIPCION { get; set; }
+        public string? PRECIORELLENO { get; set; }  
 
     }
 }

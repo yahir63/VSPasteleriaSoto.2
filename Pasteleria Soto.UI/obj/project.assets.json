@@ -1704,23 +1704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yahir\\.nuget\\packages\\": {},
+    "C:\\Users\\villa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj",
+      "projectUniqueName": "C:\\Users\\villa\\OneDrive\\Documentos\\DOCUMENTOS\\PROFESORA CONCEPCION\\ImpulsoPastelero (2)\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj",
       "projectName": "Pasteleria Soto.UI",
-      "projectPath": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj",
-      "packagesPath": "C:\\Users\\Yahir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\Pasteleria Soto.UI\\obj\\",
+      "projectPath": "C:\\Users\\villa\\OneDrive\\Documentos\\DOCUMENTOS\\PROFESORA CONCEPCION\\ImpulsoPastelero (2)\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj",
+      "packagesPath": "C:\\Users\\villa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\villa\\OneDrive\\Documentos\\DOCUMENTOS\\PROFESORA CONCEPCION\\ImpulsoPastelero (2)\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yahir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\villa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1729,17 +1729,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj": {
-              "projectPath": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj"
+            "C:\\Users\\villa\\OneDrive\\Documentos\\DOCUMENTOS\\PROFESORA CONCEPCION\\ImpulsoPastelero (2)\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj": {
+              "projectPath": "C:\\Users\\villa\\OneDrive\\Documentos\\DOCUMENTOS\\PROFESORA CONCEPCION\\ImpulsoPastelero (2)\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj"
             },
-            "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj": {
-              "projectPath": "C:\\Users\\Yahir\\Videos\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj"
+            "C:\\Users\\villa\\OneDrive\\Documentos\\DOCUMENTOS\\PROFESORA CONCEPCION\\ImpulsoPastelero (2)\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj": {
+              "projectPath": "C:\\Users\\villa\\OneDrive\\Documentos\\DOCUMENTOS\\PROFESORA CONCEPCION\\ImpulsoPastelero (2)\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj"
             }
           }
         }
@@ -1753,8 +1754,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -1778,7 +1778,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

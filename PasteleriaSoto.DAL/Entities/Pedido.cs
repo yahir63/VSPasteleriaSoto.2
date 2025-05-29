@@ -13,7 +13,7 @@ namespace Pedido.DAL
         public DateTime  HORAENTREGA { get; set; }
         public double SUBTOTAL { get; set; }
         public  double TOTAL { get; set; }
-        public double IVA { get; set; }   
+         
     }
 }
  

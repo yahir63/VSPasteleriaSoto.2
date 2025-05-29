@@ -16,7 +16,7 @@ namespace Pasteleria_Soto.UI
     public partial class PantallaUsuarioNuevo : Form
     {
         List<Usuario> ListaUsuarioNuevoTemp = new List<Usuario>();
-        RegistroRepositoryNuevoUsuario _registroRepositorio = new RegistroRepositoryNuevoUsuario();
+        RegistroRepositoryNuevoUsuario _registroRepositorioUsuario = new RegistroRepositoryNuevoUsuario();
         public PantallaUsuarioNuevo()
         {
             InitializeComponent();
@@ -30,7 +30,7 @@ namespace Pasteleria_Soto.UI
 
            
             ListaUsuarioNuevoTemp.Add(usuario);
-            _registroRepositorio.RegistrarUsuario(ListaUsuarioNuevoTemp);
+            _registroRepositorioUsuario.RegistrarUsuario(ListaUsuarioNuevoTemp);
            
             ListaUsuarioNuevoTemp.Clear();
 
