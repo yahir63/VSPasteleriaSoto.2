@@ -3,164 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleria soto.ui\\pantalladetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantalladetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\productopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\productopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\personalizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\personalizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\opcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\opcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\pasteleria soto.ui\\pantalladetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantalladetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\pasteleria soto.ui\\eleccionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\eleccionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\metodopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\metodopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\detallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\detallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.bll\\registrorepositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|solutionrelative:pasteleriasoto.bll\\registrorepositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\personalizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\personalizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\productopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\productopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleria soto.ui\\pantalladetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantalladetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleria soto.ui\\pantalladetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantalladetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\pasteleria soto.ui\\pantallaproductopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallaproductopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleria soto.ui\\eleccionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\eleccionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleria soto.ui\\eleccionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\eleccionproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleria soto.ui\\pantallaproductopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallaproductopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\metodosproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\metodosproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\metodoscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\metodoscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleria soto.ui\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\metodosrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\metodosrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\metodosbano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\metodosbano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\metodosabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\metodosabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.bll\\registrorepositorycliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|solutionrelative:pasteleriasoto.bll\\registrorepositorycliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleria soto.ui\\pantallarelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallarelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.bll\\registrorepositoryrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|solutionrelative:pasteleriasoto.bll\\registrorepositoryrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\pasteleria soto.ui\\pantallarelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallarelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\relleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\relleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleria soto.ui\\pantallasabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallasabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\pasteleria soto.ui\\pantallasabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallasabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\sabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\sabor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\bano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\bano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\bdconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\bdconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\pasteleria soto.ui\\pantallausuarionuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallausuarionuevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\pasteleria soto.ui\\pantallausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\pasteleria soto.ui\\pantallaregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallaregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\pasteleria soto.ui\\pantalladecarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantalladecarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\pasteleria soto.ui\\pantallaba\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallaba\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.bll\\registrorepositorycat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|solutionrelative:pasteleriasoto.bll\\registrorepositorycat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\metodoscategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\metodoscategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.dal\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleria soto.ui\\pantallaba\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallaba\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.bll\\registrorepositoryba\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|solutionrelative:pasteleriasoto.bll\\registrorepositoryba\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\users\\yahir\\videos\\impulsopastelero\\pasteleriasoto\\pasteleriasoto.bll\\productopersonalizadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|solutionrelative:pasteleriasoto.bll\\productopersonalizadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -170,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,15 +66,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Opcion.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Opcion.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Opcion.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Opcion.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Opcion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Pedido.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Pedido.cs",
+              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T02:29:39.292Z",
+              "WhenOpened": "2025-05-31T04:16:04.894Z",
               "EditorCaption": ""
             },
             {
@@ -197,48 +85,36 @@
               "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Personalizacion.cs",
               "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Personalizacion.cs",
               "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Personalizacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T02:27:40.34Z",
+              "WhenOpened": "2025-05-31T04:06:45.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductoPersonalizado.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "DetallePedido.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\DetallePedido.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\DetallePedido.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\DetallePedido.cs",
+              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\DetallePedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T02:20:50.989Z",
+              "WhenOpened": "2025-05-31T04:06:13.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "PantallaDetallePedido.cs",
               "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaDetallePedido.cs",
               "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaDetallePedido.cs",
               "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaDetallePedido.cs",
               "RelativeToolTip": "Pasteleria Soto.UI\\PantallaDetallePedido.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAUwDwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAApwLoAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:16:16.456Z",
+              "WhenOpened": "2025-05-31T03:53:47.544Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MetodoPedido.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodoPedido.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\MetodoPedido.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodoPedido.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\MetodoPedido.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAADkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:44:03.941Z"
             },
             {
               "$type": "Document",
@@ -249,408 +125,95 @@
               "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaDetallePedido.cs [Dise\u00F1o]",
               "RelativeToolTip": "Pasteleria Soto.UI\\PantallaDetallePedido.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T21:04:26.809Z"
+              "WhenOpened": "2025-05-31T03:12:16.033Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MetodosProductos.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosProductos.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\MetodosProductos.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosProductos.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\MetodosProductos.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAewCYAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "EleccionProducto.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\EleccionProducto.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\EleccionProducto.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\EleccionProducto.cs",
+              "RelativeToolTip": "Pasteleria Soto.UI\\EleccionProducto.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAUwBIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:34:07.397Z"
+              "WhenOpened": "2025-05-29T23:14:16.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "EleccionProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\EleccionProducto.cs",
               "RelativeDocumentMoniker": "Pasteleria Soto.UI\\EleccionProducto.cs",
               "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\EleccionProducto.cs [Dise\u00F1o]",
               "RelativeToolTip": "Pasteleria Soto.UI\\EleccionProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:02:39.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegistroRepositoryProducto.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
-              "RelativeToolTip": "PasteleriaSoto.BLL\\RegistroRepositoryProducto.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwvyIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:33:45.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DetallePedido.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\DetallePedido.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\DetallePedido.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\DetallePedido.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\DetallePedido.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T14:51:56.91Z"
+              "WhenOpened": "2025-05-29T23:14:12.885Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Pedido.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Pedido.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Pedido.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Title": "MetodosProductos.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosProductos.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\MetodosProductos.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosProductos.cs",
+              "RelativeToolTip": "PasteleriaSoto.DAL\\MetodosProductos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T20:59:13.748Z"
+              "WhenOpened": "2025-05-29T23:14:08.55Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "MetodosCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosCliente.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\MetodosCliente.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosCliente.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\MetodosCliente.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAwKgAAABPAAAAAAAAAA==",
+              "Title": "ProductoPersonalizadoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\ProductoPersonalizadoRepository.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.BLL\\ProductoPersonalizadoRepository.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\ProductoPersonalizadoRepository.cs",
+              "RelativeToolTip": "PasteleriaSoto.BLL\\ProductoPersonalizadoRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T22:09:13.288Z"
+              "WhenOpened": "2025-05-29T23:06:24.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Producto.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Producto.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Producto.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProductoPersonalizado.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
+              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:58:34.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmInicio.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\frmInicio.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\frmInicio.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\frmInicio.cs",
-              "RelativeToolTip": "Pasteleria Soto.UI\\frmInicio.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAzwHkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:27:52.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MetodosBano.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosBano.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\MetodosBano.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosBano.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\MetodosBano.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAQwMgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T14:37:36.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MetodoSabor.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodoSabor.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\MetodoSabor.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodoSabor.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\MetodoSabor.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAowKoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:33:44.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MetodosRelleno.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosRelleno.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\MetodosRelleno.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosRelleno.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\MetodosRelleno.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAQwMoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:30:32.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RegistroRepositoryCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryCliente.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.BLL\\RegistroRepositoryCliente.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryCliente.cs",
-              "RelativeToolTip": "PasteleriaSoto.BLL\\RegistroRepositoryCliente.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:23:28.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PantallaRelleno.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRelleno.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaRelleno.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRelleno.cs",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaRelleno.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAIwHQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:36:11.871Z",
+              "WhenOpened": "2025-05-29T23:06:18.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Relleno.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Relleno.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Relleno.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Relleno.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Relleno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "PantallaProductoPersonalizado.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAAwM8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:25:25.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RegistroRepositoryRelleno.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
-              "RelativeToolTip": "PasteleriaSoto.BLL\\RegistroRepositoryRelleno.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAUwCYAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T14:40:20.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PantallaRelleno.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRelleno.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaRelleno.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRelleno.cs [Design]",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaRelleno.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:01:45.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PantallaSabor.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaSabor.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaSabor.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaSabor.cs",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaSabor.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAuwEMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T22:09:22.272Z",
+              "WhenOpened": "2025-05-29T23:06:08.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PantallaSabor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaSabor.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaSabor.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaSabor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaSabor.cs [Dise\u00F1o]",
+              "DocumentIndex": 6,
+              "Title": "PantallaProductoPersonalizado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
+              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:02:01.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Bano.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Bano.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Bano.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Bano.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Bano.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:25:20.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Sabor.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Sabor.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Sabor.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Sabor.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Sabor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:25:28.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BDConection.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\BDConection.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\BDConection.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\BDConection.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\BDConection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:47:03.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Cliente.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Cliente.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T22:09:06.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "PantallaUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaUsuario.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaUsuario.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:02:15.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "PantallaUsuarioNuevo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaUsuarioNuevo.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:02:30.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "PantallaRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRegistro.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaRegistro.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaRegistro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaRegistro.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:01:31.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "PantalladeCarga.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantalladeCarga.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantalladeCarga.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantalladeCarga.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantalladeCarga.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:01:17.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "PantallaCategoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaCategoria.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaCategoria.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaCategoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaCategoria.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:01:03.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "PantallaBa\u00F1o.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaBa\u00F1o.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaBa\u00F1o.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaBa\u00F1o.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaBa\u00F1o.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:00:49.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "PantallaCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaCategoria.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaCategoria.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaCategoria.cs",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaCategoria.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAAAJUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:32:33.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "MetodosCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosCategoria.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\MetodosCategoria.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\MetodosCategoria.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\MetodosCategoria.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAgwGsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:47:51.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "RegistroRepositoryCAT.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
-              "RelativeToolTip": "PasteleriaSoto.BLL\\RegistroRepositoryCAT.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T03:48:08.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Categoria.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\Entities\\Categoria.cs",
-              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T22:09:01.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "PantallaBa\u00F1o.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaBa\u00F1o.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaBa\u00F1o.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\PantallaBa\u00F1o.cs",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaBa\u00F1o.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAAGYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T22:51:39.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "RegistroRepositoryBa\u00F1o.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryBa\u00F1o.cs",
-              "RelativeDocumentMoniker": "PasteleriaSoto.BLL\\RegistroRepositoryBa\u00F1o.cs",
-              "ToolTip": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\RegistroRepositoryBa\u00F1o.cs",
-              "RelativeToolTip": "PasteleriaSoto.BLL\\RegistroRepositoryBa\u00F1o.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T22:33:11.915Z"
+              "WhenOpened": "2025-05-29T23:05:02.584Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

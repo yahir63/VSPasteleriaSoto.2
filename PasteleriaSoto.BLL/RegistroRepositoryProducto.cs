@@ -19,7 +19,7 @@ namespace PasteleriaSoto.BLL
 
         public List<Producto> ObtenerListProductosTemp()
         {
-            return RepositoryPRODUCTO.ObtenerListProductosTemp();
+            return RepositoryPRODUCTO.ObtenerListProductos();
         }
 
         public void ActualizarProducto(Producto producto)

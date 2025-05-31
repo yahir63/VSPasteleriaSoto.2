@@ -70,17 +70,10 @@ namespace Pasteleria_Soto.UI
         private void btnRelleno_Click(object sender, EventArgs e)
         {
 
-
-            PantallaRelleno nuevapantallarelleno = new PantallaRelleno();
-            nuevapantallarelleno.Show();
         }
 
         private void btnSabor_Click(object sender, EventArgs e)
         {
-
-
-            PantallaSabor nuevapantallasabor = new PantallaSabor();
-            nuevapantallasabor.Show();
         }
 
         private void btnCategoria_Click(object sender, EventArgs e)
@@ -107,7 +100,7 @@ namespace Pasteleria_Soto.UI
 
         private void btnBaño_Click(object sender, EventArgs e)
         {
-            PantallaBaño pantallabaño = new PantallaBaño();
+            PantallaOpciones pantallabaño = new PantallaOpciones();
             pantallabaño.Show();
         }
 

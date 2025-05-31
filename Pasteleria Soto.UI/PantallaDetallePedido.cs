@@ -109,7 +109,7 @@ namespace Pasteleria_Soto.UI
                     txtNombreProducto.Text = producto.NOMBREPRODUCTO;
                     txtPrecioProducto.Text = producto.PRECIO.ToString();
                     txtCantidad.Text = producto.CANTIDAD.ToString();
-                    txtLibras.Text = producto.LIBRAS.ToString();
+                    txtVolumenLibras.Text = producto.LIBRAS.ToString();
                 }
                 else
                 {
@@ -127,7 +127,7 @@ namespace Pasteleria_Soto.UI
         private void btnLimpiarProducto_Click(object sender, EventArgs e)
         {
             txtCantidad.Clear();
-            txtLibras.Clear();
+            txtVolumenLibras.Clear();
 
             txtNombreProducto.Clear();
             txtPrecioProducto.Clear();
@@ -190,7 +190,7 @@ namespace Pasteleria_Soto.UI
             // Crear y registrar el detalle del pedido
             DetallePedido detallePedido = new DetallePedido
             {
-                ID_CLIENTE = Convert.ToInt32(txtNombreCliente.Tag),  
+                ID_CLIENTE = Convert.ToInt32(cbClientes.Tag),  
                 ID_PRODUCTO = ID_Producto,
 
                 FECHAPEDIDO = DateTime.Now,
@@ -206,8 +206,7 @@ namespace Pasteleria_Soto.UI
 
             // Limpiar los campos después de agregar el producto
 
-            txtNombreProducto.Clear();
-            txtPrecioProducto.Clear();
+           
             txtCantidad.Clear();
             txtAdelanto.Clear();
             ID_Producto = 0;

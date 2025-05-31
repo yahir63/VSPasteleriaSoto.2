@@ -30,16 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EleccionProducto));
             grbDatosProducto = new GroupBox();
-            label6 = new Label();
-            cbBanoProducto = new ComboBox();
             txtNombreProducto = new TextBox();
             label5 = new Label();
             label4 = new Label();
-            txtLibra = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
-            cbSaborProducto = new ComboBox();
-            cbRellenoProducto = new ComboBox();
+            txtUnidadMedida = new TextBox();
             txtCantidad = new TextBox();
             label11 = new Label();
             label10 = new Label();
@@ -58,6 +52,12 @@
             btnCancelarProducto = new Button();
             btnVerProducto = new Button();
             btnRegresarProducto = new Button();
+            txtDescripcion = new TextBox();
+            label2 = new Label();
+            label3 = new Label();
+            txtProductoBase = new TextBox();
+            label6 = new Label();
+            txtTamano = new TextBox();
             grbDatosProducto.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDatos).BeginInit();
             panel1.SuspendLayout();
@@ -69,16 +69,16 @@
             // grbDatosProducto
             // 
             grbDatosProducto.BackColor = Color.LightCyan;
+            grbDatosProducto.Controls.Add(txtTamano);
             grbDatosProducto.Controls.Add(label6);
-            grbDatosProducto.Controls.Add(cbBanoProducto);
+            grbDatosProducto.Controls.Add(txtProductoBase);
+            grbDatosProducto.Controls.Add(label3);
+            grbDatosProducto.Controls.Add(label2);
+            grbDatosProducto.Controls.Add(txtDescripcion);
             grbDatosProducto.Controls.Add(txtNombreProducto);
             grbDatosProducto.Controls.Add(label5);
             grbDatosProducto.Controls.Add(label4);
-            grbDatosProducto.Controls.Add(txtLibra);
-            grbDatosProducto.Controls.Add(label3);
-            grbDatosProducto.Controls.Add(label2);
-            grbDatosProducto.Controls.Add(cbSaborProducto);
-            grbDatosProducto.Controls.Add(cbRellenoProducto);
+            grbDatosProducto.Controls.Add(txtUnidadMedida);
             grbDatosProducto.Controls.Add(txtCantidad);
             grbDatosProducto.Controls.Add(label11);
             grbDatosProducto.Controls.Add(label10);
@@ -91,24 +91,6 @@
             grbDatosProducto.TabStop = false;
             grbDatosProducto.Text = "Datos del producto";
             grbDatosProducto.Enter += grbDatosProducto_Enter;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(26, 278);
-            label6.Name = "label6";
-            label6.Size = new Size(138, 20);
-            label6.TabIndex = 28;
-            label6.Text = "Elección de Baño";
-            // 
-            // cbBanoProducto
-            // 
-            cbBanoProducto.FormattingEnabled = true;
-            cbBanoProducto.Items.AddRange(new object[] { "Pastel", "Gallleta", "Cupcake", "Bocadillo" });
-            cbBanoProducto.Location = new Point(204, 275);
-            cbBanoProducto.Name = "cbBanoProducto";
-            cbBanoProducto.Size = new Size(212, 28);
-            cbBanoProducto.TabIndex = 27;
             // 
             // txtNombreProducto
             // 
@@ -129,55 +111,18 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(55, 387);
+            label4.Location = new Point(18, 216);
             label4.Name = "label4";
-            label4.Size = new Size(50, 20);
+            label4.Size = new Size(148, 20);
             label4.TabIndex = 24;
-            label4.Text = "Libras";
+            label4.Text = "Unidad de Medida";
             // 
-            // txtLibra
+            // txtUnidadMedida
             // 
-            txtLibra.Location = new Point(204, 384);
-            txtLibra.Name = "txtLibra";
-            txtLibra.Size = new Size(212, 26);
-            txtLibra.TabIndex = 23;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(26, 164);
-            label3.Name = "label3";
-            label3.Size = new Size(142, 20);
-            label3.TabIndex = 22;
-            label3.Text = "Elección de Sabor";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(26, 225);
-            label2.Name = "label2";
-            label2.Size = new Size(154, 20);
-            label2.TabIndex = 21;
-            label2.Text = "Elección de Relleno";
-            // 
-            // cbSaborProducto
-            // 
-            cbSaborProducto.FormattingEnabled = true;
-            cbSaborProducto.Items.AddRange(new object[] { "Pastel", "Gallleta", "Cupcake", "Bocadillo" });
-            cbSaborProducto.Location = new Point(204, 156);
-            cbSaborProducto.Name = "cbSaborProducto";
-            cbSaborProducto.Size = new Size(212, 28);
-            cbSaborProducto.TabIndex = 20;
-            // 
-            // cbRellenoProducto
-            // 
-            cbRellenoProducto.FormattingEnabled = true;
-            cbRellenoProducto.Items.AddRange(new object[] { "Pastel", "Gallleta", "Cupcake", "Bocadillo" });
-            cbRellenoProducto.Location = new Point(204, 217);
-            cbRellenoProducto.Name = "cbRellenoProducto";
-            cbRellenoProducto.Size = new Size(212, 28);
-            cbRellenoProducto.TabIndex = 19;
-            cbRellenoProducto.SelectedIndexChanged += cbRellenoProducto_SelectedIndexChanged;
+            txtUnidadMedida.Location = new Point(204, 210);
+            txtUnidadMedida.Name = "txtUnidadMedida";
+            txtUnidadMedida.Size = new Size(212, 26);
+            txtUnidadMedida.TabIndex = 23;
             // 
             // txtCantidad
             // 
@@ -198,7 +143,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(13, 109);
+            label10.Location = new Point(7, 267);
             label10.Name = "label10";
             label10.Size = new Size(175, 20);
             label10.TabIndex = 14;
@@ -208,7 +153,7 @@
             // 
             cbCategoriaProducto.FormattingEnabled = true;
             cbCategoriaProducto.Items.AddRange(new object[] { "Pastel", "Gallleta", "Cupcake", "Bocadillo" });
-            cbCategoriaProducto.Location = new Point(204, 101);
+            cbCategoriaProducto.Location = new Point(204, 264);
             cbCategoriaProducto.Name = "cbCategoriaProducto";
             cbCategoriaProducto.Size = new Size(212, 28);
             cbCategoriaProducto.TabIndex = 13;
@@ -384,6 +329,54 @@
             btnRegresarProducto.UseVisualStyleBackColor = false;
             btnRegresarProducto.Click += btnRegresarProducto_Click;
             // 
+            // txtDescripcion
+            // 
+            txtDescripcion.Location = new Point(204, 94);
+            txtDescripcion.Name = "txtDescripcion";
+            txtDescripcion.Size = new Size(212, 26);
+            txtDescripcion.TabIndex = 27;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(26, 95);
+            label2.Name = "label2";
+            label2.Size = new Size(96, 20);
+            label2.TabIndex = 28;
+            label2.Text = "Descripción";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(26, 155);
+            label3.Name = "label3";
+            label3.Size = new Size(116, 20);
+            label3.TabIndex = 29;
+            label3.Text = "Producto Base";
+            // 
+            // txtProductoBase
+            // 
+            txtProductoBase.Location = new Point(204, 149);
+            txtProductoBase.Name = "txtProductoBase";
+            txtProductoBase.Size = new Size(212, 26);
+            txtProductoBase.TabIndex = 30;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(46, 399);
+            label6.Name = "label6";
+            label6.Size = new Size(66, 20);
+            label6.TabIndex = 31;
+            label6.Text = "Tamaño";
+            // 
+            // txtTamano
+            // 
+            txtTamano.Location = new Point(204, 393);
+            txtTamano.Name = "txtTamano";
+            txtTamano.Size = new Size(212, 26);
+            txtTamano.TabIndex = 32;
+            // 
             // EleccionProducto
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -440,14 +433,14 @@
         private Button btnVerProducto;
         private Button btnRegresarProducto;
         private Label label4;
-        private TextBox txtLibra;
-        private Label label3;
-        private Label label2;
-        private ComboBox cbSaborProducto;
-        private ComboBox cbRellenoProducto;
+        private TextBox txtUnidadMedida;
         private Label label5;
         private TextBox txtNombreProducto;
+        private TextBox txtTamano;
         private Label label6;
-        private ComboBox cbBanoProducto;
+        private TextBox txtProductoBase;
+        private Label label3;
+        private Label label2;
+        private TextBox txtDescripcion;
     }
 }

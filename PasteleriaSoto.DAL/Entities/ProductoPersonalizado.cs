@@ -8,10 +8,11 @@ namespace PasteleriaSoto.DAL.Entities
 {
     public class ProductoPersonalizado
     {
-        public int ID_PERSONALIZAD0 { get; set; }
+        public int ID_PERSONALIZADO { get; set; }
+        public int ID_CLIENTE { get; set; }
+        public int ID_PRODUCTO { get; set; }
         public string? DESCRIPCION { get; set; }
-        public float PRECIO_VENTA { get; set; }
-        public decimal VOLUMEN { get; set; }
+        public double PRECIO_VENTA { get; set; }
         public int UNIDADEMEDIDA { get; set; }
     }
 }

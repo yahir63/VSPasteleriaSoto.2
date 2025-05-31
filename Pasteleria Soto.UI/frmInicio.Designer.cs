@@ -73,7 +73,7 @@
             btnBaño.Name = "btnBaño";
             btnBaño.Size = new Size(280, 75);
             btnBaño.TabIndex = 5;
-            btnBaño.Text = "Baño";
+            btnBaño.Text = "Opciones";
             btnBaño.UseVisualStyleBackColor = true;
             btnBaño.Click += btnBaño_Click;
             // 

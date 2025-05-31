@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PasteleriaSoto.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31bbccaf3649fe96eb05bac2543096a69253a6bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdca6f11bcbd2edcaeb3e5be13a117a9298c6104")]
 [assembly: System.Reflection.AssemblyProductAttribute("PasteleriaSoto.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PasteleriaSoto.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

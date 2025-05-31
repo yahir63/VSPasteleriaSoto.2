@@ -713,6 +713,25 @@ C:\Users\oaleman\source\repos\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0
 C:\Users\oaleman\source\repos\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.pdb
 C:\Users\oaleman\source\repos\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.genruntimeconfig.cache
 C:\Users\oaleman\source\repos\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\ref\Pasteleria Soto.UI.dll
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.AssemblyReference.cache
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.EleccionProducto.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.frmInicio.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaCategoria.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantalladeCarga.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaDetallePedido.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaOpciones.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaProductoPersonalizado.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaRegistro.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaSabor.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaUsuario.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaUsuarioNuevo.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.Properties.Resources.resources
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.GenerateResource.cache
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.AssemblyInfoInputs.cache
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.AssemblyInfo.cs
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.CoreCompileInputs.cache
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.sourcelink.json
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\bin\Debug\net8.0-windows\Pasteleria Soto.UI.exe
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\bin\Debug\net8.0-windows\Pasteleria Soto.UI.deps.json
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\bin\Debug\net8.0-windows\Pasteleria Soto.UI.runtimeconfig.json
@@ -768,25 +787,6 @@ C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\bin\Deb
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\bin\Debug\net8.0-windows\PasteleriaSoto.DAL.dll
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\bin\Debug\net8.0-windows\PasteleriaSoto.BLL.pdb
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\bin\Debug\net8.0-windows\PasteleriaSoto.DAL.pdb
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.AssemblyReference.cache
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.EleccionProducto.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.frmInicio.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaBaño.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaCategoria.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantalladeCarga.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaDetallePedido.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaRegistro.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaRelleno.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaSabor.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaUsuario.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaUsuarioNuevo.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.Properties.Resources.resources
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.GenerateResource.cache
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.AssemblyInfoInputs.cache
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.AssemblyInfo.cs
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.CoreCompileInputs.cache
-C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.sourcelink.json
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteler.7DDC83CC.Up2Date
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.dll
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\refint\Pasteleria Soto.UI.dll

@@ -27,9 +27,6 @@ namespace PasteleriaSoto.DAL
                         cmd.Parameters.AddWithValue("@ID_CATEGORIA", Producto.ID_CATEGORIA);
                         cmd.Parameters.AddWithValue("@CANTIDAD", Producto.CANTIDAD);
                         cmd.Parameters.AddWithValue("@LIBRAS", Producto.LIBRAS);
-                        cmd.Parameters.AddWithValue("@ID_SABOR", Producto.ID_SABOR);
-                        cmd.Parameters.AddWithValue("@ID_BANO", Producto.ID_BANO);
-                        cmd.Parameters.AddWithValue("@ID_RELLENO", Producto.ID_RELLENO);
                         cmd.Parameters.AddWithValue("@PRECIO", Producto.PRECIO);
 
 
@@ -47,7 +44,7 @@ namespace PasteleriaSoto.DAL
             }
         }
 
-        public List<Producto> ObtenerListProductosTemp()
+        public List<Producto> ObtenerListProductos()
         {
             List<Producto> ListProductosTemp = new List<Producto>();
 
@@ -58,7 +55,7 @@ namespace PasteleriaSoto.DAL
                     connection.Open();
 
                     // Consulta para obtener datos de PRODUCTO junto con la CANTIDAD de DETALLEPEDIDO
-                    SqlCommand cmd = new SqlCommand("SELECT producto.ID_PRODUCTO, producto.NOMBREPRODUCTO, producto.CANTIDAD,producto.PRECIO,CATEGORIA.NOMBRECATEGORIA AS CATEGORIA, producto.LIBRAS,SABOR.NOMBRESABOR AS SABOR, RELLENO.NOMBRERELLENO AS RELLENO,BANO.NOMBREBANO AS BANO FROM PRODUCTO LEFT JOIN CATEGORIA ON Producto.ID_CATEGORIA = CATEGORIA.ID_CATEGORIA LEFT JOIN SABOR ON Producto.ID_SABOR = SABOR.ID_SABOR LEFT JOIN RELLENO ON Producto.ID_RELLENO = RELLENO.ID_RELLENO LEFT JOIN BANO ON Producto.ID_BANO = BANO.ID_BANO", connection);
+                    SqlCommand cmd = new SqlCommand("SELECT [ID_PRODUCTO],[NOMBREPRODUCTO],[PRECIO],[PRODUCTO].[ID_CATEGORIA],[CANTIDAD],[PRODUCTO].[ESTADO],[LIBRAS],[STOCK],[NOMBRECATEGORIA] FROM [PRODUCTO] INNER JOIN CATEGORIA ON PRODUCTO.ID_CATEGORIA = CATEGORIA.ID_CATEGORIA\r\n", connection);
 
 
                     SqlDataReader reader = cmd.ExecuteReader();
@@ -70,17 +67,11 @@ namespace PasteleriaSoto.DAL
                         {
                             ID_PRODUCTO = Convert.ToInt32(reader["ID_PRODUCTO"]),
                             NOMBREPRODUCTO = reader["NOMBREPRODUCTO"].ToString(),
-                            NOMBRECATEGORIA = reader["CATEGORIA"].ToString(),
-                            NOMBRESABOR = reader["SABOR"].ToString(),
-                            NOMBRERELLENO = reader["RELLENO"].ToString(),
-                            NOMBREBANO = reader["BANO"].ToString(),
+                            ID_CATEGORIA = Convert.ToInt32(reader["ID_CATEGORIA"]),
+                            NOMBRECATEGORIA = reader["NOMBRECATEGORIA"].ToString(),
                             LIBRAS = decimal.Parse(reader["LIBRAS"].ToString()),
                             PRECIO = Convert.ToSingle(reader["PRECIO"]),
-
-
-
                             CANTIDAD = Convert.ToInt32(reader["CANTIDAD"])
-
                         };
 
                         ListProductosTemp.Add(producto);
@@ -112,10 +103,8 @@ namespace PasteleriaSoto.DAL
                     cmd.Parameters.AddWithValue("@ID_PRODUCTO", producto.ID_PRODUCTO);
                     cmd.Parameters.AddWithValue("@NOMBREPRODUCTO", producto.NOMBREPRODUCTO);
                     cmd.Parameters.AddWithValue("@ID_CATEGORIA", producto.ID_CATEGORIA);
-                    cmd.Parameters.AddWithValue("@ID_SABOR", producto.ID_SABOR);
                     cmd.Parameters.AddWithValue("@CANTIDAD", producto.CANTIDAD);
-                    cmd.Parameters.AddWithValue("@ID_RELLENO", producto.ID_RELLENO);
-                    cmd.Parameters.AddWithValue("@ID_BANO", producto.ID_BANO);
+
 
                     cmd.Parameters.AddWithValue("@LIBRAS", producto.LIBRAS);
 

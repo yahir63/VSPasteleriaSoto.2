@@ -21,7 +21,7 @@ namespace Pasteleria_Soto.UI
         RegistroRepositoryRelleno registroRepositoryRelleno = new RegistroRepositoryRelleno();
         RepositorioSabor repositorioSabor = new RepositorioSabor();
         RegistroRepositoryCAT registroRepositoryCAT = new RegistroRepositoryCAT();
-        RegistroRepositoryBaño registroRepositoryBano = new RegistroRepositoryBaño();
+  
         MetodoSabor metSabor = new MetodoSabor();
         MetodosRelleno metRelleno = new MetodosRelleno();
         MetodosBano metBano = new MetodosBano();
@@ -54,11 +54,9 @@ namespace Pasteleria_Soto.UI
             producto.ID_PRODUCTO = Convert.ToInt32(dgvDatos.CurrentRow.Cells["ID_PRODUCTO"].Value);
             producto.NOMBREPRODUCTO = txtNombreProducto.Text;
             producto.ID_CATEGORIA = Convert.ToInt32(cbCategoriaProducto.SelectedValue);
-            producto.ID_SABOR = Convert.ToInt32(cbSaborProducto.SelectedValue);
-            producto.ID_RELLENO = Convert.ToInt32(cbRellenoProducto.SelectedValue);
-            producto.ID_BANO = Convert.ToInt32(cbBanoProducto.SelectedValue);
+  
             producto.CANTIDAD = int.Parse(txtCantidad.Text);
-            producto.LIBRAS = int.Parse(txtLibra.Text);
+            producto.LIBRAS = int.Parse(txtUnidadMedida.Text);
 
             RepositoryPRODUCTO.ActualizarProducto(producto);
 
@@ -84,11 +82,9 @@ namespace Pasteleria_Soto.UI
         private void btnEditarProducto_Click(object sender, EventArgs e)
         {
             cbCategoriaProducto.Enabled = true;
-            cbRellenoProducto.Enabled = true;
-            cbSaborProducto.Enabled = true;
-            cbBanoProducto.Enabled = true;
+       
             txtCantidad.Enabled = true;
-            txtLibra.Enabled = true;
+            txtUnidadMedida.Enabled = true;
             txtNombreProducto.Enabled = true;
             btnActualizarProducto.Enabled = true;
             btnActualizarProducto.Visible = true;
@@ -124,27 +120,20 @@ namespace Pasteleria_Soto.UI
 
             producto.NOMBREPRODUCTO = txtNombreProducto.Text;
             producto.NOMBRECATEGORIA = cbCategoriaProducto.Text;
-            producto.NOMBRESABOR = cbSaborProducto.Text;
-            producto.NOMBRERELLENO = cbRellenoProducto.Text;
-            producto.NOMBREBANO = cbBanoProducto.Text;
+          
             producto.CANTIDAD = int.Parse(txtCantidad.Text);
-            producto.LIBRAS = int.Parse(txtLibra.Text);
+            producto.LIBRAS = int.Parse(txtUnidadMedida.Text);
             producto.ID_CATEGORIA = ((Categoria)cbCategoriaProducto.SelectedItem).ID_CATEGORIA;
-            producto.ID_SABOR = ((Sabor)cbSaborProducto.SelectedItem).ID_SABOR;
-            producto.ID_RELLENO = ((Relleno)cbRellenoProducto.SelectedItem).ID_RELLENO;
-            producto.ID_BANO = ((Bano)cbBanoProducto.SelectedItem).ID_BANO;
+
 
 
 
             // Obtener precios desde BD
-            decimal precioSabor = metSabor.ObtenerPrecioSaborPorId(producto.ID_SABOR);
-            decimal precioRelleno = metRelleno.ObtenerPrecioRelleno(producto.ID_RELLENO);
-            decimal precioBano = metBano.ObtenerPrecioBano(producto.ID_BANO);
             decimal precioPorLibra = 450;
 
             // Calcular precio total
-            decimal precioUnitario = (producto.LIBRAS * precioPorLibra) + precioSabor + precioRelleno + precioBano;
-            producto.PRECIO = (float)(precioUnitario * producto.CANTIDAD);
+            //decimal precioUnitario = (producto.LIBRAS * precioPorLibra) + precioSabor + precioRelleno + precioBano;
+            //producto.PRECIO = (float)(precioUnitario * producto.CANTIDAD);
 
             // Agregar a la lista y actualizar DataGridView
             ListProductosTemp.Add(producto);
@@ -164,8 +153,6 @@ namespace Pasteleria_Soto.UI
         private void btnVerPedido_Click(object sender, EventArgs e)
         {
 
-
-
             dgvDatos.DataSource = null;
             ListProductosTemp.Clear();
             ListProductosTemp.AddRange(RepositoryPRODUCTO.ObtenerListProductosTemp());
@@ -183,8 +170,7 @@ namespace Pasteleria_Soto.UI
         private void EleccionProducto_Load(object sender, EventArgs e)
         {
             cbCategoriaProducto.SelectedIndex = -1;
-            cbSaborProducto.SelectedIndex = -1;
-            cbRellenoProducto.SelectedIndex = -1;
+ 
 
             btnEliminarProducto.Visible = false;
             btnCancelarProducto.Visible = false;
@@ -198,22 +184,9 @@ namespace Pasteleria_Soto.UI
             cbCategoriaProducto.DropDownStyle = ComboBoxStyle.DropDownList;
 
 
-            cbSaborProducto.DataSource = repositorioSabor.ObtenerSabores();
-            cbSaborProducto.DisplayMember = "NOMBRESABOR";
-            cbSaborProducto.ValueMember = "ID_SABOR";
-            cbSaborProducto.DropDownStyle = ComboBoxStyle.DropDownList;
+      
 
-
-
-            cbRellenoProducto.DataSource = registroRepositoryRelleno.ObtenerListaRelleno();
-            cbRellenoProducto.DisplayMember = "NOMBRERELLENO";
-            cbRellenoProducto.ValueMember = "ID_RELLENO";
-            cbRellenoProducto.DropDownStyle = ComboBoxStyle.DropDownList;
-
-            cbBanoProducto.DataSource = registroRepositoryBano.ObtenerListaBano();
-            cbBanoProducto.DisplayMember = "NOMBREBANO";
-            cbBanoProducto.ValueMember = "ID_BANO";
-            cbBanoProducto.DropDownStyle = ComboBoxStyle.DropDownList;
+            
         }
 
         private void grbDatosProducto_Enter(object sender, EventArgs e)
@@ -224,11 +197,9 @@ namespace Pasteleria_Soto.UI
         private void btnCancelarProducto_Click(object sender, EventArgs e)
         {
             cbCategoriaProducto.Text = "";
-            cbSaborProducto.Text = "";
-            cbRellenoProducto.Text = "";
-            cbBanoProducto.Text = "";
+         
             txtCantidad.Text = "";
-            txtLibra.Text = "";
+            txtUnidadMedida.Text = "";
             txtNombreProducto.Text = "";
 
 
@@ -258,20 +229,17 @@ namespace Pasteleria_Soto.UI
                 indice = e.RowIndex;
 
                 cbCategoriaProducto.SelectedValue = ListProductosTemp[indice].NOMBRECATEGORIA.ToString();
-                cbRellenoProducto.SelectedValue = ListProductosTemp[indice].NOMBRERELLENO.ToString();
-                cbSaborProducto.SelectedValue = ListProductosTemp[indice].NOMBRESABOR.ToString();
-                cbBanoProducto.SelectedValue = ListProductosTemp[indice].NOMBREBANO.ToString();
+              
                 txtNombreProducto.Text = ListProductosTemp[indice].NOMBREPRODUCTO.ToString();
-                txtLibra.Text = ListProductosTemp[indice].LIBRAS.ToString();
+                txtUnidadMedida.Text = ListProductosTemp[indice].LIBRAS.ToString();
                 txtCantidad.Text = ListProductosTemp[indice].CANTIDAD.ToString();
 
 
                 cbCategoriaProducto.Enabled = false;
-                cbRellenoProducto.Enabled = false;
-                cbSaborProducto.Enabled = false;
-                cbBanoProducto.Enabled = false;
+          
+               
                 txtNombreProducto.Enabled = false;
-                txtLibra.Enabled = false;
+                txtUnidadMedida.Enabled = false;
                 txtCantidad.Enabled = false;
                 btnEditarProducto.Enabled = true;
                 btnEditarProducto.Visible = true;

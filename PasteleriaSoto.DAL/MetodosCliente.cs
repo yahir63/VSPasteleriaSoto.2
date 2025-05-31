@@ -62,7 +62,7 @@ namespace PasteleriaSoto.DAL
                     {
                         var cliente = new Cliente()
                         {
-
+                            ID_CLIENTE = Convert.ToInt32(reader["ID_CLIENTE"]),
                             NOMBRECLIENTE = reader["NOMBRECLIENTE"].ToString(),
                             DIRECCIONCLIENTE = reader["DIRECCIONCLIENTE"].ToString(),
                             TELEFONOCLIENTE = reader["TELEFONOCLIENTE"].ToString(),
