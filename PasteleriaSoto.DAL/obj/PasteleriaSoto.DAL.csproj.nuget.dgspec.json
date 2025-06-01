@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj": {}
+    "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj": {
+    "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj",
+        "projectUniqueName": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj",
         "projectName": "PasteleriaSoto.DAL",
-        "projectPath": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj",
-        "packagesPath": "C:\\Users\\Yahir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\obj\\",
+        "projectPath": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj",
+        "packagesPath": "C:\\Users\\DELL LATITUDE 5400\\.nuget\\packages\\",
+        "outputPath": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yahir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL LATITUDE 5400\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

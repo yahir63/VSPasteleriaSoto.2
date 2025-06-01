@@ -1704,23 +1704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yahir\\.nuget\\packages\\": {},
+    "C:\\Users\\DELL LATITUDE 5400\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj",
+      "projectUniqueName": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj",
       "projectName": "Pasteleria Soto.UI",
-      "projectPath": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj",
-      "packagesPath": "C:\\Users\\Yahir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\Pasteleria Soto.UI\\obj\\",
+      "projectPath": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj",
+      "packagesPath": "C:\\Users\\DELL LATITUDE 5400\\.nuget\\packages\\",
+      "outputPath": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yahir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL LATITUDE 5400\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1735,11 +1735,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj": {
-              "projectPath": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj"
+            "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj": {
+              "projectPath": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj"
             },
-            "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj": {
-              "projectPath": "C:\\Users\\Yahir\\Videos\\ImpulsoPastelero\\PasteleriaSOTO\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj"
+            "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj": {
+              "projectPath": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj"
             }
           }
         }
@@ -1778,7 +1778,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

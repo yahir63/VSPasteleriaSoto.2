@@ -174,3 +174,19 @@ C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Deb
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\refint\PasteleriaSoto.BLL.dll
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.pdb
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.BLL\obj\Debug\net8.0\ref\PasteleriaSoto.BLL.dll
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.deps.json
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.AssemblyReference.cache
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfoInputs.cache
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.AssemblyInfo.cs
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.csproj.CoreCompileInputs.cache
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.sourcelink.json
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\obj\Debug\net8.0\Pasteler.ED2867CA.Up2Date
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.dll
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\obj\Debug\net8.0\refint\PasteleriaSoto.BLL.dll
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\obj\Debug\net8.0\PasteleriaSoto.BLL.pdb
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.BLL\obj\Debug\net8.0\ref\PasteleriaSoto.BLL.dll

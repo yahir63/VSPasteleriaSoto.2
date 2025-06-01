@@ -49,11 +49,20 @@ namespace Pasteleria_Soto.UI
             txtNombre.Clear();
             txtDescripcion.Clear();
             txtPrecioDeVenta.Clear();
+            btnRegistrarBano.Enabled = true;    
         }
 
         private void btnVerBano_Click(object sender, EventArgs e)
         {
-   
+            btnEditarBano.Visible = false;
+            btnActualizarBano.Enabled = false;
+            btnEliminarBano.Enabled = false;
+            btnCancelarBano.Enabled = true;
+
+            dgvOpciones.DataSource = null;
+            ListaOpcionesTemp.Clear();
+            ListaOpcionesTemp.AddRange(_opcionesRepository.ObtenerListaOpciones());
+            dgvOpciones.DataSource = ListaOpcionesTemp;
 
         }
 
@@ -82,67 +91,68 @@ namespace Pasteleria_Soto.UI
 
         private void btnEditarBano_Click(object sender, EventArgs e)
         {
-            //int ID_BANO = Convert.ToInt32(dgvOpciones.CurrentRow.Cells["ID_BANO"].Value);
-
-
-            //string nuevoNombreBano = txtNombre.Text;
-            //string nuevaDescripcionBano = txtDescripcion.Text;
-
-
-            //_registroRepositorio.EditarBano(ID_BANO, nuevoNombreBano, nuevaDescripcionBano);
-            //dgvOpciones.DataSource = null;
-            //ListaBanoTemp.Clear();
-            //ListaBanoTemp.AddRange(_registroRepositorio.ObtenerListaBano());
-            //dgvOpciones.DataSource = ListaBanoTemp;
-
-            //txtNombre.Enabled = true;
-            //txtDescripcion.Enabled = true;
-        }
+            txtNombre.Enabled = true;
+            txtDescripcion.Enabled = true;
+            btnEliminarBano.Visible = true;
+            btnEliminarBano.Enabled = false;
+            btnActualizarBano.Visible = true;
+            btnCancelarBano.Visible = true;
+            btnActualizarBano.Enabled = true;
+            btnCancelarBano.Enabled = true;
+            txtUnidadDeMedida.Enabled = true;
+            txtUnidadDeMedida.Enabled = true;
+            }
 
         private void btnActualizarBano_Click(object sender, EventArgs e)
         {
 
 
-            //if (idBanoSeleccionado > 0)
-            //{
-            //    Bano bano = new Bano();
-            //    bano.ID_BANO = idBanoSeleccionado;
-            //    bano.NOMBREBANO = txtNombre.Text;
-            //    bano.DESCRIPCION = txtDescripcion.Text;
-            //    bano.PRECIO = txtPrecioDeVenta.Text;
+            if (idOpcionSeleccionada > 0)
+            {
+                Opciones opc = new Opciones();
+                opc.ID_OPCIONES = idOpcionSeleccionada;
+                opc.NOMBRE_OPCION = txtNombre.Text;
+                opc.DESCRIPCION = txtDescripcion.Text;
+                opc.PRECIO = Convert.ToDouble(txtPrecioDeVenta.Text);
 
-            //    _registroRepositorio.ActualizarBano(bano);
+                _opcionesRepository.ActualizarOpciones(opc);
 
-            //    dgvOpciones.DataSource = null;
-            //    ListaBanoTemp.Clear();
-            //    ListaBanoTemp.AddRange(_registroRepositorio.ObtenerListaBano());
-            //    dgvOpciones.DataSource = ListaBanoTemp;
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Debes seleccionar un baño antes de actualizar.");
-            //}
+                dgvOpciones.DataSource = null;
+                ListaOpcionesTemp.Clear();                                                    
+                ListaOpcionesTemp.AddRange(_opcionesRepository.ObtenerListaOpciones());
+                dgvOpciones.DataSource = ListaOpcionesTemp;
+            }
+            else
+            {
+                MessageBox.Show("Debes seleccionar un baño antes de actualizar.");
+            }
 
         }
 
         private void btnEliminarBano_Click(object sender, EventArgs e)
         {
-            //var ID_BANO = ListaBanoTemp[indice].ID_BANO;
+            var ID_OPCION = ListaOpcionesTemp[indice].ID_OPCIONES;
 
-            //_registroRepositorio.EliminarBano(ID_BANO);
+            _opcionesRepository.EliminarOpciones(ID_OPCION);
 
 
-            //dgvOpciones.DataSource = null;
-            //ListaBanoTemp.Clear();
-            //ListaBanoTemp.AddRange(_registroRepositorio.ObtenerListaBano());
-            //dgvOpciones.DataSource = ListaBanoTemp;
+            dgvOpciones.DataSource = null;
+            ListaOpcionesTemp.Clear();
+            ListaOpcionesTemp.AddRange(_opcionesRepository.ObtenerListaOpciones());
+            dgvOpciones.DataSource = ListaOpcionesTemp;
         }
 
         private void btnCancelarBano_Click(object sender, EventArgs e)
         {
-            txtNombre.Text = "";
-            txtDescripcion.Text = "";
-            txtPrecioDeVenta.Text = "";
+            txtNombre.Clear();
+            txtDescripcion.Clear();
+            txtPrecioDeVenta.Clear();
+            txtUnidadDeMedida.Clear();
+            btnRegistrarBano.Enabled = false;
+            btnEditarBano.Enabled = false;  
+            btnActualizarBano.Enabled = false;
+            btnEliminarBano.Enabled = false;
+            btnCancelarBano.Enabled = true;
             dgvOpciones.ClearSelection();
         }
 
@@ -154,24 +164,39 @@ namespace Pasteleria_Soto.UI
 
         private void dgvBano_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            //if (e.RowIndex >= 0)
-            //{
-            //    indice = e.RowIndex;
-            //    idBanoSeleccionado = ListaBanoTemp[indice].ID_BANO;
+            if (e.RowIndex >= 0)
+            {
+                indice = e.RowIndex;
+                idOpcionSeleccionada = ListaOpcionesTemp[indice].ID_OPCIONES;
 
-            //    txtNombre.Text = ListaBanoTemp[indice].NOMBREBANO.ToString();
-            //    txtDescripcion.Text = ListaBanoTemp[indice].DESCRIPCION.ToString();
-            //    txtPrecioDeVenta.Text = ListaBanoTemp[indice].PRECIO.ToString();
+                txtNombre.Text = ListaOpcionesTemp[indice].NOMBRE_OPCION.ToString();
+                txtDescripcion.Text = ListaOpcionesTemp[indice].DESCRIPCION.ToString();
+                txtPrecioDeVenta.Text = ListaOpcionesTemp[indice].PRECIO.ToString();
 
-            //    MessageBox.Show("ID seleccionado: " + idBanoSeleccionado);
-            //}
+                MessageBox.Show("ID seleccionado: " + idOpcionSeleccionada);
+
+                btnEditarBano.Enabled = true;
+                btnActualizarBano.Enabled = false;
+                btnEliminarBano.Enabled = true;
+                btnCancelarBano.Enabled = true;
+                btnRegistrarBano.Enabled = false;
+                txtNombre.Enabled = false;
+                txtDescripcion.Enabled = false;
+                txtUnidadDeMedida.Enabled = false;
+                btnEditarBano.Visible = true;
+                
+            }
 
 
         }
 
         private void PantallaOpciones_Load(object sender, EventArgs e)
         {
-
+            btnRegistrarBano.Enabled = false;
+            btnEditarBano.Enabled = false;
+            btnActualizarBano.Enabled = false;
+            btnEliminarBano.Enabled = false;
+            btnCancelarBano.Enabled = true;
         }
     }
 }
