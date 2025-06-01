@@ -53,10 +53,13 @@ namespace Pasteleria_Soto.UI
 
             producto.ID_PRODUCTO = Convert.ToInt32(dgvDatos.CurrentRow.Cells["ID_PRODUCTO"].Value);
             producto.NOMBREPRODUCTO = txtNombreProducto.Text;
+            producto.DESCRIPCION = txtUnidadMedida.Text;
             producto.ID_CATEGORIA = Convert.ToInt32(cbCategoriaProducto.SelectedValue);
-  
+            producto.UNIDADDEMEDIDA = Convert.ToInt32(txtUnidadMedida.Text);
+            producto.PRODUCTOBASE = txtProductoBase.Text;
             producto.CANTIDAD = int.Parse(txtCantidad.Text);
-            producto.LIBRAS = int.Parse(txtUnidadMedida.Text);
+            producto.TAMAÑO = int.Parse(txtTamano.Text);
+
 
             RepositoryPRODUCTO.ActualizarProducto(producto);
 
@@ -119,23 +122,13 @@ namespace Pasteleria_Soto.UI
             Producto producto = new Producto();
 
             producto.NOMBREPRODUCTO = txtNombreProducto.Text;
-            producto.NOMBRECATEGORIA = cbCategoriaProducto.Text;
-          
-            producto.CANTIDAD = int.Parse(txtCantidad.Text);
-            producto.LIBRAS = int.Parse(txtUnidadMedida.Text);
+            producto.DESCRIPCION = txtDescripcion.Text;
+            producto.PRODUCTOBASE = txtCantidad.Text;
+            producto.UNIDADDEMEDIDA = int.Parse(txtUnidadMedida.Text);
             producto.ID_CATEGORIA = ((Categoria)cbCategoriaProducto.SelectedItem).ID_CATEGORIA;
+            producto.UNIDADDEMEDIDA = int.Parse(txtUnidadMedida.Text);
+            producto.TAMAÑO = decimal.Parse(txtTamano.Text);
 
-
-
-
-            // Obtener precios desde BD
-            decimal precioPorLibra = 450;
-
-            // Calcular precio total
-            //decimal precioUnitario = (producto.LIBRAS * precioPorLibra) + precioSabor + precioRelleno + precioBano;
-            //producto.PRECIO = (float)(precioUnitario * producto.CANTIDAD);
-
-            // Agregar a la lista y actualizar DataGridView
             ListProductosTemp.Add(producto);
 
             dgvDatos.DataSource = null;
@@ -158,13 +151,7 @@ namespace Pasteleria_Soto.UI
             ListProductosTemp.AddRange(RepositoryPRODUCTO.ObtenerListProductosTemp());
             dgvDatos.DataSource = ListProductosTemp;
 
-            dgvDatos.Columns["ID_SABOR"].Visible = false;
-            dgvDatos.Columns["ID_RELLENO"].Visible = false;
-            dgvDatos.Columns["ID_CATEGORIA"].Visible = false;
-
-            dgvDatos.Columns["ID_CATEGORIA"].Visible = false;
-            dgvDatos.Columns["ID_RELLENO"].Visible = false;
-            dgvDatos.Columns["ID_BANO"].Visible = false;
+         
         }
 
         private void EleccionProducto_Load(object sender, EventArgs e)
@@ -196,11 +183,13 @@ namespace Pasteleria_Soto.UI
 
         private void btnCancelarProducto_Click(object sender, EventArgs e)
         {
-            cbCategoriaProducto.Text = "";
-         
             txtCantidad.Text = "";
             txtUnidadMedida.Text = "";
             txtNombreProducto.Text = "";
+            txtDescripcion.Text = "";
+            txtProductoBase.Text = "";
+            cbCategoriaProducto.Text = "";
+            txtTamano.Text = "";
 
 
             dgvDatos.ClearSelection();
@@ -229,10 +218,12 @@ namespace Pasteleria_Soto.UI
                 indice = e.RowIndex;
 
                 cbCategoriaProducto.SelectedValue = ListProductosTemp[indice].NOMBRECATEGORIA.ToString();
-              
                 txtNombreProducto.Text = ListProductosTemp[indice].NOMBREPRODUCTO.ToString();
-                txtUnidadMedida.Text = ListProductosTemp[indice].LIBRAS.ToString();
+                txtDescripcion.Text = ListProductosTemp[indice].DESCRIPCION.ToString();
+                txtProductoBase.Text = ListProductosTemp[indice].PRODUCTOBASE.ToString();
+                txtUnidadMedida.Text = ListProductosTemp[indice].UNIDADDEMEDIDA.ToString();
                 txtCantidad.Text = ListProductosTemp[indice].CANTIDAD.ToString();
+                txtTamano.Text = ListProductosTemp[indice].TAMAÑO.ToString();
 
 
                 cbCategoriaProducto.Enabled = false;

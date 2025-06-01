@@ -793,3 +793,25 @@ C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Deb
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.pdb
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.genruntimeconfig.cache
 C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\Pasteleria Soto.UI\obj\Debug\net8.0-windows\ref\Pasteleria Soto.UI.dll
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.AssemblyReference.cache
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.EleccionProducto.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.frmInicio.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaCategoria.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantalladeCarga.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaDetallePedido.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaOpciones.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaProductoPersonalizado.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaRegistro.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaSabor.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaUsuario.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaUsuarioNuevo.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria_Soto.UI.Properties.Resources.resources
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.GenerateResource.cache
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.AssemblyInfoInputs.cache
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.AssemblyInfo.cs
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.CoreCompileInputs.cache
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.sourcelink.json
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.dll
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\refint\Pasteleria Soto.UI.dll
+C:\GIT HUB\VSPasteleriaSoto.2\Pasteleria Soto.UI\obj\Debug\net8.0-windows\Pasteleria Soto.UI.pdb

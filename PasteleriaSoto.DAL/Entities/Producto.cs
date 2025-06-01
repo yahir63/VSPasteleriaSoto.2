@@ -8,16 +8,18 @@ namespace PantallasProyecto.DAL
     {
        public int ID_PRODUCTO { get; set; }
         public string? NOMBREPRODUCTO { get; set; }
-        public float PRECIO { get; set; }
-        public int ID_CATEGORIA { get; set; }
         public string? NOMBRECATEGORIA { get; set; }
+        public float PRECIO { get; set; }
+        public string? PRODUCTOBASE { get; set; }
+        public int UNIDADDEMEDIDA { get; set; }
         public string? DESCRIPCION { get; set; }
 
+        public int ID_CATEGORIA { get; set; }
         public int CANTIDAD { get; set; }
-        public decimal LIBRAS { get; set; }
+        public decimal TAMAÑO { get; set; }
 
 
- 
+
     }
 
 }
