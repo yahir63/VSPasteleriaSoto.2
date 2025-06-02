@@ -10,7 +10,7 @@ namespace PasteleriaSoto.DAL
     public class BDConection
     {
         //Campo donde se define la cadena de conexion a la BD
-        private static string connectionString = "Server=LAPTOP-R6KN2VOR;Database=IMPULSOPASTELERO;Trusted_Connection=true;TrustServerCertificate=true ";
+        private static string connectionString = "Server=DIOSESTODO\\SQLEXPRESS;Database=IMPULSOPASTELERO;Trusted_Connection=true;TrustServerCertificate=true ";
 
         //Metodo para retornar la cadena de conexion en tipo SqlConnection
         public static SqlConnection connect()
