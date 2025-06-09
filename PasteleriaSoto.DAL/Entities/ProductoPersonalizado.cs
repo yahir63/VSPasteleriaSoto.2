@@ -14,5 +14,7 @@ namespace PasteleriaSoto.DAL.Entities
         public string? DESCRIPCION { get; set; }
         public double PRECIO_VENTA { get; set; }
         public int UNIDADEMEDIDA { get; set; }
+        public List<Opciones> Opciones { get; set; } = new List<Opciones>();
+
     }
 }

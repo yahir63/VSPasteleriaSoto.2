@@ -3,16 +3,52 @@
   "WorkspaceRootPath": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleria soto.ui\\pantallaproductopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallaproductopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleriasoto.dal\\metodosproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\metodosproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleria soto.ui\\pantallaproductopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\UNI\\git copia\\VSPasteleriaSoto.2\\pasteleria soto.ui\\pantallaproductopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallaproductopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleria soto.ui\\pantallaopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallaopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleriasoto.dal\\entities\\opciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\opciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleriasoto.bll\\productopersonalizadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB7A8FD-9DE2-A152-B682-2EDDEE308A96}|PasteleriaSoto.BLL\\PasteleriaSoto.BLL.csproj|solutionrelative:pasteleriasoto.bll\\productopersonalizadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleriasoto.dal\\entities\\productopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\productopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleria soto.ui\\pantallaproductopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallaproductopersonalizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleria soto.ui\\pantallaregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallaregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|C:\\UNI\\git copia\\VSPasteleriaSoto.2\\pasteleria soto.ui\\pantallausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C4ABBE3-036F-9ECC-0A36-AE2DD919E17E}|Pasteleria Soto.UI\\Pasteleria Soto.UI.csproj|solutionrelative:pasteleria soto.ui\\pantallausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleriasoto.dal\\entities\\personalizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\entities\\personalizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|c:\\uni\\git copia\\vspasteleriasoto.2\\pasteleriasoto.dal\\metodoscategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8258AA90-0EAD-3371-65C2-5F4C5E8D120F}|PasteleriaSoto.DAL\\PasteleriaSoto.DAL.csproj|solutionrelative:pasteleriasoto.dal\\metodoscategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,32 +70,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PantallaCategoria.cs",
-              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaCategoria.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaCategoria.cs",
-              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaCategoria.cs",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaCategoria.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAQwOMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T19:07:20.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PantallaProductoPersonalizado.cs",
-              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
-              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
-              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
-              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAIwF4AAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T18:06:33.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PantallaProductoPersonalizado.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
@@ -67,8 +77,147 @@
               "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs [Dise\u00F1o]",
               "RelativeToolTip": "Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T18:06:30.126Z",
+              "WhenOpened": "2025-06-02T02:52:47.008Z",
+              "IsPinned": true,
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MetodosProductos.cs",
+              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\MetodosProductos.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\MetodosProductos.cs",
+              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\MetodosProductos.cs",
+              "RelativeToolTip": "PasteleriaSoto.DAL\\MetodosProductos.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwDYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T18:41:40.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PantallaOpciones.cs",
+              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaOpciones.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaOpciones.cs",
+              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaOpciones.cs",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaOpciones.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAswMkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T05:08:38.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Opciones.cs",
+              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\Entities\\Opciones.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Opciones.cs",
+              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\Entities\\Opciones.cs",
+              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Opciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T05:08:19.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PantallaProductoPersonalizado.cs",
+              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
+              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaProductoPersonalizado.cs",
+              "ViewState": "AgIAAIMBAAAAAAAAAAAiwJEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T18:07:53.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductoPersonalizado.cs",
+              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
+              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
+              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\ProductoPersonalizado.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T01:58:01.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductoPersonalizadoRepository.cs",
+              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.BLL\\ProductoPersonalizadoRepository.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.BLL\\ProductoPersonalizadoRepository.cs",
+              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.BLL\\ProductoPersonalizadoRepository.cs",
+              "RelativeToolTip": "PasteleriaSoto.BLL\\ProductoPersonalizadoRepository.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAAAOYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:36:22.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PantallaCategoria.cs",
+              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaCategoria.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAqwO0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T02:53:34.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PantallaRegistro.cs",
+              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaRegistro.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T15:24:06.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PantallaUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaUsuario.cs",
+              "RelativeDocumentMoniker": "Pasteleria Soto.UI\\PantallaUsuario.cs",
+              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\Pasteleria Soto.UI\\PantallaUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Pasteleria Soto.UI\\PantallaUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T15:23:48.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Personalizacion.cs",
+              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\Entities\\Personalizacion.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\Entities\\Personalizacion.cs",
+              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\Entities\\Personalizacion.cs",
+              "RelativeToolTip": "PasteleriaSoto.DAL\\Entities\\Personalizacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T01:58:08.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MetodosCategoria.cs",
+              "DocumentMoniker": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\MetodosCategoria.cs",
+              "RelativeDocumentMoniker": "PasteleriaSoto.DAL\\MetodosCategoria.cs",
+              "ToolTip": "C:\\UNI\\git copia\\VSPasteleriaSoto.2\\PasteleriaSoto.DAL\\MetodosCategoria.cs",
+              "RelativeToolTip": "PasteleriaSoto.DAL\\MetodosCategoria.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T02:54:14.136Z"
             }
           ]
         }
