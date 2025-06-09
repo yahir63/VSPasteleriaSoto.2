@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pasteleria Soto.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f0212899b1e9092ae5d1d9c1ed36c2da55b9b75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc62d02654faddadf48fbef8b3116877e99852af")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pasteleria Soto.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pasteleria Soto.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

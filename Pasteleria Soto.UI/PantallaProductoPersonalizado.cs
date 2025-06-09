@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Clientes.DAL;
 using PantallasProyecto.DAL;
 using PasteleriaSoto.BLL;
 using PasteleriaSoto.DAL.Entities;
@@ -19,11 +20,13 @@ namespace Pasteleria_Soto.UI
         public RegistroRepositoryCliente _clientesRepository = new RegistroRepositoryCliente();
         public RegistroRepositoryPRODUCTO _productosRepository = new RegistroRepositoryPRODUCTO();
         public ProductoPersonalizadoRepository _productoPersonalizadoRepository = new ProductoPersonalizadoRepository();
+        ProductoPersonalizado productoPersonalizado = new ProductoPersonalizado();
 
         List<Opciones> ListaOpciones = new List<Opciones>();
         List<Opciones> ListaOpcionesTemp = new List<Opciones>();
         List<Producto> ListaProductos = new List<Producto>();
         List<ProductoPersonalizado> ListaProductosPersonalizados = new List<ProductoPersonalizado>();
+        List<Cliente> listaCLientes = new List<Cliente>();
 
         private int indice;
         int idOpcionSeleccionada;
@@ -49,43 +52,97 @@ namespace Pasteleria_Soto.UI
 
         private void btnActualizarRelleno_Click(object sender, EventArgs e)
         {
-            if (IdProductoPSeleccionado > 0) // Verifica que el ID está guardado
-            {
-                ProductoPersonalizado PP = new ProductoPersonalizado();
-                PP.ID_PERSONALIZADO = IdProductoPSeleccionado; // Usa el ID guardado
-                PP.DESCRIPCION = txtNombreIdentificador.Text;
-                PP.ID_PRODUCTO = Convert.ToInt32(cbProductoBase.SelectedValue);
-                PP.ID_CLIENTE = Convert.ToInt32(cbCliente.SelectedValue);
-                PP.PRECIO_VENTA = PrecioTotal;
+                    try
+                    {
+                        if (IdProductoPSeleccionado > 0) // Verifica que el ID está guardado
+                        {
+                            ProductoPersonalizado PP = new ProductoPersonalizado();
+                            PP.ID_PERSONALIZADO = IdProductoPSeleccionado; // Usa el ID guardado
+                            PP.DESCRIPCION = txtNombreIdentificador.Text;
 
-                _productoPersonalizadoRepository.ActualizarProductoP(PP);
+                            
+                            if (cbProductoBase.SelectedValue == null || cbCliente.SelectedValue == null)
+                            {
+                                MessageBox.Show("Debe seleccionar un producto y un cliente antes de actualizar.");
+                                return;
+                            }
 
-                // Refrescar DataGridView
-                dgvOpciones.DataSource = null;
-                ListaProductosPersonalizados.Clear();
-                ListaProductosPersonalizados.AddRange(_productoPersonalizadoRepository.ObtenerListaProductosPersonalizados());
-                dgvOpciones.DataSource = ListaProductosPersonalizados;
-            }
-            else
-            {
-                MessageBox.Show("Selecciona un relleno antes de actualizar.");
-            }
+                            PP.ID_PRODUCTO = Convert.ToInt32(cbProductoBase.SelectedValue);
+                            PP.ID_CLIENTE = Convert.ToInt32(cbCliente.SelectedValue);
+                            PP.ID_PRODUCTO = Convert.ToInt32(cbProductoBase.SelectedValue);
 
-        }
+                    // Validar que la lista de opciones no esté vacía
+                    if (ListaOpcionesTemp == null || ListaOpcionesTemp.Count == 0)
+                            {
+                                MessageBox.Show("Debe agregar al menos una opción antes de actualizar.");
+                                return;
+                            }
+
+                            PP.Opciones = new List<Opciones>();
+                            foreach (var opcion in ListaOpcionesTemp)
+                            {
+                                if (opcion == null) continue; // Evita errores si hay elementos nulos
+
+                                Opciones nuevaOpcion = new Opciones
+                                {
+                                    ID_OPCIONES = opcion.ID_OPCIONES,
+                                    CANTIDAD = opcion.CANTIDAD,
+                                    PRECIO = opcion.PRECIO
+                                };
+                                PP.Opciones.Add(nuevaOpcion);
+                            }
+
+                            bool actualizado = _productoPersonalizadoRepository.ActualizarProductoPersonalizado(PP, ListaOpcionesTemp);
+
+                            if (actualizado)
+                            {
+                                MessageBox.Show("Producto personalizado actualizado correctamente.");
+
+                                // Refrescar DataGridView solo si la actualización fue exitosa
+                                dgvOpciones.DataSource = null;
+                                ListaProductosPersonalizados.Clear();
+                                ListaProductosPersonalizados.AddRange(_productoPersonalizadoRepository.ObtenerListaProductosPersonalizados());
+                                dgvOpciones.DataSource = ListaProductosPersonalizados;
+                            }
+                            else
+                            {
+                                MessageBox.Show("Ocurrió un error al actualizar el producto.");
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Selecciona un producto antes de actualizar.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al procesar la actualización: " + ex.Message);
+                    }
+                }
+
+        
 
         private void btnAgregarRelleno_Click(object sender, EventArgs e)
         {
-            //Relleno relleno = new Relleno();
+            
+            productoPersonalizado.DESCRIPCION = txtNombreIdentificador.Text;
+            productoPersonalizado.ID_CLIENTE = Convert.ToInt32(cbCliente.SelectedValue);
+            productoPersonalizado.PRECIO_VENTA = PrecioTotal;
+            productoPersonalizado.ID_PRODUCTO = Convert.ToInt32(cbProductoBase.SelectedValue);
+            
+            ListaProductosPersonalizados.Add(productoPersonalizado);
 
-            //relleno.NOMBRERELLENO = txtNombreIdentificador.Text;
-            //relleno.DESCRIPCION = txtFecha.Text;
-            //relleno.PRECIORELLENO = txtVolumen.Text; 
+            dgvOpciones.DataSource = null;
+            dgvOpciones.DataSource = ListaProductosPersonalizados;
+
+            cbCliente.SelectedValue = -1;
+            txtNombreIdentificador.Clear();
+            txtCantidad.Clear();
+            cbProductoBase.SelectedValue = -1;
 
 
-            //ListaRellenosTemp.Add(relleno);
 
-            //dgvRelleno.DataSource = null;
-            //dgvRelleno.DataSource = ListaRellenosTemp;
+
         }
 
         private void btnVerRelleno_Click(object sender, EventArgs e)
@@ -96,45 +153,97 @@ namespace Pasteleria_Soto.UI
             dgvOpciones.DataSource = ListaProductosPersonalizados;
         }
 
-        private void btnRegistrarRelleno_Click(object sender, EventArgs e)
+
+        
+           private void BtnRegistrar_Click(object sender, EventArgs e)
         {
+            try
+            {
+                
+                bool registrado = _productoPersonalizadoRepository.Registrar(productoPersonalizado, ListaOpcionesTemp);
+
+                if (registrado)
+                {
+                    // ya con los datos capturados por agregar solo llamamos el metodo
+                    _productoPersonalizadoRepository.Registrar(productoPersonalizado, ListaOpcionesTemp);
+
+                    ListaOpcionesTemp.Clear();
+                    dgvOpciones.DataSource = null; 
+
+                    MessageBox.Show("Producto personalizado registrado correctamente.");
+                }
+                else
+                {
+                    MessageBox.Show("Error al registrar el producto.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al registrar: " + ex.Message);
+            }
         }
+        
 
         private void btnEditarRelleno_Click(object sender, EventArgs e)
         {
-            //int ID_RELLENO = Convert.ToInt32(dgvRelleno.CurrentRow.Cells["ID_RELLENO"].Value);
+            btnEditarPer.Visible = true;
+            btnEditarPer.Enabled = false;
+            btnEliminarPer.Visible = true;
+            btnEliminarPer.Enabled = false;
+            btnCancelarPer.Visible = true;
+            btnCancelarPer.Enabled = true;
 
 
-            //string nuevoNombre = txtNombreIdentificador.Text;
-            //string nuevaDescripcion = txtFecha.Text;
-            //string precioRelleno = txtVolumen.Text;
+            txtNombreIdentificador.Enabled = true;
+            txtCantidad.Enabled = true;
+            cbCliente.Enabled = true;
+            cbProductoBase.Enabled = true;
+            cbOpciones.Enabled = true;
+          
+       
+            btnActualizarPer.Visible = true;
+            btnActualizarPer.Enabled = true;
 
 
 
-            //_registroRepositorioRelleno.EditarRelleno(ID_RELLENO, nuevoNombre, nuevaDescripcion, precioRelleno);
-            //dgvRelleno.DataSource = null;
-            //ListaRellenosTemp.Clear();
-            //ListaRellenosTemp.AddRange(_registroRepositorioRelleno.ObtenerListaRelleno());
-            //dgvRelleno.DataSource = ListaRellenosTemp;
 
-            //txtNombreIdentificador.Enabled = true;
-            //txtFecha.Enabled = true;
-            //txtVolumen.Enabled = true;
 
 
         }
 
         private void btnEliminarRelleno_Click(object sender, EventArgs e)
         {
-            //var ID_RELLENO = ListaRellenosTemp[indice].ID_RELLENO;
+            
+        
+            try
+            {
+                if (indice > 0 )
+                {
+                    MessageBox.Show("No se encontró el producto para eliminar.");
+                    return;
+                }
 
-            //_registroRepositorioRelleno.EliminarRelleno(ID_RELLENO);
+                var ID_PERSONALIZADO = ListaProductosPersonalizados[indice].ID_PERSONALIZADO;
 
+                bool eliminado = _productoPersonalizadoRepository.EliminarProductoPersonalizado(ID_PERSONALIZADO);
 
-            //dgvRelleno.DataSource = null;
-            //ListaRellenosTemp.Clear();
-            //ListaRellenosTemp.AddRange(_registroRepositorioRelleno.ObtenerListaRelleno());
-            //dgvRelleno.DataSource = ListaRellenosTemp;
+                if (eliminado)
+                {
+                    MessageBox.Show("Producto eliminado correctamente.");
+
+                    ListaProductosPersonalizados.RemoveAt(indice);
+                    dgvOpciones.DataSource = null;
+                    dgvOpciones.DataSource = ListaProductosPersonalizados;
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo eliminar el producto.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al eliminar el producto: " + ex.Message);
+            }
         }
 
         private void PantallaProductoPersonalizado_Load(object sender, EventArgs e)
@@ -144,13 +253,13 @@ namespace Pasteleria_Soto.UI
 
 
             //Cargar los Combo Box
-            var listaCLientes = _clientesRepository.ObtenerListaCliente();
+             listaCLientes = _clientesRepository.ObtenerListaCliente();
             cbCliente.DataSource = listaCLientes;
             cbCliente.ValueMember = "ID_CLIENTE";
             cbCliente.DisplayMember = "NOMBRECLIENTE";
 
-            var listaProductos = _productosRepository.ObtenerListProductosTemp();
-            cbProductoBase.DataSource = listaProductos;
+            ListaProductos = _productosRepository.ObtenerListProductosTemp();
+            cbProductoBase.DataSource = ListaProductos;
             cbProductoBase.ValueMember = "ID_PRODUCTO";
             cbProductoBase.DisplayMember = "NOMBREPRODUCTO";
 
@@ -195,26 +304,7 @@ namespace Pasteleria_Soto.UI
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            bool validacion = true;
-            ProductoPersonalizado productoPersonalizado = new ProductoPersonalizado();
-
-            productoPersonalizado.DESCRIPCION = txtNombreIdentificador.Text;
-            productoPersonalizado.ID_CLIENTE = Convert.ToInt32(cbCliente.SelectedValue);
-            productoPersonalizado.PRECIO_VENTA = PrecioTotal;
-            productoPersonalizado.ID_PRODUCTO = Convert.ToInt32(cbProductoBase.SelectedValue);
-
-
-            validacion = _productoPersonalizadoRepository.Registrar(productoPersonalizado, ListaOpcionesTemp);
-
-            if (validacion == true)
-            {
-                MessageBox.Show("Registro exitoso");
-            }
-            else
-            {
-                MessageBox.Show("No se guardó el registro");
-            }
-
+            
         }
 
         private void txtNombreIdentificador_TextChanged(object sender, EventArgs e)
@@ -227,15 +317,15 @@ namespace Pasteleria_Soto.UI
             
             if (e.RowIndex >= 0)
             {
-                var listaCLientes = _clientesRepository.ObtenerListaCliente();
+                listaCLientes = _clientesRepository.ObtenerListaCliente();
 
                 indice = e.RowIndex;
                 IdProductoPSeleccionado = ListaProductos[indice].ID_CATEGORIA;
 
                 txtNombreIdentificador.Text = ListaProductosPersonalizados[indice].DESCRIPCION.ToString();
                 txtCantidad.Text = ListaOpcionesTemp[indice].CANTIDAD.ToString();
-                cbCliente.SelectedItem = listaClientes.FirstOrDefault(cliente => cliente.Id == ListaProductosPersonalizados[indice]?.ClienteId);
-
+                cbCliente.SelectedItem = listaCLientes.FirstOrDefault(cliente => cliente.ID_CLIENTE == ListaProductosPersonalizados[indice]?.ID_CLIENTE);
+                cbOpciones.SelectedItem = ListaOpciones.FirstOrDefault(opcion => opcion.ID_OPCIONES == ListaOpcionesTemp[indice]?.ID_OPCIONES);
 
                 btnEditarPer.Visible = true;
                 btnEditarPer.Enabled = true;
@@ -243,9 +333,18 @@ namespace Pasteleria_Soto.UI
                 btnEliminarPer.Enabled = true;
 
 
-                txtCat.Enabled = false;
-                txtNombreCat.Enabled = false;
-                txtDescripcion.Enabled = false;
+                txtNombreIdentificador.Enabled = false;
+                txtCantidad.Enabled = false;
+                cbCliente.Enabled = false;
+                cbProductoBase.Enabled = false;
+                cbOpciones.Enabled = false;
+                btnEditarPer.Visible = true;
+                btnEditarPer.Enabled = true;
+                btnEliminarPer.Visible = true;
+                btnEliminarPer.Enabled = true;
+                btnActualizarPer.Visible = true;
+                btnActualizarPer.Enabled = false;
+                
 
 
             }
