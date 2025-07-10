@@ -25,13 +25,13 @@ namespace Pasteleria_Soto.UI
         private void btnAgregarUsuario_Click(object sender, EventArgs e)
         {
             Usuario usuario = new Usuario();
-            usuario.NOMBREUSUARIO=txtNombreUsuario. Text;
-            usuario.CLAVE = txtClaveUsuario.Text;       
+            usuario.NOMBREUSUARIO = txtNombreUsuario.Text;
+            usuario.CLAVE = txtClaveUsuario.Text;
 
-           
+
             ListaUsuarioNuevoTemp.Add(usuario);
             _registroRepositorioUsuario.RegistrarUsuario(ListaUsuarioNuevoTemp);
-           
+
             ListaUsuarioNuevoTemp.Clear();
 
             this.Hide();
@@ -42,6 +42,11 @@ namespace Pasteleria_Soto.UI
         private void PantallaUsuarioNuevo_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCerrarCliente_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

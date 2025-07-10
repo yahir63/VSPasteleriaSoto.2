@@ -233,6 +233,7 @@ namespace Pasteleria_Soto.UI
         {
             frmInicio nuevapantallainicio = new frmInicio();
             nuevapantallainicio.Show();
+            this.Hide();
         }
     }
 }

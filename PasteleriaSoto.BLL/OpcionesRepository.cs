@@ -74,9 +74,75 @@ namespace PasteleriaSoto.BLL
             return ListaOpciones;
 
         }
+
+        public void ActualizarOpciones(Opciones opciones)
+
+        {
+
+            try
+            {
+                //Vamos a usar la conexion a la BD para el registro de nuevos pedidos
+                using (SqlConnection connection = BDConection.connect())
+                {
+                    connection.Open();
+
+
+                    SqlCommand cmd = new SqlCommand("UPDATE OPCIONES SET NOMBRE = @NOMBRE, PRECIO = @PRECIO, DESCRIPCION = @DESCRIPCION,UNIDADMEDIDA = @UNIDADMEDIDA WHERE ID_OPCIONES = @ID_OPCIONES", connection);
+                    cmd.Parameters.AddWithValue("@ID_OPCIONES", opciones.ID_OPCIONES);
+                    cmd.Parameters.AddWithValue("@NOMBRE", opciones.NOMBRE_OPCION);
+                    cmd.Parameters.AddWithValue("@DESCRIPCION", opciones.DESCRIPCION);
+                    cmd.Parameters.AddWithValue("@PRECIO", opciones.PRECIO);
+                    cmd.Parameters.AddWithValue("@UNIDADMEDIDA", opciones.UNIDADMEDIDA);
+
+
+                    cmd.ExecuteNonQuery();
+
+                    connection.Close();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+        }
+
+
+        public void EliminarOpciones(int ID_OPCIONES)
+
+        {
+            try
+            {
+                //Vamos a usar la conexion a la BD para el registro de nuevos pedidos
+                using (SqlConnection connection = BDConection.connect())
+                {
+                    connection.Open();
+
+                    SqlCommand cmd = new SqlCommand("delete from OPCIONES where ID_OPCIONES = @ID", connection);
+
+
+                    cmd.Parameters.AddWithValue("@ID", ID_OPCIONES);
+
+                    cmd.ExecuteNonQuery();
+
+                    connection.Close();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+        }
+    }
 }
 
-}
+
+
 
 
 

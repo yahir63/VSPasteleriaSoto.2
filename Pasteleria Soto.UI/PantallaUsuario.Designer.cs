@@ -49,9 +49,10 @@
             btnSiguiente.BackColor = Color.LightSeaGreen;
             btnSiguiente.FlatAppearance.BorderColor = Color.LightSeaGreen;
             btnSiguiente.FlatAppearance.BorderSize = 0;
+            btnSiguiente.FlatStyle = FlatStyle.Popup;
             btnSiguiente.Font = new Font("Century Gothic", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSiguiente.ForeColor = Color.Black;
-            btnSiguiente.Location = new Point(583, 597);
+            btnSiguiente.Location = new Point(555, 642);
             btnSiguiente.Name = "btnSiguiente";
             btnSiguiente.Size = new Size(170, 60);
             btnSiguiente.TabIndex = 4;
@@ -62,7 +63,7 @@
             // txtContrasena
             // 
             txtContrasena.BackColor = Color.White;
-            txtContrasena.Location = new Point(430, 487);
+            txtContrasena.Location = new Point(402, 532);
             txtContrasena.Name = "txtContrasena";
             txtContrasena.Size = new Size(501, 27);
             txtContrasena.TabIndex = 3;
@@ -72,7 +73,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(430, 443);
+            label2.Location = new Point(402, 488);
             label2.Name = "label2";
             label2.Size = new Size(119, 22);
             label2.TabIndex = 2;
@@ -82,7 +83,7 @@
             // txtUsuario
             // 
             txtUsuario.BackColor = Color.White;
-            txtUsuario.Location = new Point(430, 344);
+            txtUsuario.Location = new Point(402, 389);
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(501, 27);
             txtUsuario.TabIndex = 1;
@@ -92,7 +93,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Century Gothic", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(430, 303);
+            label1.Location = new Point(402, 348);
             label1.Name = "label1";
             label1.Size = new Size(75, 22);
             label1.TabIndex = 0;
@@ -108,13 +109,13 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1270, 44);
+            panel1.Size = new Size(1252, 57);
             panel1.TabIndex = 1;
             // 
             // btnCerrar
             // 
             btnCerrar.Image = (Image)resources.GetObject("btnCerrar.Image");
-            btnCerrar.Location = new Point(1215, 5);
+            btnCerrar.Location = new Point(1199, 13);
             btnCerrar.Margin = new Padding(3, 4, 3, 4);
             btnCerrar.Name = "btnCerrar";
             btnCerrar.Size = new Size(25, 29);
@@ -126,7 +127,7 @@
             // btnMinimizar
             // 
             btnMinimizar.Image = (Image)resources.GetObject("btnMinimizar.Image");
-            btnMinimizar.Location = new Point(1160, 5);
+            btnMinimizar.Location = new Point(1141, 13);
             btnMinimizar.Margin = new Padding(3, 4, 3, 4);
             btnMinimizar.Name = "btnMinimizar";
             btnMinimizar.Size = new Size(32, 29);
@@ -138,7 +139,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(329, 67);
+            pictureBox1.Location = new Point(323, 100);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(666, 190);
@@ -151,7 +152,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightCyan;
-            ClientSize = new Size(1270, 729);
+            ClientSize = new Size(1252, 819);
             Controls.Add(btnSiguiente);
             Controls.Add(txtContrasena);
             Controls.Add(pictureBox1);
@@ -162,7 +163,6 @@
             ForeColor = Color.Black;
             FormBorderStyle = FormBorderStyle.None;
             Name = "PantallaUsuario";
-            Opacity = 0.88D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Pantalla de Usuario";
             Load += PantallaUsuario_Load;

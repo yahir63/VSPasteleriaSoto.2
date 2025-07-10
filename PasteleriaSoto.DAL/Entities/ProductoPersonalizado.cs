@@ -13,6 +13,6 @@ namespace PasteleriaSoto.DAL.Entities
         public int ID_PRODUCTO { get; set; }
         public string? DESCRIPCION { get; set; }
         public double PRECIO_VENTA { get; set; }
-        public int UNIDADEMEDIDA { get; set; }
+   
     }
 }

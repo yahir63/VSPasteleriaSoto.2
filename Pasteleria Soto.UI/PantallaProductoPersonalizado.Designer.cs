@@ -35,6 +35,8 @@
             label4 = new Label();
             pictureBox2 = new PictureBox();
             groupBox1 = new GroupBox();
+            label3 = new Label();
+            txtPrecio = new TextBox();
             lblPrecioVta = new Label();
             label7 = new Label();
             cbProductoBase = new ComboBox();
@@ -78,13 +80,13 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1270, 69);
+            panel1.Size = new Size(1252, 69);
             panel1.TabIndex = 0;
             // 
             // btnCerrarCliente
             // 
             btnCerrarCliente.Image = (Image)resources.GetObject("btnCerrarCliente.Image");
-            btnCerrarCliente.Location = new Point(1221, 16);
+            btnCerrarCliente.Location = new Point(1200, 22);
             btnCerrarCliente.Margin = new Padding(3, 4, 3, 4);
             btnCerrarCliente.Name = "btnCerrarCliente";
             btnCerrarCliente.Size = new Size(25, 29);
@@ -96,7 +98,7 @@
             // btnMnzcliente
             // 
             btnMnzcliente.Image = (Image)resources.GetObject("btnMnzcliente.Image");
-            btnMnzcliente.Location = new Point(1160, 16);
+            btnMnzcliente.Location = new Point(1157, 22);
             btnMnzcliente.Margin = new Padding(3, 4, 3, 4);
             btnMnzcliente.Name = "btnMnzcliente";
             btnMnzcliente.Size = new Size(32, 29);
@@ -129,6 +131,8 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(txtPrecio);
             groupBox1.Controls.Add(lblPrecioVta);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(cbProductoBase);
@@ -137,26 +141,42 @@
             groupBox1.Controls.Add(label5);
             groupBox1.Controls.Add(txtNombreIdentificador);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(71, 102);
+            groupBox1.Location = new Point(71, 115);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(441, 365);
+            groupBox1.Size = new Size(441, 443);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Selección de Personalizado";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(35, 338);
+            label3.Name = "label3";
+            label3.Size = new Size(174, 20);
+            label3.TabIndex = 18;
+            label3.Text = "Precio del Producto Base";
+            // 
+            // txtPrecio
+            // 
+            txtPrecio.Location = new Point(35, 361);
+            txtPrecio.Name = "txtPrecio";
+            txtPrecio.ReadOnly = true;
+            txtPrecio.Size = new Size(88, 27);
+            txtPrecio.TabIndex = 17;
+            // 
             // lblPrecioVta
             // 
             lblPrecioVta.AutoSize = true;
-            lblPrecioVta.Location = new Point(327, 253);
+            lblPrecioVta.Location = new Point(335, 299);
             lblPrecioVta.Name = "lblPrecioVta";
-            lblPrecioVta.Size = new Size(50, 20);
+            lblPrecioVta.Size = new Size(0, 20);
             lblPrecioVta.TabIndex = 16;
-            lblPrecioVta.Text = "label8";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(327, 221);
+            label7.Location = new Point(335, 267);
             label7.Name = "label7";
             label7.Size = new Size(85, 20);
             label7.TabIndex = 15;
@@ -165,15 +185,16 @@
             // cbProductoBase
             // 
             cbProductoBase.FormattingEnabled = true;
-            cbProductoBase.Location = new Point(27, 245);
+            cbProductoBase.Location = new Point(35, 291);
             cbProductoBase.Name = "cbProductoBase";
             cbProductoBase.Size = new Size(218, 28);
             cbProductoBase.TabIndex = 14;
+            cbProductoBase.SelectedIndexChanged += cbProductoBase_SelectedIndexChanged;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(21, 211);
+            label2.Location = new Point(29, 257);
             label2.Name = "label2";
             label2.Size = new Size(104, 20);
             label2.TabIndex = 13;
@@ -182,15 +203,15 @@
             // cbCliente
             // 
             cbCliente.FormattingEnabled = true;
-            cbCliente.Location = new Point(21, 73);
+            cbCliente.Location = new Point(29, 119);
             cbCliente.Name = "cbCliente";
-            cbCliente.Size = new Size(224, 28);
+            cbCliente.Size = new Size(223, 28);
             cbCliente.TabIndex = 10;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(15, 39);
+            label5.Location = new Point(23, 85);
             label5.Name = "label5";
             label5.Size = new Size(55, 20);
             label5.TabIndex = 9;
@@ -198,25 +219,26 @@
             // 
             // txtNombreIdentificador
             // 
-            txtNombreIdentificador.Location = new Point(21, 164);
+            txtNombreIdentificador.Location = new Point(29, 210);
             txtNombreIdentificador.Name = "txtNombreIdentificador";
             txtNombreIdentificador.Size = new Size(285, 27);
             txtNombreIdentificador.TabIndex = 6;
+            txtNombreIdentificador.TextChanged += txtNombreIdentificador_TextChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(21, 130);
+            label1.Location = new Point(29, 177);
             label1.Name = "label1";
-            label1.Size = new Size(64, 20);
+            label1.Size = new Size(128, 20);
             label1.TabIndex = 2;
-            label1.Text = "Nombre";
+            label1.Text = "Nombre Producto";
             // 
             // btnAgregarRelleno
             // 
             btnAgregarRelleno.FlatStyle = FlatStyle.System;
-            btnAgregarRelleno.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAgregarRelleno.Location = new Point(418, 475);
+            btnAgregarRelleno.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnAgregarRelleno.Location = new Point(178, 596);
             btnAgregarRelleno.Name = "btnAgregarRelleno";
             btnAgregarRelleno.Size = new Size(94, 29);
             btnAgregarRelleno.TabIndex = 4;
@@ -228,19 +250,19 @@
             // 
             btnPersonalizado.BackColor = Color.DarkTurquoise;
             btnPersonalizado.FlatStyle = FlatStyle.System;
-            btnPersonalizado.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnPersonalizado.Location = new Point(587, 537);
+            btnPersonalizado.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnPersonalizado.Location = new Point(524, 596);
             btnPersonalizado.Name = "btnPersonalizado";
-            btnPersonalizado.Size = new Size(133, 29);
+            btnPersonalizado.Size = new Size(162, 29);
             btnPersonalizado.TabIndex = 37;
-            btnPersonalizado.Text = "Ver Personal";
+            btnPersonalizado.Text = "Ver Personalizado";
             btnPersonalizado.UseVisualStyleBackColor = false;
             btnPersonalizado.Click += btnVerRelleno_Click;
             // 
             // btnEditarPer
             // 
-            btnEditarPer.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEditarPer.Location = new Point(1098, 583);
+            btnEditarPer.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnEditarPer.Location = new Point(1100, 638);
             btnEditarPer.Name = "btnEditarPer";
             btnEditarPer.Size = new Size(94, 29);
             btnEditarPer.TabIndex = 39;
@@ -250,8 +272,8 @@
             // 
             // btnActualizarPer
             // 
-            btnActualizarPer.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnActualizarPer.Location = new Point(1096, 618);
+            btnActualizarPer.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnActualizarPer.Location = new Point(1098, 674);
             btnActualizarPer.Name = "btnActualizarPer";
             btnActualizarPer.Size = new Size(96, 29);
             btnActualizarPer.TabIndex = 40;
@@ -261,8 +283,8 @@
             // 
             // btnEliminarPer
             // 
-            btnEliminarPer.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEliminarPer.Location = new Point(1098, 653);
+            btnEliminarPer.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnEliminarPer.Location = new Point(1100, 708);
             btnEliminarPer.Name = "btnEliminarPer";
             btnEliminarPer.Size = new Size(94, 29);
             btnEliminarPer.TabIndex = 41;
@@ -272,8 +294,8 @@
             // 
             // btnCancelarPer
             // 
-            btnCancelarPer.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCancelarPer.Location = new Point(1098, 688);
+            btnCancelarPer.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnCancelarPer.Location = new Point(1100, 743);
             btnCancelarPer.Name = "btnCancelarPer";
             btnCancelarPer.Size = new Size(94, 29);
             btnCancelarPer.TabIndex = 42;
@@ -284,13 +306,14 @@
             // 
             btnRegresarRelleno.BackColor = Color.PowderBlue;
             btnRegresarRelleno.FlatStyle = FlatStyle.System;
-            btnRegresarRelleno.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegresarRelleno.Location = new Point(33, 653);
+            btnRegresarRelleno.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnRegresarRelleno.Location = new Point(20, 751);
             btnRegresarRelleno.Name = "btnRegresarRelleno";
             btnRegresarRelleno.Size = new Size(94, 29);
             btnRegresarRelleno.TabIndex = 43;
-            btnRegresarRelleno.Text = "Regresar";
+            btnRegresarRelleno.Text = "Menú";
             btnRegresarRelleno.UseVisualStyleBackColor = false;
+            btnRegresarRelleno.Click += btnRegresarRelleno_Click;
             // 
             // groupBox2
             // 
@@ -300,9 +323,9 @@
             groupBox2.Controls.Add(label6);
             groupBox2.Controls.Add(cbOpciones);
             groupBox2.Controls.Add(dgvOpciones);
-            groupBox2.Location = new Point(532, 115);
+            groupBox2.Location = new Point(533, 115);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(660, 389);
+            groupBox2.Size = new Size(661, 443);
             groupBox2.TabIndex = 44;
             groupBox2.TabStop = false;
             groupBox2.Text = "Personalización";
@@ -310,7 +333,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(324, 46);
+            label8.Location = new Point(325, 45);
             label8.Name = "label8";
             label8.Size = new Size(69, 20);
             label8.TabIndex = 50;
@@ -318,7 +341,7 @@
             // 
             // txtCantidad
             // 
-            txtCantidad.Location = new Point(324, 81);
+            txtCantidad.Location = new Point(325, 81);
             txtCantidad.Name = "txtCantidad";
             txtCantidad.Size = new Size(125, 27);
             txtCantidad.TabIndex = 49;
@@ -326,7 +349,7 @@
             // btnAgregarOpcion
             // 
             btnAgregarOpcion.FlatStyle = FlatStyle.System;
-            btnAgregarOpcion.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAgregarOpcion.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAgregarOpcion.Location = new Point(482, 81);
             btnAgregarOpcion.Name = "btnAgregarOpcion";
             btnAgregarOpcion.Size = new Size(147, 29);
@@ -338,7 +361,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(24, 46);
+            label6.Location = new Point(24, 45);
             label6.Name = "label6";
             label6.Size = new Size(71, 20);
             label6.TabIndex = 47;
@@ -359,17 +382,20 @@
             dgvOpciones.Location = new Point(24, 136);
             dgvOpciones.Name = "dgvOpciones";
             dgvOpciones.RowHeadersWidth = 51;
-            dgvOpciones.Size = new Size(605, 225);
+            dgvOpciones.Size = new Size(605, 277);
             dgvOpciones.TabIndex = 45;
             // 
             // btnRegistrar
             // 
-            btnRegistrar.Location = new Point(1098, 510);
+            btnRegistrar.BackColor = Color.LightSeaGreen;
+            btnRegistrar.FlatStyle = FlatStyle.Popup;
+            btnRegistrar.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRegistrar.Location = new Point(1098, 596);
             btnRegistrar.Name = "btnRegistrar";
             btnRegistrar.Size = new Size(94, 29);
             btnRegistrar.TabIndex = 45;
             btnRegistrar.Text = "Registrar";
-            btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.UseVisualStyleBackColor = false;
             btnRegistrar.Click += btnRegistrar_Click;
             // 
             // PantallaProductoPersonalizado
@@ -377,7 +403,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightCyan;
-            ClientSize = new Size(1270, 729);
+            ClientSize = new Size(1252, 819);
             Controls.Add(btnRegistrar);
             Controls.Add(groupBox2);
             Controls.Add(btnRegresarRelleno);
@@ -391,7 +417,6 @@
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "PantallaProductoPersonalizado";
-            Opacity = 0.88D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PantallaRelleno";
             Load += PantallaProductoPersonalizado_Load;
@@ -440,5 +465,7 @@
         private Button btnRegistrar;
         private Label label8;
         private TextBox txtCantidad;
+        private TextBox txtPrecio;
+        private Label label3;
     }
 }

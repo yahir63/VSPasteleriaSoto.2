@@ -68,13 +68,13 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1192, 76);
+            panel1.Size = new Size(1252, 76);
             panel1.TabIndex = 0;
             // 
             // btnCerrarCliente
             // 
             btnCerrarCliente.Image = (Image)resources.GetObject("btnCerrarCliente.Image");
-            btnCerrarCliente.Location = new Point(1141, 22);
+            btnCerrarCliente.Location = new Point(1201, 24);
             btnCerrarCliente.Margin = new Padding(3, 4, 3, 4);
             btnCerrarCliente.Name = "btnCerrarCliente";
             btnCerrarCliente.Size = new Size(25, 29);
@@ -85,7 +85,7 @@
             // btnMnzcliente
             // 
             btnMnzcliente.Image = (Image)resources.GetObject("btnMnzcliente.Image");
-            btnMnzcliente.Location = new Point(1091, 22);
+            btnMnzcliente.Location = new Point(1151, 24);
             btnMnzcliente.Margin = new Padding(3, 4, 3, 4);
             btnMnzcliente.Name = "btnMnzcliente";
             btnMnzcliente.Size = new Size(32, 29);
@@ -116,22 +116,22 @@
             grpBano.Controls.Add(txtNombre);
             grpBano.Location = new Point(25, 116);
             grpBano.Name = "grpBano";
-            grpBano.Size = new Size(554, 370);
+            grpBano.Size = new Size(565, 414);
             grpBano.TabIndex = 1;
             grpBano.TabStop = false;
             grpBano.Text = "Selección de Opciones";
             // 
             // txtUnidadDeMedida
             // 
-            txtUnidadDeMedida.Location = new Point(56, 216);
+            txtUnidadDeMedida.Location = new Point(55, 275);
             txtUnidadDeMedida.Name = "txtUnidadDeMedida";
-            txtUnidadDeMedida.Size = new Size(328, 27);
+            txtUnidadDeMedida.Size = new Size(431, 27);
             txtUnidadDeMedida.TabIndex = 8;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(59, 177);
+            label4.Location = new Point(58, 236);
             label4.Name = "label4";
             label4.Size = new Size(133, 20);
             label4.TabIndex = 7;
@@ -140,7 +140,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(58, 246);
+            label3.Location = new Point(57, 305);
             label3.Name = "label3";
             label3.Size = new Size(50, 20);
             label3.TabIndex = 5;
@@ -149,7 +149,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(56, 107);
+            label2.Location = new Point(55, 166);
             label2.Name = "label2";
             label2.Size = new Size(87, 20);
             label2.TabIndex = 4;
@@ -159,7 +159,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(57, 28);
+            label1.Location = new Point(56, 87);
             label1.Name = "label1";
             label1.Size = new Size(116, 20);
             label1.TabIndex = 3;
@@ -167,23 +167,23 @@
             // 
             // txtPrecioDeVenta
             // 
-            txtPrecioDeVenta.Location = new Point(59, 273);
+            txtPrecioDeVenta.Location = new Point(58, 332);
             txtPrecioDeVenta.Name = "txtPrecioDeVenta";
-            txtPrecioDeVenta.Size = new Size(328, 27);
+            txtPrecioDeVenta.Size = new Size(431, 27);
             txtPrecioDeVenta.TabIndex = 2;
             // 
             // txtDescripcion
             // 
-            txtDescripcion.Location = new Point(57, 135);
+            txtDescripcion.Location = new Point(56, 194);
             txtDescripcion.Name = "txtDescripcion";
-            txtDescripcion.Size = new Size(328, 27);
+            txtDescripcion.Size = new Size(431, 27);
             txtDescripcion.TabIndex = 1;
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(56, 62);
+            txtNombre.Location = new Point(55, 121);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(328, 27);
+            txtNombre.Size = new Size(431, 27);
             txtNombre.TabIndex = 0;
             // 
             // dgvOpciones
@@ -193,14 +193,14 @@
             dgvOpciones.Location = new Point(651, 125);
             dgvOpciones.Name = "dgvOpciones";
             dgvOpciones.RowHeadersWidth = 51;
-            dgvOpciones.Size = new Size(484, 249);
+            dgvOpciones.Size = new Size(565, 405);
             dgvOpciones.TabIndex = 2;
             dgvOpciones.CellDoubleClick += dgvBano_CellDoubleClick;
             // 
             // btnAgregarOpcion
             // 
             btnAgregarOpcion.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAgregarOpcion.Location = new Point(224, 502);
+            btnAgregarOpcion.Location = new Point(239, 552);
             btnAgregarOpcion.Name = "btnAgregarOpcion";
             btnAgregarOpcion.Size = new Size(94, 29);
             btnAgregarOpcion.TabIndex = 3;
@@ -213,7 +213,7 @@
             btnVerBano.BackColor = Color.DarkTurquoise;
             btnVerBano.FlatStyle = FlatStyle.System;
             btnVerBano.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnVerBano.Location = new Point(651, 389);
+            btnVerBano.Location = new Point(651, 552);
             btnVerBano.Name = "btnVerBano";
             btnVerBano.Size = new Size(128, 29);
             btnVerBano.TabIndex = 35;
@@ -226,20 +226,20 @@
             btnRegistrarBano.BackColor = Color.PaleTurquoise;
             btnRegistrarBano.FlatStyle = FlatStyle.Popup;
             btnRegistrarBano.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegistrarBano.Location = new Point(1051, 389);
+            btnRegistrarBano.Location = new Point(1122, 550);
             btnRegistrarBano.Name = "btnRegistrarBano";
             btnRegistrarBano.Size = new Size(94, 31);
             btnRegistrarBano.TabIndex = 36;
-            btnRegistrarBano.Text = "Registrar Baño";
+            btnRegistrarBano.Text = "Registrar ";
             btnRegistrarBano.UseVisualStyleBackColor = false;
             btnRegistrarBano.Click += btnRegistrarBano_Click;
             // 
             // btnEditarBano
             // 
             btnEditarBano.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEditarBano.Location = new Point(1051, 441);
+            btnEditarBano.Location = new Point(1122, 602);
             btnEditarBano.Name = "btnEditarBano";
-            btnEditarBano.Size = new Size(94, 29);
+            btnEditarBano.Size = new Size(94, 35);
             btnEditarBano.TabIndex = 37;
             btnEditarBano.Text = "Editar";
             btnEditarBano.UseVisualStyleBackColor = true;
@@ -248,9 +248,9 @@
             // btnActualizarBano
             // 
             btnActualizarBano.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnActualizarBano.Location = new Point(1051, 476);
+            btnActualizarBano.Location = new Point(1122, 647);
             btnActualizarBano.Name = "btnActualizarBano";
-            btnActualizarBano.Size = new Size(94, 29);
+            btnActualizarBano.Size = new Size(94, 35);
             btnActualizarBano.TabIndex = 38;
             btnActualizarBano.Text = "Actualizar";
             btnActualizarBano.UseVisualStyleBackColor = true;
@@ -259,9 +259,9 @@
             // btnEliminarBano
             // 
             btnEliminarBano.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEliminarBano.Location = new Point(1051, 511);
+            btnEliminarBano.Location = new Point(1122, 688);
             btnEliminarBano.Name = "btnEliminarBano";
-            btnEliminarBano.Size = new Size(94, 29);
+            btnEliminarBano.Size = new Size(94, 35);
             btnEliminarBano.TabIndex = 39;
             btnEliminarBano.Text = "Eliminar";
             btnEliminarBano.UseVisualStyleBackColor = true;
@@ -270,9 +270,9 @@
             // btnCancelarBano
             // 
             btnCancelarBano.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCancelarBano.Location = new Point(1051, 546);
+            btnCancelarBano.Location = new Point(1122, 739);
             btnCancelarBano.Name = "btnCancelarBano";
-            btnCancelarBano.Size = new Size(94, 29);
+            btnCancelarBano.Size = new Size(94, 35);
             btnCancelarBano.TabIndex = 40;
             btnCancelarBano.Text = "Cancelar";
             btnCancelarBano.UseVisualStyleBackColor = true;
@@ -283,11 +283,11 @@
             btnRegresarBano.BackColor = Color.PowderBlue;
             btnRegresarBano.FlatStyle = FlatStyle.System;
             btnRegresarBano.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegresarBano.Location = new Point(25, 595);
+            btnRegresarBano.Location = new Point(38, 757);
             btnRegresarBano.Name = "btnRegresarBano";
             btnRegresarBano.Size = new Size(94, 29);
             btnRegresarBano.TabIndex = 41;
-            btnRegresarBano.Text = "Regresar";
+            btnRegresarBano.Text = "Menú";
             btnRegresarBano.UseVisualStyleBackColor = false;
             btnRegresarBano.Click += btnRegresarBano_Click;
             // 
@@ -296,7 +296,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightCyan;
-            ClientSize = new Size(1192, 654);
+            ClientSize = new Size(1252, 819);
             Controls.Add(btnRegresarBano);
             Controls.Add(btnCancelarBano);
             Controls.Add(btnEliminarBano);

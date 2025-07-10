@@ -10,13 +10,14 @@ namespace PantallasProyecto.DAL
     {
         public int ID_DETALLEPEDIDO { get; set; }
         public int ID_PEDIDO { get; set; }
-   
         public int ID_PRODUCTO { get; set; }
-    
-        public decimal TOTAL { get; set; }
-        public DateTime FECHAPEDIDO { get; set; }
-        public DateTime HORAENTREGA { get; set; }
-        public decimal SUBTOTAL { get; set; }
+        public int ID_PERSONALIZADO { get; set; }
+        public int CANTIDAD { get; set; }
+        public double PRECIO_VENTA { get; set; }
+        public string? NOMBREPRODUCTO { get; set; }
+        public double VOLUMEN { get; set; }
+        public double TOTAL { get; set; }
+        public double SUBTOTAL { get; set; }
       
 
 

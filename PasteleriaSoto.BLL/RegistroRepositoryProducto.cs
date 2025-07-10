@@ -12,6 +12,7 @@ namespace PasteleriaSoto.BLL
     public class RegistroRepositoryPRODUCTO
     {
         MetodosProductos RepositoryPRODUCTO = new MetodosProductos();
+     
         public void RegistrarProductos(List<Producto> ListaNuevosProductos)
         {
             RepositoryPRODUCTO.RegistrarProductos(ListaNuevosProductos);
@@ -29,10 +30,10 @@ namespace PasteleriaSoto.BLL
 
         public void Eliminar(int ID_PRODUCTO)
         {
-            RepositoryPRODUCTO.Eliminar(ID_PRODUCTO); 
+            RepositoryPRODUCTO.Eliminar(ID_PRODUCTO);
         }
 
-        
+
 
 
     }
