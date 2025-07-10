@@ -138,7 +138,7 @@
             // 
             // btnAgregarCategoria
             // 
-            btnAgregarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAgregarCategoria.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAgregarCategoria.Location = new Point(210, 527);
             btnAgregarCategoria.Name = "btnAgregarCategoria";
             btnAgregarCategoria.Size = new Size(94, 29);
@@ -149,7 +149,7 @@
             // 
             // btnEditarCategoria
             // 
-            btnEditarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnEditarCategoria.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
             btnEditarCategoria.Location = new Point(1103, 574);
             btnEditarCategoria.Name = "btnEditarCategoria";
             btnEditarCategoria.Size = new Size(94, 29);
@@ -160,7 +160,7 @@
             // 
             // btnActualizarCategoria
             // 
-            btnActualizarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnActualizarCategoria.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
             btnActualizarCategoria.Location = new Point(1103, 609);
             btnActualizarCategoria.Name = "btnActualizarCategoria";
             btnActualizarCategoria.Size = new Size(94, 29);
@@ -171,7 +171,7 @@
             // 
             // btnEliminarCategoria
             // 
-            btnEliminarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnEliminarCategoria.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
             btnEliminarCategoria.Location = new Point(1103, 644);
             btnEliminarCategoria.Name = "btnEliminarCategoria";
             btnEliminarCategoria.Size = new Size(94, 29);
@@ -182,7 +182,7 @@
             // 
             // btnCancelarCategoria
             // 
-            btnCancelarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCancelarCategoria.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
             btnCancelarCategoria.Location = new Point(1103, 679);
             btnCancelarCategoria.Name = "btnCancelarCategoria";
             btnCancelarCategoria.Size = new Size(94, 29);
@@ -208,7 +208,7 @@
             // btnCerrarCliente
             // 
             btnCerrarCliente.Image = (Image)resources.GetObject("btnCerrarCliente.Image");
-            btnCerrarCliente.Location = new Point(987, 16);
+            btnCerrarCliente.Location = new Point(1220, 16);
             btnCerrarCliente.Margin = new Padding(3, 4, 3, 4);
             btnCerrarCliente.Name = "btnCerrarCliente";
             btnCerrarCliente.Size = new Size(25, 29);
@@ -220,7 +220,7 @@
             // btnMnzcliente
             // 
             btnMnzcliente.Image = (Image)resources.GetObject("btnMnzcliente.Image");
-            btnMnzcliente.Location = new Point(934, 16);
+            btnMnzcliente.Location = new Point(1165, 13);
             btnMnzcliente.Margin = new Padding(3, 4, 3, 4);
             btnMnzcliente.Name = "btnMnzcliente";
             btnMnzcliente.Size = new Size(32, 29);
@@ -255,10 +255,10 @@
             // 
             btnVerPedido.BackColor = Color.DarkTurquoise;
             btnVerPedido.FlatStyle = FlatStyle.System;
-            btnVerPedido.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnVerPedido.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnVerPedido.Location = new Point(559, 527);
             btnVerPedido.Name = "btnVerPedido";
-            btnVerPedido.Size = new Size(112, 29);
+            btnVerPedido.Size = new Size(129, 29);
             btnVerPedido.TabIndex = 34;
             btnVerPedido.Text = "Ver Categoria";
             btnVerPedido.UseVisualStyleBackColor = false;
@@ -268,7 +268,7 @@
             // 
             btnRegistrar.BackColor = Color.PaleTurquoise;
             btnRegistrar.FlatStyle = FlatStyle.Popup;
-            btnRegistrar.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRegistrar.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
             btnRegistrar.Location = new Point(1103, 525);
             btnRegistrar.Name = "btnRegistrar";
             btnRegistrar.Size = new Size(94, 31);
@@ -281,12 +281,12 @@
             // 
             btnRegresarCategoria.BackColor = Color.PowderBlue;
             btnRegresarCategoria.FlatStyle = FlatStyle.System;
-            btnRegresarCategoria.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRegresarCategoria.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRegresarCategoria.Location = new Point(20, 679);
             btnRegresarCategoria.Name = "btnRegresarCategoria";
             btnRegresarCategoria.Size = new Size(94, 29);
             btnRegresarCategoria.TabIndex = 36;
-            btnRegresarCategoria.Text = "Regresar";
+            btnRegresarCategoria.Text = "Menú";
             btnRegresarCategoria.UseVisualStyleBackColor = false;
             btnRegresarCategoria.Click += btnRegresarCategoria_Click;
             // 
@@ -294,8 +294,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
-            ClientSize = new Size(1270, 729);
+            BackColor = Color.LightCyan;
+            ClientSize = new Size(1270, 717);
             Controls.Add(btnRegresarCategoria);
             Controls.Add(btnRegistrar);
             Controls.Add(btnVerPedido);
@@ -309,7 +309,7 @@
             Controls.Add(grpCategoria);
             FormBorderStyle = FormBorderStyle.None;
             Name = "PantallaCategoria";
-            Opacity = 0.88D;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "PantallaCategoria";
             Load += PantallaCategoria_Load;
             grpCategoria.ResumeLayout(false);

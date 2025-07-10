@@ -117,7 +117,43 @@ C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\Pastele
 C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.AssemblyInfoInputs.cache
 C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.AssemblyInfo.cs
 C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.sourcelink.json
 C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.dll
 C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\refint\PasteleriaSoto.DAL.dll
 C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.pdb
 C:\Users\Yahir\Videos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\ref\PasteleriaSoto.DAL.dll
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\bin\Debug\net8.0\PasteleriaSoto.DAL.deps.json
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.csproj.AssemblyReference.cache
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.AssemblyInfoInputs.cache
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.AssemblyInfo.cs
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.csproj.CoreCompileInputs.cache
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.sourcelink.json
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\refint\PasteleriaSoto.DAL.dll
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\oaleman\source\repos\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\ref\PasteleriaSoto.DAL.dll
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.csproj.AssemblyReference.cache
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.AssemblyInfoInputs.cache
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.AssemblyInfo.cs
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.csproj.CoreCompileInputs.cache
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.sourcelink.json
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.DAL\obj\Debug\net8.0\refint\PasteleriaSoto.DAL.dll
+C:\UNI\git copia\VSPasteleriaSoto.2\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\bin\Debug\net8.0\PasteleriaSoto.DAL.deps.json
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\bin\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\bin\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.csproj.AssemblyReference.cache
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.AssemblyInfoInputs.cache
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.AssemblyInfo.cs
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.sourcelink.json
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.dll
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\refint\PasteleriaSoto.DAL.dll
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\PasteleriaSoto.DAL.pdb
+C:\Users\Yahir\Videos\ImpulsoPastelero\PasteleriaSOTO\PasteleriaSoto.DAL\obj\Debug\net8.0\ref\PasteleriaSoto.DAL.dll

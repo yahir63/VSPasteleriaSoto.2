@@ -17,7 +17,7 @@ namespace Pasteleria_Soto.UI
     {
         List<Cliente> ListaCLientesTemp = new List<Cliente>();
 
-        RegistroRepositoryCliente _registroRepositorio = new RegistroRepositoryCliente();
+        RegistroRepositoryCliente _registroRepositorioCliente = new RegistroRepositoryCliente();
 
         private int indice;
 
@@ -66,7 +66,7 @@ namespace Pasteleria_Soto.UI
             frmInicio inicio = new frmInicio();
             inicio.Show();
             this.Hide();
-            _registroRepositorio.RegistrarClientes(ListaCLientesTemp);
+            _registroRepositorioCliente.RegistrarClientes(ListaCLientesTemp);
             ListaCLientesTemp.Clear();
             dgvDatos.DataSource = null;
         }
@@ -75,7 +75,7 @@ namespace Pasteleria_Soto.UI
         {
             dgvDatos.DataSource = null;
             ListaCLientesTemp.Clear();
-            ListaCLientesTemp.AddRange(_registroRepositorio.ObtenerListaCliente());
+            ListaCLientesTemp.AddRange(_registroRepositorioCliente.ObtenerListaCliente());
             dgvDatos.DataSource = ListaCLientesTemp;
         }
 
@@ -129,7 +129,7 @@ namespace Pasteleria_Soto.UI
             cliente.CIUDAD = txtCiudad.Text;
             cliente.CEDULA = txtCedula.Text;
 
-            _registroRepositorio.ActualizarCliente(cliente);
+            _registroRepositorioCliente.ActualizarCliente(cliente);
             btnCancelar.Visible = true;
             btnEditar.Visible = false;
             btnEliminar.Visible = true;
@@ -139,7 +139,7 @@ namespace Pasteleria_Soto.UI
 
             dgvDatos.DataSource = null;
             ListaCLientesTemp.Clear();
-            ListaCLientesTemp.AddRange(_registroRepositorio.ObtenerListaCliente());
+            ListaCLientesTemp.AddRange(_registroRepositorioCliente.ObtenerListaCliente());
             dgvDatos.DataSource = ListaCLientesTemp;
 
         }
@@ -168,12 +168,12 @@ namespace Pasteleria_Soto.UI
             btnActualizar.Visible = false;
             btnCancelar.Visible = false;
 
-            _registroRepositorio.Eliminar(CEDULA);
+            _registroRepositorioCliente.Eliminar(CEDULA);
 
 
             dgvDatos.DataSource = null;
             ListaCLientesTemp.Clear();
-            ListaCLientesTemp.AddRange(_registroRepositorio.ObtenerListaCliente());
+            ListaCLientesTemp.AddRange(_registroRepositorioCliente.ObtenerListaCliente());
             dgvDatos.DataSource = ListaCLientesTemp;
         }
 
@@ -237,6 +237,7 @@ namespace Pasteleria_Soto.UI
         {
             frmInicio nuevapantallainicio = new frmInicio();
             nuevapantallainicio.Show();
+            this.Hide();
         }
     }
 }

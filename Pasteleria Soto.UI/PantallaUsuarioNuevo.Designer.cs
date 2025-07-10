@@ -55,7 +55,7 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1270, 68);
+            panel1.Size = new Size(1252, 68);
             panel1.TabIndex = 0;
             // 
             // btnCerrarCliente
@@ -68,6 +68,7 @@
             btnCerrarCliente.SizeMode = PictureBoxSizeMode.Zoom;
             btnCerrarCliente.TabIndex = 34;
             btnCerrarCliente.TabStop = false;
+            btnCerrarCliente.Click += btnCerrarCliente_Click;
             // 
             // btnMnzcliente
             // 
@@ -83,10 +84,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(640, 169);
+            pictureBox1.Location = new Point(754, 129);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(298, 385);
+            pictureBox1.Size = new Size(393, 418);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
@@ -94,7 +95,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(107, 215);
+            label2.Location = new Point(106, 222);
             label2.Name = "label2";
             label2.Size = new Size(95, 20);
             label2.TabIndex = 4;
@@ -103,7 +104,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(107, 104);
+            label3.Location = new Point(106, 111);
             label3.Name = "label3";
             label3.Size = new Size(67, 20);
             label3.TabIndex = 5;
@@ -111,14 +112,14 @@
             // 
             // txtNombreUsuario
             // 
-            txtNombreUsuario.Location = new Point(107, 144);
+            txtNombreUsuario.Location = new Point(106, 151);
             txtNombreUsuario.Name = "txtNombreUsuario";
             txtNombreUsuario.Size = new Size(286, 26);
             txtNombreUsuario.TabIndex = 10;
             // 
             // txtClaveUsuario
             // 
-            txtClaveUsuario.Location = new Point(107, 261);
+            txtClaveUsuario.Location = new Point(106, 268);
             txtClaveUsuario.Name = "txtClaveUsuario";
             txtClaveUsuario.Size = new Size(286, 26);
             txtClaveUsuario.TabIndex = 12;
@@ -134,28 +135,31 @@
             grpNuevoUsuario.Margin = new Padding(3, 4, 3, 4);
             grpNuevoUsuario.Name = "grpNuevoUsuario";
             grpNuevoUsuario.Padding = new Padding(3, 4, 3, 4);
-            grpNuevoUsuario.Size = new Size(504, 392);
+            grpNuevoUsuario.Size = new Size(534, 424);
             grpNuevoUsuario.TabIndex = 13;
             grpNuevoUsuario.TabStop = false;
             grpNuevoUsuario.Text = "Crear Usuario Nuevo";
             // 
             // btnAgregarUsuario
             // 
-            btnAgregarUsuario.Location = new Point(261, 544);
+            btnAgregarUsuario.BackColor = Color.Turquoise;
+            btnAgregarUsuario.FlatStyle = FlatStyle.Popup;
+            btnAgregarUsuario.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAgregarUsuario.Location = new Point(225, 600);
             btnAgregarUsuario.Margin = new Padding(3, 4, 3, 4);
             btnAgregarUsuario.Name = "btnAgregarUsuario";
-            btnAgregarUsuario.Size = new Size(110, 31);
+            btnAgregarUsuario.Size = new Size(141, 44);
             btnAgregarUsuario.TabIndex = 14;
             btnAgregarUsuario.Text = "Agregar Usuario";
-            btnAgregarUsuario.UseVisualStyleBackColor = true;
+            btnAgregarUsuario.UseVisualStyleBackColor = false;
             btnAgregarUsuario.Click += btnAgregarUsuario_Click;
             // 
             // PantallaUsuarioNuevo
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
-            ClientSize = new Size(1270, 729);
+            BackColor = Color.LightCyan;
+            ClientSize = new Size(1252, 819);
             Controls.Add(btnAgregarUsuario);
             Controls.Add(grpNuevoUsuario);
             Controls.Add(pictureBox1);
@@ -163,7 +167,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             Name = "PantallaUsuarioNuevo";
-            Opacity = 0.88D;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "PantallaUsuarioNuevo";
             Load += PantallaUsuarioNuevo_Load;
             panel1.ResumeLayout(false);

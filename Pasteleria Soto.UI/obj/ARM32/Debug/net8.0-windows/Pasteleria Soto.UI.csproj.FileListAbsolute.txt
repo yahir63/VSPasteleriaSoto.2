@@ -1,0 +1,19 @@
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.AssemblyReference.cache
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.EleccionProducto.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.frmInicio.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaBaño.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaCategoria.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.PantalladeCarga.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaDetallePedido.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaRegistro.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaRelleno.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaSabor.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaUsuario.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.PantallaUsuarioNuevo.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria_Soto.UI.Properties.Resources.resources
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.GenerateResource.cache
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria Soto.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria Soto.UI.AssemblyInfoInputs.cache
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria Soto.UI.AssemblyInfo.cs
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria Soto.UI.csproj.CoreCompileInputs.cache
+C:\Users\Yahir\Videos\PasteleriaSOTO\Pasteleria Soto.UI\obj\ARM32\Debug\net8.0-windows\Pasteleria Soto.UI.sourcelink.json

@@ -151,8 +151,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
-            ClientSize = new Size(1270, 729);
+            BackColor = Color.LightCyan;
+            ClientSize = new Size(1270, 717);
             Controls.Add(progressBar1);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -162,7 +162,6 @@
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             Name = "PantalladeCarga";
-            Opacity = 0.88D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PantallaCarga";
             Load += PantallaCarga_Load;

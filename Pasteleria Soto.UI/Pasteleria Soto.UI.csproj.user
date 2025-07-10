@@ -4,25 +4,37 @@
     <Compile Update="EleccionProducto.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PantallaCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PantallaHistorialVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PantallaOpciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PantallaCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PantallaDetallePedido.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PantallaRelleno.cs">
+    <Compile Update="PantallaProductoPersonalizado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PantallaSabor.cs">
+    <Compile Update="PantallaListaPedidosVigentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PantallaProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PantallaUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PantalladeCarga.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PantallaRegistro.cs">

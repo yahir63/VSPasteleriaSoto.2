@@ -54,12 +54,14 @@ namespace Pasteleria_Soto.UI
         {
             PantallaUsuarioNuevo pantallaUsuarioNuevo = new PantallaUsuarioNuevo();
             pantallaUsuarioNuevo.Show();
+            this.Hide();
         }
 
         private void btnNuevoPedido_Click(object sender, EventArgs e)
         {
             PantallaRegistro pantallaregistro = new PantallaRegistro();
             pantallaregistro.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -69,18 +71,15 @@ namespace Pasteleria_Soto.UI
 
         private void btnRelleno_Click(object sender, EventArgs e)
         {
-
-
-            PantallaRelleno nuevapantallarelleno = new PantallaRelleno();
-            nuevapantallarelleno.Show();
+            PantallaListaPedidosVigentes pantallaListaPedidosVigentes = new PantallaListaPedidosVigentes();
+            pantallaListaPedidosVigentes.Show();
         }
 
         private void btnSabor_Click(object sender, EventArgs e)
         {
-
-
-            PantallaSabor nuevapantallasabor = new PantallaSabor();
-            nuevapantallasabor.Show();
+            PantallaProductoPersonalizado pantallaProductoPersonalizado = new PantallaProductoPersonalizado();
+            pantallaProductoPersonalizado.Show();
+            this.Hide();
         }
 
         private void btnCategoria_Click(object sender, EventArgs e)
@@ -93,6 +92,7 @@ namespace Pasteleria_Soto.UI
         {
             EleccionProducto nuevoeleccionproducto = new EleccionProducto();
             nuevoeleccionproducto.Show();
+            this.Hide();
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)
@@ -103,6 +103,54 @@ namespace Pasteleria_Soto.UI
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnBaño_Click(object sender, EventArgs e)
+        {
+            PantallaOpciones pantallabaño = new PantallaOpciones();
+            pantallabaño.Show();
+            this.Hide();
+        }
+
+        private void btnDetallePedido_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPedido_Click(object sender, EventArgs e)
+        {
+            PantallaDetallePedido pantallaDetallePedido = new PantallaDetallePedido();
+            pantallaDetallePedido.Show();
+            this.Hide();
+
+        }
+
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+            PantallaHistorialVenta PantallaHistorialVenta = new PantallaHistorialVenta();
+            PantallaHistorialVenta.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            PantallaProveedores pantallaproveedores = new PantallaProveedores();
+            pantallaproveedores.Show();
+            this.Hide();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            PantallaListaPedidosVigentes pantallaListaPedidosVigentes = new PantallaListaPedidosVigentes();
+            pantallaListaPedidosVigentes.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            PantallaCompra pantallacompra = new PantallaCompra();
+            pantallacompra.Show();
+            this.Hide();
         }
     }
 }

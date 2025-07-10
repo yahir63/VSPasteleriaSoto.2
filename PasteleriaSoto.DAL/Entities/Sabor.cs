@@ -9,5 +9,6 @@ namespace PantallasProyecto.DAL
         public int ID_SABOR { get; set; }
         public string? NOMBRESABOR { get; set; }
         public string? DESCRIPCION { get; set; }
+        public String? PRECIOSABOR { get; set; }
     }
 }

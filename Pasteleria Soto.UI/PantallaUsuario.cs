@@ -28,6 +28,7 @@ namespace Pasteleria_Soto.UI
             {
                 PantalladeCarga pantalladecarga = new PantalladeCarga();
                 pantalladecarga.Show();
+                this.Hide();
             }
             else
             {

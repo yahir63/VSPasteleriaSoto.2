@@ -64,7 +64,7 @@
             // 
             // grbRegistroPedido
             // 
-            grbRegistroPedido.BackColor = Color.AliceBlue;
+            grbRegistroPedido.BackColor = Color.LightCyan;
             grbRegistroPedido.Controls.Add(txtCedula);
             grbRegistroPedido.Controls.Add(txtCiudad);
             grbRegistroPedido.Controls.Add(label5);
@@ -170,11 +170,11 @@
             // btnRegistrarCliente
             // 
             btnRegistrarCliente.BackColor = Color.PowderBlue;
-            btnRegistrarCliente.FlatStyle = FlatStyle.System;
-            btnRegistrarCliente.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegistrarCliente.Location = new Point(568, 532);
+            btnRegistrarCliente.FlatStyle = FlatStyle.Popup;
+            btnRegistrarCliente.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnRegistrarCliente.Location = new Point(1088, 535);
             btnRegistrarCliente.Name = "btnRegistrarCliente";
-            btnRegistrarCliente.Size = new Size(151, 29);
+            btnRegistrarCliente.Size = new Size(135, 29);
             btnRegistrarCliente.TabIndex = 25;
             btnRegistrarCliente.Text = "Registrar Cliente";
             btnRegistrarCliente.UseVisualStyleBackColor = false;
@@ -184,12 +184,12 @@
             // 
             btnRegresarCliente.BackColor = Color.PowderBlue;
             btnRegresarCliente.FlatStyle = FlatStyle.System;
-            btnRegresarCliente.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRegresarCliente.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRegresarCliente.Location = new Point(35, 688);
             btnRegresarCliente.Name = "btnRegresarCliente";
             btnRegresarCliente.Size = new Size(94, 29);
             btnRegresarCliente.TabIndex = 24;
-            btnRegresarCliente.Text = "Regresar";
+            btnRegresarCliente.Text = "Menú";
             btnRegresarCliente.UseVisualStyleBackColor = false;
             btnRegresarCliente.Click += btnRegresarCliente_Click;
             // 
@@ -210,7 +210,7 @@
             btnAgregar.BackColor = Color.PowderBlue;
             btnAgregar.FlatStyle = FlatStyle.System;
             btnAgregar.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAgregar.Location = new Point(130, 556);
+            btnAgregar.Location = new Point(168, 564);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(94, 29);
             btnAgregar.TabIndex = 22;
@@ -222,8 +222,8 @@
             // 
             btnVerCLiente.BackColor = Color.PaleTurquoise;
             btnVerCLiente.FlatStyle = FlatStyle.Popup;
-            btnVerCLiente.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnVerCLiente.Location = new Point(1108, 532);
+            btnVerCLiente.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnVerCLiente.Location = new Point(568, 535);
             btnVerCLiente.Name = "btnVerCLiente";
             btnVerCLiente.Size = new Size(115, 29);
             btnVerCLiente.TabIndex = 26;
@@ -233,10 +233,10 @@
             // 
             // btnEditar
             // 
-            btnEditar.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEditar.Location = new Point(1113, 583);
+            btnEditar.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnEditar.Location = new Point(1088, 583);
             btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(110, 29);
+            btnEditar.Size = new Size(135, 29);
             btnEditar.TabIndex = 27;
             btnEditar.Text = "Editar";
             btnEditar.UseVisualStyleBackColor = true;
@@ -244,10 +244,10 @@
             // 
             // btnActualizar
             // 
-            btnActualizar.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnActualizar.Location = new Point(1113, 618);
+            btnActualizar.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnActualizar.Location = new Point(1088, 618);
             btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(110, 29);
+            btnActualizar.Size = new Size(135, 29);
             btnActualizar.TabIndex = 28;
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = true;
@@ -255,10 +255,10 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEliminar.Location = new Point(1113, 653);
+            btnEliminar.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnEliminar.Location = new Point(1088, 653);
             btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(110, 29);
+            btnEliminar.Size = new Size(135, 29);
             btnEliminar.TabIndex = 29;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
@@ -266,10 +266,10 @@
             // 
             // btnCancelar
             // 
-            btnCancelar.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCancelar.Location = new Point(1113, 688);
+            btnCancelar.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnCancelar.Location = new Point(1088, 688);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(110, 29);
+            btnCancelar.Size = new Size(135, 29);
             btnCancelar.TabIndex = 30;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
@@ -339,7 +339,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(1270, 729);
             Controls.Add(panel1);
             Controls.Add(btnCancelar);
@@ -354,7 +354,6 @@
             Controls.Add(grbRegistroPedido);
             FormBorderStyle = FormBorderStyle.None;
             Name = "PantallaRegistro";
-            Opacity = 0.9D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Pantalla de Registro";
             Load += PantallaRegistro_Load;

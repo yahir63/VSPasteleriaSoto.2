@@ -30,16 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EleccionProducto));
             grbDatosProducto = new GroupBox();
+            label3 = new Label();
+            txtVolumen = new TextBox();
+            txtTamano = new TextBox();
+            label6 = new Label();
+            label2 = new Label();
+            txtDescripcion = new TextBox();
             txtNombreProducto = new TextBox();
             label5 = new Label();
             label4 = new Label();
-            txtLibra = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
-            cbSaborProducto = new ComboBox();
-            cbRellenoProducto = new ComboBox();
-            txtCantidad = new TextBox();
-            label11 = new Label();
+            txtUnidadMedida = new TextBox();
             label10 = new Label();
             cbCategoriaProducto = new ComboBox();
             btnAgregarProducto = new Button();
@@ -66,31 +66,79 @@
             // 
             // grbDatosProducto
             // 
-            grbDatosProducto.BackColor = Color.AliceBlue;
+            grbDatosProducto.BackColor = Color.LightCyan;
+            grbDatosProducto.Controls.Add(label3);
+            grbDatosProducto.Controls.Add(txtVolumen);
+            grbDatosProducto.Controls.Add(txtTamano);
+            grbDatosProducto.Controls.Add(label6);
+            grbDatosProducto.Controls.Add(label2);
+            grbDatosProducto.Controls.Add(txtDescripcion);
             grbDatosProducto.Controls.Add(txtNombreProducto);
             grbDatosProducto.Controls.Add(label5);
             grbDatosProducto.Controls.Add(label4);
-            grbDatosProducto.Controls.Add(txtLibra);
-            grbDatosProducto.Controls.Add(label3);
-            grbDatosProducto.Controls.Add(label2);
-            grbDatosProducto.Controls.Add(cbSaborProducto);
-            grbDatosProducto.Controls.Add(cbRellenoProducto);
-            grbDatosProducto.Controls.Add(txtCantidad);
-            grbDatosProducto.Controls.Add(label11);
+            grbDatosProducto.Controls.Add(txtUnidadMedida);
             grbDatosProducto.Controls.Add(label10);
             grbDatosProducto.Controls.Add(cbCategoriaProducto);
             grbDatosProducto.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             grbDatosProducto.Location = new Point(96, 137);
             grbDatosProducto.Name = "grbDatosProducto";
-            grbDatosProducto.Size = new Size(448, 409);
+            grbDatosProducto.Size = new Size(448, 364);
             grbDatosProducto.TabIndex = 2;
             grbDatosProducto.TabStop = false;
             grbDatosProducto.Text = "Datos del producto";
             grbDatosProducto.Enter += grbDatosProducto_Enter;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(74, 269);
+            label3.Name = "label3";
+            label3.Size = new Size(50, 20);
+            label3.TabIndex = 34;
+            label3.Text = "Libras";
+            // 
+            // txtVolumen
+            // 
+            txtVolumen.Location = new Point(206, 263);
+            txtVolumen.Name = "txtVolumen";
+            txtVolumen.Size = new Size(212, 26);
+            txtVolumen.TabIndex = 33;
+            // 
+            // txtTamano
+            // 
+            txtTamano.Location = new Point(206, 316);
+            txtTamano.Name = "txtTamano";
+            txtTamano.Size = new Size(212, 26);
+            txtTamano.TabIndex = 32;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(58, 322);
+            label6.Name = "label6";
+            label6.Size = new Size(66, 20);
+            label6.TabIndex = 31;
+            label6.Text = "Tamaño";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(28, 73);
+            label2.Name = "label2";
+            label2.Size = new Size(96, 20);
+            label2.TabIndex = 28;
+            label2.Text = "Descripción";
+            // 
+            // txtDescripcion
+            // 
+            txtDescripcion.Location = new Point(206, 72);
+            txtDescripcion.Name = "txtDescripcion";
+            txtDescripcion.Size = new Size(212, 26);
+            txtDescripcion.TabIndex = 27;
+            // 
             // txtNombreProducto
             // 
-            txtNombreProducto.Location = new Point(204, 109);
+            txtNombreProducto.Location = new Point(206, 25);
             txtNombreProducto.Name = "txtNombreProducto";
             txtNombreProducto.Size = new Size(212, 26);
             txtNombreProducto.TabIndex = 26;
@@ -98,7 +146,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(26, 112);
+            label5.Location = new Point(28, 31);
             label5.Name = "label5";
             label5.Size = new Size(140, 20);
             label5.TabIndex = 25;
@@ -107,75 +155,23 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(53, 343);
+            label4.Location = new Point(28, 135);
             label4.Name = "label4";
-            label4.Size = new Size(50, 20);
+            label4.Size = new Size(148, 20);
             label4.TabIndex = 24;
-            label4.Text = "Libras";
+            label4.Text = "Unidad de Medida";
             // 
-            // txtLibra
+            // txtUnidadMedida
             // 
-            txtLibra.Location = new Point(204, 343);
-            txtLibra.Name = "txtLibra";
-            txtLibra.Size = new Size(212, 26);
-            txtLibra.TabIndex = 23;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(26, 164);
-            label3.Name = "label3";
-            label3.Size = new Size(142, 20);
-            label3.TabIndex = 22;
-            label3.Text = "Elección de Sabor";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(26, 225);
-            label2.Name = "label2";
-            label2.Size = new Size(154, 20);
-            label2.TabIndex = 21;
-            label2.Text = "Elección de Relleno";
-            // 
-            // cbSaborProducto
-            // 
-            cbSaborProducto.FormattingEnabled = true;
-            cbSaborProducto.Items.AddRange(new object[] { "Pastel", "Gallleta", "Cupcake", "Bocadillo" });
-            cbSaborProducto.Location = new Point(204, 156);
-            cbSaborProducto.Name = "cbSaborProducto";
-            cbSaborProducto.Size = new Size(212, 28);
-            cbSaborProducto.TabIndex = 20;
-            // 
-            // cbRellenoProducto
-            // 
-            cbRellenoProducto.FormattingEnabled = true;
-            cbRellenoProducto.Items.AddRange(new object[] { "Pastel", "Gallleta", "Cupcake", "Bocadillo" });
-            cbRellenoProducto.Location = new Point(204, 217);
-            cbRellenoProducto.Name = "cbRellenoProducto";
-            cbRellenoProducto.Size = new Size(212, 28);
-            cbRellenoProducto.TabIndex = 19;
-            // 
-            // txtCantidad
-            // 
-            txtCantidad.Location = new Point(204, 277);
-            txtCantidad.Name = "txtCantidad";
-            txtCantidad.Size = new Size(212, 26);
-            txtCantidad.TabIndex = 18;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Location = new Point(7, 283);
-            label11.Name = "label11";
-            label11.Size = new Size(181, 20);
-            label11.TabIndex = 16;
-            label11.Text = "Cantidad de productos";
+            txtUnidadMedida.Location = new Point(206, 135);
+            txtUnidadMedida.Name = "txtUnidadMedida";
+            txtUnidadMedida.Size = new Size(212, 26);
+            txtUnidadMedida.TabIndex = 23;
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(7, 53);
+            label10.Location = new Point(15, 198);
             label10.Name = "label10";
             label10.Size = new Size(175, 20);
             label10.TabIndex = 14;
@@ -185,7 +181,7 @@
             // 
             cbCategoriaProducto.FormattingEnabled = true;
             cbCategoriaProducto.Items.AddRange(new object[] { "Pastel", "Gallleta", "Cupcake", "Bocadillo" });
-            cbCategoriaProducto.Location = new Point(204, 53);
+            cbCategoriaProducto.Location = new Point(206, 195);
             cbCategoriaProducto.Name = "cbCategoriaProducto";
             cbCategoriaProducto.Size = new Size(212, 28);
             cbCategoriaProducto.TabIndex = 13;
@@ -194,8 +190,8 @@
             // 
             btnAgregarProducto.BackColor = Color.DarkCyan;
             btnAgregarProducto.FlatStyle = FlatStyle.System;
-            btnAgregarProducto.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAgregarProducto.Location = new Point(122, 581);
+            btnAgregarProducto.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAgregarProducto.Location = new Point(254, 521);
             btnAgregarProducto.Name = "btnAgregarProducto";
             btnAgregarProducto.Size = new Size(119, 29);
             btnAgregarProducto.TabIndex = 23;
@@ -210,7 +206,7 @@
             dgvDatos.Location = new Point(668, 137);
             dgvDatos.Name = "dgvDatos";
             dgvDatos.RowHeadersWidth = 51;
-            dgvDatos.Size = new Size(506, 342);
+            dgvDatos.Size = new Size(506, 364);
             dgvDatos.TabIndex = 24;
             dgvDatos.CellContentClick += dgvDatos_CellContentClick;
             dgvDatos.CellContentDoubleClick += dgvDatos_CellContentDoubleClick;
@@ -220,12 +216,12 @@
             // 
             btnRegistrarProducto.BackColor = Color.PaleTurquoise;
             btnRegistrarProducto.FlatStyle = FlatStyle.Popup;
-            btnRegistrarProducto.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegistrarProducto.Location = new Point(1077, 499);
+            btnRegistrarProducto.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnRegistrarProducto.Location = new Point(1092, 513);
             btnRegistrarProducto.Name = "btnRegistrarProducto";
             btnRegistrarProducto.Size = new Size(94, 31);
             btnRegistrarProducto.TabIndex = 26;
-            btnRegistrarProducto.Text = "Registrar Pedido";
+            btnRegistrarProducto.Text = "Registrar ";
             btnRegistrarProducto.UseVisualStyleBackColor = false;
             btnRegistrarProducto.Click += btnRegistrarPedido_Click;
             // 
@@ -291,8 +287,8 @@
             // 
             // btnEditarProducto
             // 
-            btnEditarProducto.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEditarProducto.Location = new Point(1076, 536);
+            btnEditarProducto.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnEditarProducto.Location = new Point(1091, 550);
             btnEditarProducto.Name = "btnEditarProducto";
             btnEditarProducto.Size = new Size(94, 29);
             btnEditarProducto.TabIndex = 28;
@@ -302,8 +298,8 @@
             // 
             // btnActualizarProducto
             // 
-            btnActualizarProducto.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnActualizarProducto.Location = new Point(1076, 581);
+            btnActualizarProducto.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnActualizarProducto.Location = new Point(1091, 595);
             btnActualizarProducto.Name = "btnActualizarProducto";
             btnActualizarProducto.Size = new Size(94, 29);
             btnActualizarProducto.TabIndex = 29;
@@ -315,8 +311,8 @@
             // 
             btnEliminarProducto.BackColor = Color.Crimson;
             btnEliminarProducto.FlatStyle = FlatStyle.System;
-            btnEliminarProducto.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEliminarProducto.Location = new Point(1077, 616);
+            btnEliminarProducto.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnEliminarProducto.Location = new Point(1092, 630);
             btnEliminarProducto.Name = "btnEliminarProducto";
             btnEliminarProducto.Size = new Size(94, 29);
             btnEliminarProducto.TabIndex = 30;
@@ -326,8 +322,8 @@
             // 
             // btnCancelarProducto
             // 
-            btnCancelarProducto.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCancelarProducto.Location = new Point(1076, 651);
+            btnCancelarProducto.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
+            btnCancelarProducto.Location = new Point(1091, 665);
             btnCancelarProducto.Name = "btnCancelarProducto";
             btnCancelarProducto.Size = new Size(94, 29);
             btnCancelarProducto.TabIndex = 31;
@@ -339,8 +335,8 @@
             // 
             btnVerProducto.BackColor = Color.DarkTurquoise;
             btnVerProducto.FlatStyle = FlatStyle.System;
-            btnVerProducto.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnVerProducto.Location = new Point(668, 499);
+            btnVerProducto.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnVerProducto.Location = new Point(668, 513);
             btnVerProducto.Name = "btnVerProducto";
             btnVerProducto.Size = new Size(148, 45);
             btnVerProducto.TabIndex = 32;
@@ -352,12 +348,12 @@
             // 
             btnRegresarProducto.BackColor = Color.PowderBlue;
             btnRegresarProducto.FlatStyle = FlatStyle.System;
-            btnRegresarProducto.Font = new Font("Century", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRegresarProducto.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRegresarProducto.Location = new Point(24, 675);
             btnRegresarProducto.Name = "btnRegresarProducto";
             btnRegresarProducto.Size = new Size(94, 29);
             btnRegresarProducto.TabIndex = 33;
-            btnRegresarProducto.Text = "Regresar";
+            btnRegresarProducto.Text = "Menú";
             btnRegresarProducto.UseVisualStyleBackColor = false;
             btnRegresarProducto.Click += btnRegresarProducto_Click;
             // 
@@ -365,8 +361,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.AliceBlue;
-            ClientSize = new Size(1270, 729);
+            BackColor = Color.LightCyan;
+            ClientSize = new Size(1270, 717);
             Controls.Add(btnRegresarProducto);
             Controls.Add(btnVerProducto);
             Controls.Add(btnCancelarProducto);
@@ -380,7 +376,6 @@
             Controls.Add(grbDatosProducto);
             FormBorderStyle = FormBorderStyle.None;
             Name = "EleccionProducto";
-            Opacity = 0.88D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "  ";
             Load += EleccionProducto_Load;
@@ -398,8 +393,6 @@
         #endregion
 
         private GroupBox grbDatosProducto;
-        private TextBox txtCantidad;
-        private Label label11;
         private Label label10;
         private ComboBox cbCategoriaProducto;
         private Button btnAgregarProducto;
@@ -417,12 +410,14 @@
         private Button btnVerProducto;
         private Button btnRegresarProducto;
         private Label label4;
-        private TextBox txtLibra;
-        private Label label3;
-        private Label label2;
-        private ComboBox cbSaborProducto;
-        private ComboBox cbRellenoProducto;
+        private TextBox txtUnidadMedida;
         private Label label5;
         private TextBox txtNombreProducto;
+        private TextBox txtTamano;
+        private Label label6;
+        private Label label2;
+        private TextBox txtDescripcion;
+        private Label label3;
+        private TextBox txtVolumen;
     }
 }

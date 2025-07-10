@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PasteleriaSoto.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f54d4c32d7d6725d167e2eee4938f99d989aa1d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PasteleriaSoto.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PasteleriaSoto.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
